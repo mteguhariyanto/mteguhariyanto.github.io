@@ -1,1 +1,0 @@
-# mteguhariyanto.github.io
