@@ -57,7 +57,7 @@
 
     <section>
         <div class="chart-description">
-            <h2>WEEK 1</h2>
+            <h2>WEEK 1 - Lecture and Seminar</h2>
     </section>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
@@ -128,7 +128,7 @@
 
 <section>
     <div class="chart-description">
-        <h2>WEEK 2</h2>
+        <h2>WEEK 2 - Lecture</h2>
 </section>
 
 <section></section>
@@ -146,13 +146,29 @@
     </div>
     <figure id="renewableindo"></figure>
 </section>
-
 <section></section>
+    <div class="chart-description">
+        <h2>WEEK 2 - Seminar</h2>
+</section>
+<section>
     <div class="chart-description">
         <h2>Section 8: Vice Spending</h2>
         <p>Below is a line chart showing the amount of spending on unnecessary products:</p>
     </div>
     <figure id="vice"></figure>
+</section>
+
+<section></section>
+    <div class="chart-description">
+        <h2>WEEK 3 - Lecture</h2>
+</section>
+
+<section></section>
+    <div class="chart-description">
+        <h2>Section 9: PolicyX Impact on ImpactY</h2>
+        <p>Below is a line chart showing the correlation of three different formula of PolicyX correlate with ImpactY:</p>
+    </div>
+    <figure id="policyx"></figure>
 </section>
 
 <script>
@@ -176,9 +192,13 @@
 let chart5_spec = "renewable_en_indo.json";
     vegaEmbed('#renewableindo', chart5_spec);
 
-// Chart 8: Renewable Energy in Indonesia
+// Chart 8: Vice Spending
 let chart6_spec = "vice.json";
     vegaEmbed('#vice', chart6_spec);
+
+// Chart 9: PolicyX
+let chart7_spec = "policyx.json";
+    vegaEmbed('#policyx', chart7_spec);
 
 </script>
 

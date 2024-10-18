@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Glasgow scatterplot",
+  "title": {
+    "text": "PolicyX and ImpactY",
+    "subtitle": ["title 1", "title 2", " "],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitleColor": "black",
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/anscombesQuartet.csv"
+  },
+  "mark": {"type": "point", "color": "blue", "size": 100},
+  "height": 200,
+  "width": 200,
+  "encoding": {
+    "x": {"field": "policyX", "type": "quantitative"},
+    "y": {
+      "field": "impactY",
+      "type": "quantitative",
+      "title": "Impact",
+      "scale": {"domain": [0, 15]}
+    },
+    "facet": {
+      "field": "Dataset",
+      "type": "nominal",
+      "columns": 2,
+      "titel": null
+    },
+    "tooltip": [{"field": "areaName", "title": "Area"}]
+  },
+  "config": {}
+}
