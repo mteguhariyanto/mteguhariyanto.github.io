@@ -104,41 +104,24 @@
         <h2>Section 6: UK Business Investment as a % of GDP</h2>
         <p>One probable reason behind the stagnation in UK productivity is stagnant business investment, as explained in the chart below:</p>
     </div>
-    <figure id="chart6"></figure>
+    <figure>
+        <iframe src="https://data.worldbank.org/share/widget?end=2016&indicators=GC.NFN.TOTL.GD.ZS&locations=GB&start=1972&view=chart" 
+            width="450" height="300" frameBorder="0" scrolling="no"></iframe>
+    </figure>
 </section>
 
 <script>
     let chart5_spec = "wk3_ukproductivity.json";
-    let chart6_spec = "wk3_investment.json";
     vegaEmbed('#chart5', chart5_spec);
-    vegaEmbed('#chart6', chart6_spec)
 </script>
 
 <section></section>
     <div class="chart-description">
-        <h7>WEEK 3 - Seminar</h7>
+        <h7>WEEK 4 - Refining Ugly Chart</h7>
 </section>
 <section>
-    <p>The following two charts illustrate the decline in UK productivity, highlighting key trends and shifts over recent years.</p>
+    <p> ------- </p>
 </section>
-<section></section>
-    <div class="chart-description">
-        <h2>Section 7: Goods and Services</h2>
-        <p>Below is a line chart showing the trends of goods and services data in the UK:</p>
-    </div>
-    <figure id="goodsservices"></figure>
-</section>
-
-<script>
-
-
-
-// Chart 10: Goods and Services
-let chart8_spec = "goods_services.json";
-    vegaEmbed('#goodsservices', chart8_spec);
-
-
-</script>
 
 </body>
     
