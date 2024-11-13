@@ -1,0 +1,211 @@
+{
+    "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+    "data": {"name": "data-f32602d46767c762866ea4336efe168b"},
+    "mark": "line",
+    "encoding": {
+      "color": {"field": "Province", "type": "nominal"},
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "FDI in thousand USD", "type": "quantitative"}
+    },
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "datasets": {
+      "data-f32602d46767c762866ea4336efe168b": [
+        {"Year": 2010, "Province": "Banten", "FDI in thousand USD": 1544189},
+        {"Year": 2011, "Province": "Banten", "FDI in thousand USD": 2171692},
+        {"Year": 2012, "Province": "Banten", "FDI in thousand USD": 2716264},
+        {"Year": 2013, "Province": "Banten", "FDI in thousand USD": 3720210},
+        {"Year": 2014, "Province": "Banten", "FDI in thousand USD": 2034627},
+        {"Year": 2015, "Province": "Banten", "FDI in thousand USD": 2541969},
+        {"Year": 2016, "Province": "Banten", "FDI in thousand USD": 2912062},
+        {"Year": 2017, "Province": "Banten", "FDI in thousand USD": 3047470},
+        {"Year": 2018, "Province": "Banten", "FDI in thousand USD": 2827275},
+        {"Year": 2019, "Province": "Banten", "FDI in thousand USD": 1868179},
+        {"Year": 2020, "Province": "Banten", "FDI in thousand USD": 2143559},
+        {"Year": 2021, "Province": "Banten", "FDI in thousand USD": 2189967},
+        {"Year": 2022, "Province": "Banten", "FDI in thousand USD": 3410682},
+        {"Year": 2023, "Province": "Banten", "FDI in thousand USD": 4451587},
+        {"Year": 2010, "Province": "Jawa Timur", "FDI in thousand USD": 1769234},
+        {"Year": 2011, "Province": "Jawa Timur", "FDI in thousand USD": 1312040},
+        {"Year": 2012, "Province": "Jawa Timur", "FDI in thousand USD": 2298776},
+        {"Year": 2013, "Province": "Jawa Timur", "FDI in thousand USD": 3396254},
+        {"Year": 2014, "Province": "Jawa Timur", "FDI in thousand USD": 1802506},
+        {"Year": 2015, "Province": "Jawa Timur", "FDI in thousand USD": 2593377},
+        {"Year": 2016, "Province": "Jawa Timur", "FDI in thousand USD": 1941035},
+        {"Year": 2017, "Province": "Jawa Timur", "FDI in thousand USD": 1566657},
+        {"Year": 2018, "Province": "Jawa Timur", "FDI in thousand USD": 1333380},
+        {"Year": 2019, "Province": "Jawa Timur", "FDI in thousand USD": 866282},
+        {"Year": 2020, "Province": "Jawa Timur", "FDI in thousand USD": 1575460},
+        {"Year": 2021, "Province": "Jawa Timur", "FDI in thousand USD": 1849173},
+        {"Year": 2022, "Province": "Jawa Timur", "FDI in thousand USD": 3134043},
+        {"Year": 2023, "Province": "Jawa Timur", "FDI in thousand USD": 4740978},
+        {"Year": 2010, "Province": "Jawa Barat", "FDI in thousand USD": 1692006},
+        {"Year": 2011, "Province": "Jawa Barat", "FDI in thousand USD": 3839360},
+        {"Year": 2012, "Province": "Jawa Barat", "FDI in thousand USD": 4210704},
+        {"Year": 2013, "Province": "Jawa Barat", "FDI in thousand USD": 7124881},
+        {"Year": 2014, "Province": "Jawa Barat", "FDI in thousand USD": 6561946},
+        {"Year": 2015, "Province": "Jawa Barat", "FDI in thousand USD": 5738714},
+        {"Year": 2016, "Province": "Jawa Barat", "FDI in thousand USD": 5470857},
+        {"Year": 2017, "Province": "Jawa Barat", "FDI in thousand USD": 5142949},
+        {"Year": 2018, "Province": "Jawa Barat", "FDI in thousand USD": 5573520},
+        {"Year": 2019, "Province": "Jawa Barat", "FDI in thousand USD": 5881045},
+        {"Year": 2020, "Province": "Jawa Barat", "FDI in thousand USD": 4793707},
+        {"Year": 2021, "Province": "Jawa Barat", "FDI in thousand USD": 5217691},
+        {"Year": 2022, "Province": "Jawa Barat", "FDI in thousand USD": 6534450},
+        {"Year": 2023, "Province": "Jawa Barat", "FDI in thousand USD": 8283746},
+        {
+          "Year": 2010,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 6429269
+        },
+        {
+          "Year": 2011,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4824079
+        },
+        {
+          "Year": 2012,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4107721
+        },
+        {
+          "Year": 2013,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 2589891
+        },
+        {
+          "Year": 2014,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4509363
+        },
+        {
+          "Year": 2015,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 3619393
+        },
+        {
+          "Year": 2016,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 3398222
+        },
+        {
+          "Year": 2017,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4595001
+        },
+        {
+          "Year": 2018,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4857731
+        },
+        {
+          "Year": 2019,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4122998
+        },
+        {
+          "Year": 2020,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 3613263
+        },
+        {
+          "Year": 2021,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 3330568
+        },
+        {
+          "Year": 2022,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 3744070
+        },
+        {
+          "Year": 2023,
+          "Province": "Daerah Khusus Ibukota Jakarta",
+          "FDI in thousand USD": 4830022
+        },
+        {"Year": 2010, "Province": "Jawa Tengah", "FDI in thousand USD": 59130},
+        {"Year": 2011, "Province": "Jawa Tengah", "FDI in thousand USD": 174965},
+        {"Year": 2012, "Province": "Jawa Tengah", "FDI in thousand USD": 241513},
+        {"Year": 2013, "Province": "Jawa Tengah", "FDI in thousand USD": 464300},
+        {"Year": 2014, "Province": "Jawa Tengah", "FDI in thousand USD": 463361},
+        {"Year": 2015, "Province": "Jawa Tengah", "FDI in thousand USD": 850398},
+        {"Year": 2016, "Province": "Jawa Tengah", "FDI in thousand USD": 1030796},
+        {"Year": 2017, "Province": "Jawa Tengah", "FDI in thousand USD": 2372523},
+        {"Year": 2018, "Province": "Jawa Tengah", "FDI in thousand USD": 2372703},
+        {"Year": 2019, "Province": "Jawa Tengah", "FDI in thousand USD": 2723240},
+        {"Year": 2020, "Province": "Jawa Tengah", "FDI in thousand USD": 1363635},
+        {"Year": 2021, "Province": "Jawa Tengah", "FDI in thousand USD": 1465939},
+        {"Year": 2022, "Province": "Jawa Tengah", "FDI in thousand USD": 2362039},
+        {"Year": 2023, "Province": "Jawa Tengah", "FDI in thousand USD": 1563664},
+        {
+          "Year": 2010,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 4946
+        },
+        {
+          "Year": 2011,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 2407
+        },
+        {
+          "Year": 2012,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 84939
+        },
+        {
+          "Year": 2013,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 29579
+        },
+        {
+          "Year": 2014,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 64891
+        },
+        {
+          "Year": 2015,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 89106
+        },
+        {
+          "Year": 2016,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 19645
+        },
+        {
+          "Year": 2017,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 36482
+        },
+        {
+          "Year": 2018,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 81342
+        },
+        {
+          "Year": 2019,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 14630
+        },
+        {
+          "Year": 2020,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 9723
+        },
+        {
+          "Year": 2021,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 21814
+        },
+        {
+          "Year": 2022,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 113893
+        },
+        {
+          "Year": 2023,
+          "Province": "Daerah Istimewa Yogyakarta",
+          "FDI in thousand USD": 46008
+        }
+      ]
+    }
+  }
