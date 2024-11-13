@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Obamacare Enrollment",
+    "fontSize": 24,
+    "color": "#8B8000",
+    "underline": "single"
+  },
+  "description": "Horizontal bar chart for Obamacare Enrollment",
+  "width": 500,
+  "height": 350,
+  "data": {
+    "values": [
+      {"category": "As Of March 27", "enrollment": 6000000},
+      {"category": "March 31 Goal", "enrollment": 7066000}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "category",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "titleFontSize": 16,
+        "labelFontSize": 14
+      }
+    },
+    "x": {
+      "field": "enrollment",
+      "type": "quantitative",
+      "title": "Enrollment Numbers (in millions)",
+      "axis": {
+        "format": "~s",
+        "labelExpr": "datum.value / 1e6 + 'M'",
+        "titleFontSize": 16,
+        "labelFontSize": 14
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": ["As Of March 27", "March 31 Goal"],
+        "range": ["blue", "red"]
+      },
+      "legend": null
+    }
+  }
+}

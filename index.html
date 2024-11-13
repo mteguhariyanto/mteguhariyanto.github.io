@@ -120,8 +120,21 @@
         <h7>CC 4 - Refining Ugly Chart</h7>
 </section>
 <section>
-    <p> ------- </p>
+    <p> In this section, I selected an image from a news article that showed a bar chart of Obamacare enrollment, as seen below:</p>
+    <img src="wk4_obamacare_badchart.png" alt="Obamacare Enrollment" width="600">
+    <p>The image above contains several elements that could potentially mislead the audience, including:</p>
+    <p> - The X-axis does not start from zero, which exaggerates the gap between the current enrollment as of March 27 and the target for March 31.</p>
+    <p>- The target number is also misleading, as it was revised from 7 million to 6 million a year prior, a figure that has already been reached according to the data. While this may not directly relate to the chart, it underscores the importance of accurate data and thoughtful data visualization.</p>
+    <p>Below is the revised version of the chart I created without adjusting the target from 7 million to 6 million enrollment:</p>
+    <figure>
+        <figure id="chart6"></figure>
+    </figure>
 </section>
+
+<script>
+    let chart6_spec = "wk4_obamacare_enrollment.json";
+    vegaEmbed('#chart6', chart6_spec);
+</script>
 
 </body>
     
