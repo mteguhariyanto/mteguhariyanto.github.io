@@ -1,196 +1,67 @@
 <!DOCTYPE html>
-<html> 
-<head> 
-    <link rel="stylesheet" type="text/css" href="Example3.css">
-    <title>My Portfolio</title> 
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochammad Teguh Ariyanto</title>
     <style>
-        #chartGrid {
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f9;
+            height: 100vh;
         }
-        
+
+        img {
+            max-width: 150px; 
+            margin-bottom: 20px; 
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: #333;
+            margin-bottom: 50px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+
+        .toggle {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 20px 40px;
+            border-radius: 10px;
+            background: #7f0000; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+        }
     </style>
 </head>
+<body>
+    <img src="lse_logo.png" alt="LSE Logo">
 
-<body> 
-<h1 class="big" style="margin-bottom: 0px;"> 
-        Teguh Ariyanto
-    </h1>
-    <p style="margin-top: 0px; color: darkblue">
-        Teguh Ariyanto | <a href="https://www.linkedin.com/in/mochammad-teguh-ariyanto-a4863011b/">LinkedIn</a> | <a
-            href="https://github.com/mteguhariyanto/mteguhariyanto.github.io">GitHub</a>
-    </p>
-    <h3 class="small"> 
-        This page is dedicated to my weekly portfolios. The variation in each section is due to differing approaches used to create the graphs and assignments given.
-    </h3>
+    <h1>Mochammad Teguh Ariyanto</h1>
 
-    <section>
-        <div class="chart-description">
-            <h7>CC 1 - Hosting and Display Two Charts</h7>
-        </div>
-    </section>
-   
-    <section>
-        <section>
-            <div class="chart-description">
-                <h2>Section 1: GDP per Capita #1</h2>
-                <p>Here is GDP per capita for several countries.</p>
-            </div>
-            <figure id="chart1"></figure> 
-        </section>
-    
-        <section>
-            <div class="chart-description">
-                <h2>Section 2: GDP Per Capita #2</h2>
-                <p>Below is another GDP per Capita presented in bar chart:</p>
-            </div>
-            <figure id="chart2"></figure>
-        </section>
-
-    <script>
-        let chart1_spec = "wk1_gdpgrowth1.json";
-        vegaEmbed('#chart1', chart1_spec);                                                                                                            // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-        let chart2_spec = "wk1_gdpgrowth2.json";
-        vegaEmbed('#chart2', chart2_spec)
-    </script>
-
-<section>
-    <div class="chart-description">
-        <h7>CC 2 - Data from Economic Observatory</h7>
-</section>
-
-<section></section>
-    <div class="chart-description">
-        <h2>Section 3: GDP Growth of Indonesia</h2>
-        <p>Below is a line chart showing the trend of real GDP of Indonesia:</p>
+    <div class="container">
+        <a href="portfolios.html" class="toggle">Portfolios</a>
+        <a href="project.html" class="toggle">Project</a>
     </div>
-    <figure id="chart3"></figure>
-</section>
-
-<section></section>
-    <div class="chart-description">
-        <h2>Section 4: Renewable Energy in Indonesia</h2>
-        <p>Below is a line chart showing the amount of renewable energy in Indonesia over the years:</p>
-    </div>
-    <figure id="chart4"></figure>
-</section>
-
-<script>
-    let chart3_spec = "wk2_gdpgrowthindo.json";
-    vegaEmbed('#chart3', chart3_spec);
-    let chart4_spec = "wk2_renewindo.json";
-    vegaEmbed('#chart4', chart4_spec);
-</script>
-
-<section></section>
-    <div class="chart-description">
-        <h7>CC 3 - Decline in UK Productivity</h7>
-        <p>The following two charts illustrate the decline in UK productivity, highlighting key trends and shifts over recent years.</p>
-</section>
-
-<section></section>
-    <div class="chart-description">
-        <h2>Section 5: UK Productivity Trend</h2>
-        <p>Below is a line chart showing the stagnation of UK Productivity:</p>
-    </div>
-    <figure id="chart5"></figure>
-</section>
-
-<section></section>
-    <div class="chart-description">
-        <h2>Section 6: UK Business Investment as a % of GDP</h2>
-        <p>One probable reason behind the stagnation in UK productivity is stagnant business investment, as explained in the chart below:</p>
-    </div>
-    <figure>
-        <iframe src="https://data.worldbank.org/share/widget?end=2016&indicators=GC.NFN.TOTL.GD.ZS&locations=GB&start=1972&view=chart" 
-            width="450" height="300" frameBorder="0" scrolling="no"></iframe>
-    </figure>
-</section>
-
-<script>
-    let chart5_spec = "wk3_ukproductivity.json";
-    vegaEmbed('#chart5', chart5_spec);
-</script>
-
-<section></section>
-    <div class="chart-description">
-        <h7>CC 4 - Refining Ugly Chart</h7>
-</section>
-<section>
-    <p> In this section, I selected an image from a news article that showed a bar chart of Obamacare enrollment, as seen below:</p>
-    <img src="wk4_obamacare_badchart.png" alt="Obamacare Enrollment" width="600">
-    <p>The image above contains several elements that could potentially mislead the audience, including:</p>
-    <p> - The X-axis does not start from zero, which exaggerates the gap between the current enrollment as of March 27 and the target for March 31.</p>
-    <p>- The target number is also misleading, as it was revised from 7 million to 6 million a year prior, a figure that has already been reached according to the data. While this may not directly relate to the chart, it underscores the importance of accurate data and thoughtful data visualization.</p>
-    <p>Below is the revised version of the chart I created without adjusting the target from 7 million to 6 million enrollment:</p>
-    <figure>
-        <figure id="chart6"></figure>
-    </figure>
-</section>
-
-<script>
-    let chart6_spec = "wk4_obamacare_enrollment.json";
-    vegaEmbed('#chart6', chart6_spec);
-</script>
-
-<section></section>
-    <div class="chart-description">
-        <h7>CC 5 - Scraper. Implement a data scraper of my own.</h7>
-</section>
-
-<section>
-    <section>
-        <div class="chart-description">
-            <h2>Section 1: Python Notebook
-            </h2>
-            <p><a href="https://colab.research.google.com/drive/1FW8-ig9nBOHEr7LaEEhzO2PZuyq-s0KI?usp=sharing">Link to my work in Google Collab python notebook </a></p>
-        </div>
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Section 2: Graph from my phyton notebook</h2>
-            <p>Below is line chart on Foreign Direct Investment (FDI) in Provinces in Java Island, Indonesia from 2010 to 2023:</p>
-        </div>
-        <figure id="chart7"></figure>
-        <p>I chose data from the Indonesian Ministry of Investment website because it provides a clearer distribution of FDI across provinces.</p>
-    </section>
-
-<script>
-    let chart7_spec = "wk5_fdi.json";
-    vegaEmbed('#chart7', chart7_spec)
-</script>
-
-<section></section>
-    <div class="chart-description">
-        <h7>CC 6 - Scraper. Implement a data scraper of my own.</h7>
-</section>
-
-<section>
-    <section>
-        <div class="chart-description">
-            <h2>Section 1: Python Notebook
-            </h2>
-            <p><a href="https://colab.research.google.com/drive/1WTnzXhfiW6PotnH7h2QhvTOWrBaLHaUm?usp=sharing">Link to my work in Google Collab python notebook </a></p>
-        </div>
-    </section>
-
-    <section>
-        <div class="chart-description">
-            <h2>Section 2: Graph from my phyton notebook</h2>
-            <p>Below is the chart illustrates the trends of CPI for various goods and services (in pounds), average weekly wage (in pounds), and labour productivity index, ranging from 2002 to 2023. Notably, the lines representing average weekly wage and labour productivity index are dashed to differentiate them from the CPI trends.</p>
-        </div>
-        <figure id="chart8"></figure>
-    </section>
-
-<script>
-    let chart8_spec = "wk6_ons.json";
-    vegaEmbed('#chart8', chart8_spec)
-</script>
-
 </body>
-    
 </html>
