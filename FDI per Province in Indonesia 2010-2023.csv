@@ -1,0 +1,519 @@
+province,Year,FDI
+Sumatera Utara,2010,181117.0
+Kepulauan Riau,2010,165677.0
+Aceh,2010,4566.0
+Kepulauan Bangka Belitung,2010,21964.0
+Sumatera Selatan,2010,186285.0
+Lampung,2010,30707.0
+Sumatera Barat,2010,7902.0
+Jambi,2010,37207.0
+Riau,2010,86633.0
+Bengkulu,2010,25078.0
+Bali,2010,278296.0
+Nusa Tenggara Timur,2010,3832.0
+Nusa Tenggara Barat,2010,220534.0
+Kalimantan Barat,2010,170449.0
+Kalimantan Tengah,2010,546602.0
+Kalimantan Timur,2010,1020889.0
+Kalimantan Utara,2010,71338.0
+Kalimantan Selatan,2010,202170.0
+Banten,2010,1544189.0
+Jawa Timur,2010,1769234.0
+Jawa Barat,2010,1692006.0
+Daerah Khusus Ibukota Jakarta,2010,6429269.0
+Jawa Tengah,2010,59130.0
+Daerah Istimewa Yogyakarta,2010,4946.0
+Maluku,2010,2889.0
+Maluku Utara,2010,246004.0
+Papua Barat,2010,17156.0
+Papua,2010,329609.0
+Papua Barat Daya,2010,
+Papua Selatan,2010,
+Papua Tengah,2010,
+Sulawesi Utara,2010,226789.0
+Sulawesi Tengah,2010,138451.0
+Sulawesi Tenggara,2010,13972.0
+Sulawesi Selatan,2010,441751.0
+Gorontalo,2010,786.0
+Sulawesi Barat,2010,37349.0
+Sumatera Utara,2011,753702.0
+Kepulauan Riau,2011,219737.0
+Aceh,2011,22456.0
+Kepulauan Bangka Belitung,2011,146050.0
+Sumatera Selatan,2011,557323.0
+Lampung,2011,79498.0
+Sumatera Barat,2011,22930.0
+Jambi,2011,19473.0
+Riau,2011,212339.0
+Bengkulu,2011,43056.0
+Bali,2011,482085.0
+Nusa Tenggara Timur,2011,5492.0
+Nusa Tenggara Barat,2011,465076.0
+Kalimantan Barat,2011,500698.0
+Kalimantan Tengah,2011,543657.0
+Kalimantan Timur,2011,528125.0
+Kalimantan Utara,2011,74312.0
+Kalimantan Selatan,2011,272053.0
+Banten,2011,2171692.0
+Jawa Timur,2011,1312040.0
+Jawa Barat,2011,3839360.0
+Daerah Khusus Ibukota Jakarta,2011,4824079.0
+Jawa Tengah,2011,174965.0
+Daerah Istimewa Yogyakarta,2011,2407.0
+Maluku,2011,11696.0
+Maluku Utara,2011,129844.0
+Papua Barat,2011,33087.0
+Papua,2011,1312050.0
+Papua Barat Daya,2011,
+Papua Selatan,2011,
+Papua Tengah,2011,
+Sulawesi Utara,2011,220178.0
+Sulawesi Tengah,2011,370358.0
+Sulawesi Tenggara,2011,16995.0
+Sulawesi Selatan,2011,89564.0
+Gorontalo,2011,12544.0
+Sulawesi Barat,2011,5617.0
+Sumatera Utara,2012,645322.0
+Kepulauan Riau,2012,537111.0
+Aceh,2012,172273.0
+Kepulauan Bangka Belitung,2012,59183.0
+Sumatera Selatan,2012,786449.0
+Lampung,2012,114320.0
+Sumatera Barat,2012,75020.0
+Jambi,2012,156322.0
+Riau,2012,1152855.0
+Bengkulu,2012,30431.0
+Bali,2012,482038.0
+Nusa Tenggara Timur,2012,8724.0
+Nusa Tenggara Barat,2012,635790.0
+Kalimantan Barat,2012,397535.0
+Kalimantan Tengah,2012,524738.0
+Kalimantan Timur,2012,1922182.0
+Kalimantan Utara,2012,91903.0
+Kalimantan Selatan,2012,272291.0
+Banten,2012,2716264.0
+Jawa Timur,2012,2298776.0
+Jawa Barat,2012,4210704.0
+Daerah Khusus Ibukota Jakarta,2012,4107721.0
+Jawa Tengah,2012,241513.0
+Daerah Istimewa Yogyakarta,2012,84939.0
+Maluku,2012,8518.0
+Maluku Utara,2012,90254.0
+Papua Barat,2012,32035.0
+Papua,2012,1202433.0
+Papua Barat Daya,2012,
+Papua Selatan,2012,
+Papua Tengah,2012,
+Sulawesi Utara,2012,46652.0
+Sulawesi Tengah,2012,806531.0
+Sulawesi Tenggara,2012,35723.0
+Sulawesi Selatan,2012,582579.0
+Gorontalo,2012,35315.0
+Sulawesi Barat,2012,229.0
+Sumatera Utara,2013,887452.0
+Kepulauan Riau,2013,315730.0
+Aceh,2013,94167.0
+Kepulauan Bangka Belitung,2013,112393.0
+Sumatera Selatan,2013,485918.0
+Lampung,2013,46763.0
+Sumatera Barat,2013,91362.0
+Jambi,2013,34293.0
+Riau,2013,1304946.0
+Bengkulu,2013,22324.0
+Bali,2013,390856.0
+Nusa Tenggara Timur,2013,9852.0
+Nusa Tenggara Barat,2013,488164.0
+Kalimantan Barat,2013,649955.0
+Kalimantan Tengah,2013,481565.0
+Kalimantan Timur,2013,1320051.0
+Kalimantan Utara,2013,61212.0
+Kalimantan Selatan,2013,260619.0
+Banten,2013,3720210.0
+Jawa Timur,2013,3396254.0
+Jawa Barat,2013,7124881.0
+Daerah Khusus Ibukota Jakarta,2013,2589891.0
+Jawa Tengah,2013,464300.0
+Daerah Istimewa Yogyakarta,2013,29579.0
+Maluku,2013,52762.0
+Maluku Utara,2013,268467.0
+Papua Barat,2013,54156.0
+Papua,2013,2360000.0
+Papua Barat Daya,2013,
+Papua Selatan,2013,
+Papua Tengah,2013,
+Sulawesi Utara,2013,65706.0
+Sulawesi Tengah,2013,855028.0
+Sulawesi Tenggara,2013,86418.0
+Sulawesi Selatan,2013,462776.0
+Gorontalo,2013,25701.0
+Sulawesi Barat,2013,2519.0
+Sumatera Utara,2014,550835.0
+Kepulauan Riau,2014,392115.0
+Aceh,2014,31133.0
+Kepulauan Bangka Belitung,2014,105044.0
+Sumatera Selatan,2014,1056515.0
+Lampung,2014,156489.0
+Sumatera Barat,2014,112110.0
+Jambi,2014,51446.0
+Riau,2014,1369565.0
+Bengkulu,2014,19317.0
+Bali,2014,427163.0
+Nusa Tenggara Timur,2014,15078.0
+Nusa Tenggara Barat,2014,551131.0
+Kalimantan Barat,2014,966108.0
+Kalimantan Tengah,2014,951045.0
+Kalimantan Timur,2014,2145665.0
+Kalimantan Utara,2014,108323.0
+Kalimantan Selatan,2014,502492.0
+Banten,2014,2034627.0
+Jawa Timur,2014,1802506.0
+Jawa Barat,2014,6561946.0
+Daerah Khusus Ibukota Jakarta,2014,4509363.0
+Jawa Tengah,2014,463361.0
+Daerah Istimewa Yogyakarta,2014,64891.0
+Maluku,2014,13104.0
+Maluku Utara,2014,98712.0
+Papua Barat,2014,153348.0
+Papua,2014,1260604.0
+Papua Barat Daya,2014,
+Papua Selatan,2014,
+Papua Tengah,2014,
+Sulawesi Utara,2014,98451.0
+Sulawesi Tengah,2014,1494163.0
+Sulawesi Tenggara,2014,161797.0
+Sulawesi Selatan,2014,280928.0
+Gorontalo,2014,4094.0
+Sulawesi Barat,2014,16232.0
+Sumatera Utara,2015,1246096.0
+Kepulauan Riau,2015,640421.0
+Aceh,2015,21189.0
+Kepulauan Bangka Belitung,2015,82663.0
+Sumatera Selatan,2015,645822.0
+Lampung,2015,257726.0
+Sumatera Barat,2015,57133.0
+Jambi,2015,107732.0
+Riau,2015,653395.0
+Bengkulu,2015,20578.0
+Bali,2015,495847.0
+Nusa Tenggara Timur,2015,69853.0
+Nusa Tenggara Barat,2015,699377.0
+Kalimantan Barat,2015,1335717.0
+Kalimantan Tengah,2015,933570.0
+Kalimantan Timur,2015,2381442.0
+Kalimantan Utara,2015,230920.0
+Kalimantan Selatan,2015,961206.0
+Banten,2015,2541969.0
+Jawa Timur,2015,2593377.0
+Jawa Barat,2015,5738714.0
+Daerah Khusus Ibukota Jakarta,2015,3619393.0
+Jawa Tengah,2015,850398.0
+Daerah Istimewa Yogyakarta,2015,89106.0
+Maluku,2015,82391.0
+Maluku Utara,2015,203828.0
+Papua Barat,2015,258608.0
+Papua,2015,897049.0
+Papua Barat Daya,2015,
+Papua Selatan,2015,
+Papua Tengah,2015,
+Sulawesi Utara,2015,87955.0
+Sulawesi Tengah,2015,1085164.0
+Sulawesi Tenggara,2015,145010.0
+Sulawesi Selatan,2015,233347.0
+Gorontalo,2015,6921.0
+Sulawesi Barat,2015,2027.0
+Sumatera Utara,2016,1014654.0
+Kepulauan Riau,2016,519078.0
+Aceh,2016,134505.0
+Kepulauan Bangka Belitung,2016,52737.0
+Sumatera Selatan,2016,2793514.0
+Lampung,2016,85707.0
+Sumatera Barat,2016,79268.0
+Jambi,2016,61015.0
+Riau,2016,869105.0
+Bengkulu,2016,55740.0
+Bali,2016,450633.0
+Nusa Tenggara Timur,2016,58244.0
+Nusa Tenggara Barat,2016,439016.0
+Kalimantan Barat,2016,630713.0
+Kalimantan Tengah,2016,408165.0
+Kalimantan Timur,2016,1139608.0
+Kalimantan Utara,2016,160813.0
+Kalimantan Selatan,2016,249448.0
+Banten,2016,2912062.0
+Jawa Timur,2016,1941035.0
+Jawa Barat,2016,5470857.0
+Daerah Khusus Ibukota Jakarta,2016,3398222.0
+Jawa Tengah,2016,1030796.0
+Daerah Istimewa Yogyakarta,2016,19645.0
+Maluku,2016,102637.0
+Maluku Utara,2016,438902.0
+Papua Barat,2016,514490.0
+Papua,2016,1168434.0
+Papua Barat Daya,2016,
+Papua Selatan,2016,
+Papua Tengah,2016,
+Sulawesi Utara,2016,382805.0
+Sulawesi Tengah,2016,1600338.0
+Sulawesi Tenggara,2016,376107.0
+Sulawesi Selatan,2016,372467.0
+Gorontalo,2016,12682.0
+Sulawesi Barat,2016,20633.0
+Sumatera Utara,2017,1514943.0
+Kepulauan Riau,2017,1031539.0
+Aceh,2017,23246.0
+Kepulauan Bangka Belitung,2017,153106.0
+Sumatera Selatan,2017,1182941.0
+Lampung,2017,120602.0
+Sumatera Barat,2017,194425.0
+Jambi,2017,76835.0
+Riau,2017,1061147.0
+Bengkulu,2017,138653.0
+Bali,2017,886855.0
+Nusa Tenggara Timur,2017,138994.0
+Nusa Tenggara Barat,2017,132054.0
+Kalimantan Barat,2017,568446.0
+Kalimantan Tengah,2017,641028.0
+Kalimantan Timur,2017,1285215.0
+Kalimantan Utara,2017,149014.0
+Kalimantan Selatan,2017,243814.0
+Banten,2017,3047470.0
+Jawa Timur,2017,1566657.0
+Jawa Barat,2017,5142949.0
+Daerah Khusus Ibukota Jakarta,2017,4595001.0
+Jawa Tengah,2017,2372523.0
+Daerah Istimewa Yogyakarta,2017,36482.0
+Maluku,2017,211953.0
+Maluku Utara,2017,228111.0
+Papua Barat,2017,84673.0
+Papua,2017,1924108.0
+Papua Barat Daya,2017,
+Papua Selatan,2017,
+Papua Tengah,2017,
+Sulawesi Utara,2017,482925.0
+Sulawesi Tengah,2017,1545556.0
+Sulawesi Tenggara,2017,692983.0
+Sulawesi Selatan,2017,712788.0
+Gorontalo,2017,41330.0
+Sulawesi Barat,2017,11389.0
+Sumatera Utara,2018,1227609.0
+Kepulauan Riau,2018,831248.0
+Aceh,2018,71210.0
+Kepulauan Bangka Belitung,2018,46278.0
+Sumatera Selatan,2018,1078554.0
+Lampung,2018,132290.0
+Sumatera Barat,2018,180800.0
+Jambi,2018,101872.0
+Riau,2018,1032883.0
+Bengkulu,2018,136609.0
+Bali,2018,1002459.0
+Nusa Tenggara Timur,2018,100369.0
+Nusa Tenggara Barat,2018,251548.0
+Kalimantan Barat,2018,491939.0
+Kalimantan Tengah,2018,678525.0
+Kalimantan Timur,2018,587502.0
+Kalimantan Utara,2018,67328.0
+Kalimantan Selatan,2018,129147.0
+Banten,2018,2827275.0
+Jawa Timur,2018,1333380.0
+Jawa Barat,2018,5573520.0
+Daerah Khusus Ibukota Jakarta,2018,4857731.0
+Jawa Tengah,2018,2372703.0
+Daerah Istimewa Yogyakarta,2018,81342.0
+Maluku,2018,7962.0
+Maluku Utara,2018,362793.0
+Papua Barat,2018,286861.0
+Papua,2018,1132269.0
+Papua Barat Daya,2018,
+Papua Selatan,2018,
+Papua Tengah,2018,
+Sulawesi Utara,2018,295848.0
+Sulawesi Tengah,2018,672421.0
+Sulawesi Tenggara,2018,672926.0
+Sulawesi Selatan,2018,617188.0
+Gorontalo,2018,40820.0
+Sulawesi Barat,2018,24698.0
+Sumatera Utara,2019,379547.0
+Kepulauan Riau,2019,1363365.0
+Aceh,2019,137485.0
+Kepulauan Bangka Belitung,2019,88729.0
+Sumatera Selatan,2019,736482.0
+Lampung,2019,155188.0
+Sumatera Barat,2019,157114.0
+Jambi,2019,54570.0
+Riau,2019,1034039.0
+Bengkulu,2019,144845.0
+Bali,2019,426024.0
+Nusa Tenggara Timur,2019,126831.0
+Nusa Tenggara Barat,2019,270725.0
+Kalimantan Barat,2019,532320.0
+Kalimantan Tengah,2019,283546.0
+Kalimantan Timur,2019,861001.0
+Kalimantan Utara,2019,81670.0
+Kalimantan Selatan,2019,372948.0
+Banten,2019,1868179.0
+Jawa Timur,2019,866282.0
+Jawa Barat,2019,5881045.0
+Daerah Khusus Ibukota Jakarta,2019,4122998.0
+Jawa Tengah,2019,2723240.0
+Daerah Istimewa Yogyakarta,2019,14630.0
+Maluku,2019,33044.0
+Maluku Utara,2019,1008523.0
+Papua Barat,2019,46204.0
+Papua,2019,940961.0
+Papua Barat Daya,2019,
+Papua Selatan,2019,
+Papua Tengah,2019,
+Sulawesi Utara,2019,220474.0
+Sulawesi Tengah,2019,1805039.0
+Sulawesi Tenggara,2019,987662.0
+Sulawesi Selatan,2019,302614.0
+Gorontalo,2019,171307.0
+Sulawesi Barat,2019,10135.0
+Sumatera Utara,2020,974763.0
+Kepulauan Riau,2020,1649365.0
+Aceh,2020,51134.0
+Kepulauan Bangka Belitung,2020,48431.0
+Sumatera Selatan,2020,1543875.0
+Lampung,2020,498411.0
+Sumatera Barat,2020,125589.0
+Jambi,2020,26967.0
+Riau,2020,1077984.0
+Bengkulu,2020,192290.0
+Bali,2020,293252.0
+Nusa Tenggara Timur,2020,81256.0
+Nusa Tenggara Barat,2020,302076.0
+Kalimantan Barat,2020,759264.0
+Kalimantan Tengah,2020,177639.0
+Kalimantan Timur,2020,378027.0
+Kalimantan Utara,2020,68429.0
+Kalimantan Selatan,2020,240793.0
+Banten,2020,2143559.0
+Jawa Timur,2020,1575460.0
+Jawa Barat,2020,4793707.0
+Daerah Khusus Ibukota Jakarta,2020,3613263.0
+Jawa Tengah,2020,1363635.0
+Daerah Istimewa Yogyakarta,2020,9723.0
+Maluku,2020,176699.0
+Maluku Utara,2020,2409007.0
+Papua Barat,2020,10585.0
+Papua,2020,567671.0
+Papua Barat Daya,2020,
+Papua Selatan,2020,
+Papua Tengah,2020,
+Sulawesi Utara,2020,155690.0
+Sulawesi Tengah,2020,1778986.0
+Sulawesi Tenggara,2020,1268574.0
+Sulawesi Selatan,2020,236055.0
+Gorontalo,2020,67587.0
+Sulawesi Barat,2020,6526.0
+Sumatera Utara,2021,580422.0
+Kepulauan Riau,2021,1043686.0
+Aceh,2021,203284.0
+Kepulauan Bangka Belitung,2021,44725.0
+Sumatera Selatan,2021,1259743.0
+Lampung,2021,173797.0
+Sumatera Barat,2021,66949.0
+Jambi,2021,50858.0
+Riau,2021,1921413.0
+Bengkulu,2021,23717.0
+Bali,2021,451967.0
+Nusa Tenggara Timur,2021,79041.0
+Nusa Tenggara Barat,2021,244173.0
+Kalimantan Barat,2021,463414.0
+Kalimantan Tengah,2021,162488.0
+Kalimantan Timur,2021,745190.0
+Kalimantan Utara,2021,133460.0
+Kalimantan Selatan,2021,117243.0
+Banten,2021,2189967.0
+Jawa Timur,2021,1849173.0
+Jawa Barat,2021,5217691.0
+Daerah Khusus Ibukota Jakarta,2021,3330568.0
+Jawa Tengah,2021,1465939.0
+Daerah Istimewa Yogyakarta,2021,21814.0
+Maluku,2021,13319.0
+Maluku Utara,2021,2819935.0
+Papua Barat,2021,32502.0
+Papua,2021,1489074.0
+Papua Barat Daya,2021,
+Papua Selatan,2021,
+Papua Tengah,2021,
+Sulawesi Utara,2021,169080.0
+Sulawesi Tengah,2021,2718102.0
+Sulawesi Tenggara,2021,1616455.0
+Sulawesi Selatan,2021,309955.0
+Gorontalo,2021,78008.0
+Sulawesi Barat,2021,5921.0
+Sumatera Utara,2022,1316127.0
+Kepulauan Riau,2022,934041.0
+Aceh,2022,127634.0
+Kepulauan Bangka Belitung,2022,129697.0
+Sumatera Selatan,2022,1226254.0
+Lampung,2022,247826.0
+Sumatera Barat,2022,95625.0
+Jambi,2022,39203.0
+Riau,2022,2748701.0
+Bengkulu,2022,52152.0
+Bali,2022,449536.0
+Nusa Tenggara Timur,2022,73319.0
+Nusa Tenggara Barat,2022,704560.0
+Kalimantan Barat,2022,745467.0
+Kalimantan Tengah,2022,548318.0
+Kalimantan Timur,2022,1266222.0
+Kalimantan Utara,2022,430529.0
+Kalimantan Selatan,2022,208064.0
+Banten,2022,3410682.0
+Jawa Timur,2022,3134043.0
+Jawa Barat,2022,6534450.0
+Daerah Khusus Ibukota Jakarta,2022,3744070.0
+Jawa Tengah,2022,2362039.0
+Daerah Istimewa Yogyakarta,2022,113893.0
+Maluku,2022,73444.0
+Maluku Utara,2022,4487465.0
+Papua Barat,2022,71831.0
+Papua,2022,1260531.0
+Papua Barat Daya,2022,
+Papua Selatan,2022,
+Papua Tengah,2022,
+Sulawesi Utara,2022,105131.0
+Sulawesi Tengah,2022,7485988.0
+Sulawesi Tenggara,2022,877936.0
+Sulawesi Selatan,2022,469003.0
+Gorontalo,2022,102898.0
+Sulawesi Barat,2022,28286.0
+Sumatera Utara,2023,1181284.0
+Kepulauan Riau,2023,764071.0
+Aceh,2023,248634.0
+Kepulauan Bangka Belitung,2023,72452.0
+Sumatera Selatan,2023,1478551.0
+Lampung,2023,220554.0
+Sumatera Barat,2023,120659.0
+Jambi,2023,45081.0
+Riau,2023,2042272.0
+Bengkulu,2023,76090.0
+Bali,2023,808486.0
+Nusa Tenggara Timur,2023,124292.0
+Nusa Tenggara Barat,2023,468449.0
+Kalimantan Barat,2023,490469.0
+Kalimantan Tengah,2023,697637.0
+Kalimantan Timur,2023,1332711.0
+Kalimantan Utara,2023,1272127.0
+Kalimantan Selatan,2023,327898.0
+Banten,2023,4451587.0
+Jawa Timur,2023,4740978.0
+Jawa Barat,2023,8283746.0
+Daerah Khusus Ibukota Jakarta,2023,4830022.0
+Jawa Tengah,2023,1563664.0
+Daerah Istimewa Yogyakarta,2023,46008.0
+Maluku,2023,106309.0
+Maluku Utara,2023,4998246.0
+Papua Barat,2023,28775.0
+Papua,2023,8299.0
+Papua Barat Daya,2023,92971.0
+Papua Selatan,2023,86275.0
+Papua Tengah,2023,968043.0
+Sulawesi Utara,2023,203660.0
+Sulawesi Tengah,2023,7244082.0
+Sulawesi Tenggara,2023,448308.0
+Sulawesi Selatan,2023,336712.0
+Gorontalo,2023,33841.0
+Sulawesi Barat,2023,24274.0
