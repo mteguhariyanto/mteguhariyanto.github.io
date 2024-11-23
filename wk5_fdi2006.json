@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "FDI Inflows by Country in 2006",
+      "subtitle": "Data source: Wikipedia",
+      "anchor": "start",
+      "fontSize": 16
+    },
+    "width": 400,
+    "height": 1000,
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/List%20of%20countries%20by%20FDI%20in%202006.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "calculate": "replace(datum['FDI (in US$)'], /,/g, '')",
+        "as": "FDI_cleaned"
+      },
+      {
+        "calculate": "toNumber(datum.FDI_cleaned)",
+        "as": "FDI_value"
+      },
+      {
+        "sort": [{"field": "FDI_value", "order": "descending"}]
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "FDI_value",
+        "type": "quantitative",
+        "axis": {
+          "title": "FDI (in US$)",
+          "format": "$.1s"
+        }
+      },
+      "y": {
+        "field": "Country/Region",
+        "type": "nominal",
+        "sort": "-x",
+        "axis": {
+          "title": "Country"
+        }
+      },
+      "color": {
+        "field": "FDI_value",
+        "type": "quantitative",
+        "scale": {"scheme": "blues"},
+        "legend": {"title": "FDI (in US$)"}
+      },
+      "tooltip": [
+        {"field": "Country/Region", "title": "Country"},
+        {"field": "FDI_value", "type": "quantitative", "format": "$,.0f", "title": "FDI (in US$)"}
+      ]
+    }
+  }
+  
