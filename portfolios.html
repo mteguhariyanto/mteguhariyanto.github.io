@@ -28,17 +28,13 @@
     </h3>
 
     <section>
-        <div class="chart-description">
             <h7>CC 1 - Hosting and Display Two Charts</h7>
-        </div>
     </section>
    
     <section>
         <section>
-            <div class="chart-description">
-                <h2>Section 1: GDP per Capita #1</h2>
+                <h3 class="small">Section 1: GDP per Capita #1</h3>
                 <p>Here is GDP per capita for several countries.</p>
-            </div>
             <figure id="chart1"></figure> 
         </section>
     
@@ -64,7 +60,7 @@
 
 <section></section>
     <div class="chart-description">
-        <h2>Section 3: GDP Growth of Indonesia</h2>
+        <h3 class="small">Section 1: GDP Growth of Indonesia</h3>
         <p>Below is a line chart showing the trend of real GDP of Indonesia:</p>
     </div>
     <figure id="chart3"></figure>
@@ -72,7 +68,7 @@
 
 <section></section>
     <div class="chart-description">
-        <h2>Section 4: Renewable Energy in Indonesia</h2>
+        <h3 class="small">Section 2: Renewable Energy in Indonesia</h3>
         <p>Below is a line chart showing the amount of renewable energy in Indonesia over the years:</p>
     </div>
     <figure id="chart4"></figure>
@@ -93,7 +89,7 @@
 
 <section></section>
     <div class="chart-description">
-        <h2>Section 5: UK Productivity Trend</h2>
+        <h3 class="small">Section 1: UK Productivity Trend</h3>
         <p>Below is a line chart showing the stagnation of UK Productivity:</p>
     </div>
     <figure id="chart5"></figure>
@@ -101,7 +97,7 @@
 
 <section></section>
     <div class="chart-description">
-        <h2>Section 6: UK Business Investment as a % of GDP</h2>
+        <h3 class="small">Section 2: UK Business Investment as a % of GDP</h3>
         <p>One probable reason behind the stagnation in UK productivity is stagnant business investment, as explained in the chart below:</p>
     </div>
     <figure>
@@ -144,15 +140,14 @@
 <section>
     <section>
         <div class="chart-description">
-            <h2>Section 1: Python Notebook
-            </h2>
+            <h3 class="small">Section 1: Python Notebook</h3>
             <p><a href="https://colab.research.google.com/drive/1FW8-ig9nBOHEr7LaEEhzO2PZuyq-s0KI?usp=sharing">Link to my work in Google Collab python notebook </a></p>
         </div>
     </section>
 
     <section>
         <div class="chart-description">
-            <h2>Section 2: Graph from my phyton notebook</h2>
+            <h3 class="small">Section 2: Graph from my phyton notebook</h3>
             <p>Below is line chart on Foreign Direct Investment (FDI) in Provinces in Java Island, Indonesia from 2010 to 2023:</p>
         </div>
         <figure id="chart7"></figure>
@@ -172,15 +167,15 @@
 <section>
     <section>
         <div class="chart-description">
-            <h2>Section 1: Python Notebook
-            </h2>
+            <h3 class="small">Section 1: Python Notebook
+            </h3>
             <p><a href="https://colab.research.google.com/drive/1WTnzXhfiW6PotnH7h2QhvTOWrBaLHaUm?usp=sharing">Link to my work in Google Collab python notebook </a></p>
         </div>
     </section>
 
     <section>
         <div class="chart-description">
-            <h2>Section 2: Graph from my phyton notebook</h2>
+            <h3 class="small">Section 2: Graph from my phyton notebook</h3>
             <p>Below is the chart illustrates the trends of CPI for various goods and services (in pounds), average weekly wage (in pounds), and labour productivity index, ranging from 2002 to 2023. Notably, the lines representing average weekly wage and labour productivity index are dashed to differentiate them from the CPI trends.</p>
         </div>
         <figure id="chart8"></figure>
@@ -191,6 +186,39 @@
     vegaEmbed('#chart8', chart8_spec)
 </script>
 
+<section></section>
+    <div class="chart-description">
+        <h7>CC 7 - Maps. Base maps and choropleths</h7>
+</section>
+
+<section>
+    <section>
+        <div class="chart-description">
+            <h3 class="small">Section 1: Base Map - Indonesia
+            </h3>
+        </div>
+            <figure id="chart9"></figure>
+    </section>
+
+    <script>
+        let chart9_spec = "wk7_1basemap.json";
+        vegaEmbed('#chart9', chart9_spec)
+    </script>
+
+<section>
+    <section>
+        <div class="chart-description">
+            <h3 class="small">Section 2: Chlorophyte Map - FDI Inflow Across Provinces in Indonesia
+            </h3>
+        </div>
+            <figure id="chart10"></figure>
+            <p>Choropleth map of FDI inflow across Indonesia shows high concentration in Java, with post-2020 growth in regions like Maluku Utara and Sulawesi Tengah.</p>
+    </section>
+
+    <script>
+        let chart10_spec = "wk7_2chloroplethmap.json";
+        vegaEmbed('#chart10', chart10_spec)
+    </script>
 </body>
     
 </html>
