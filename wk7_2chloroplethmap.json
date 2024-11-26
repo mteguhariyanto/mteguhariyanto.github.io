@@ -13,7 +13,7 @@
       "bind": {
         "input": "range",
         "min": 2010,
-        "max": 2023,
+        "max": 2022,
         "step": 1,
         "name": "Year"
       }
@@ -30,7 +30,7 @@
           "filter": "datum.Year == selectedYear"
         },
         {
-          "lookup": "province",
+          "lookup": "Province",
           "from": {
             "data": {
               "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/indotopo.json",
@@ -58,7 +58,7 @@
           "legend": { "title": "FDI Inflow" }
         },
         "tooltip": [
-          { "field": "province", "title": "Province" },
+          { "field": "Province", "title": "Province" },
           { "field": "FDI_thousand_USD", "title": "FDI Inflow" },
           { "field": "Year", "title": "Year" }
         ]
