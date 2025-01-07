@@ -19,10 +19,7 @@
 <h1 class="big" style="margin-bottom: 0px;"> 
         Teguh Ariyanto
     </h1>
-    <p style="margin-top: 0px; color: darkblue">
-        Teguh Ariyanto | <a href="https://www.linkedin.com/in/mochammad-teguh-ariyanto-a4863011b/">LinkedIn</a> | <a
-            href="https://github.com/mteguhariyanto/mteguhariyanto.github.io">GitHub</a>
-    </p>
+
     <h3 class="small"> 
         This page is dedicated to my weekly portfolios. The variation in each section is due to differing approaches used to create the graphs and assignments given.
     </h3>
@@ -35,7 +32,7 @@
         <section>
                 <h3 class="small">Section 1: GDP per Capita #1</h3>
                 <p>Here is GDP per capita for several countries.</p>
-            <figure id="chart1"></figure> 
+            <figure id="chart1a"></figure> 
         </section>
     
         <section>
@@ -43,47 +40,47 @@
                 <h2>Section 2: GDP Per Capita #2</h2>
                 <p>Below is another GDP per Capita presented in bar chart:</p>
             </div>
-            <figure id="chart2"></figure>
+            <figure id="chart1b"></figure>
         </section>
 
     <script>
-        let chart1_spec = "wk1_gdpgrowth1.json";
-        vegaEmbed('#chart1', chart1_spec);                                                                                                            // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-        let chart2_spec = "wk1_gdpgrowth2.json";
-        vegaEmbed('#chart2', chart2_spec)
+        let chart1a_spec = "cc1_gdpgrowth1.json";
+        vegaEmbed('#chart1a', chart1a_spec);                                                                                                            // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+        let chart1b_spec = "cc1_gdpgrowth2.json";
+        vegaEmbed('#chart1b', chart1b_spec)
     </script>
 
 <section>
     <div class="chart-description">
-        <h7>CC 2 - Data from Economic Observatory</h7>
+        <h7>CC 2 - Building. Create your own visualisations</h7>
 </section>
 
 <section></section>
     <div class="chart-description">
         <h3 class="small">Section 1: GDP Growth of Indonesia</h3>
-        <p>Below is a line chart showing the trend of real GDP of Indonesia:</p>
+        <p>Below is a line chart showing the trend of real GDP of Indonesia created from Economic Observatory Data Hub:</p>
     </div>
-    <figure id="chart3"></figure>
+    <figure id="chart2a"></figure>
 </section>
 
 <section></section>
     <div class="chart-description">
         <h3 class="small">Section 2: Renewable Energy in Indonesia</h3>
-        <p>Below is a line chart showing the amount of renewable energy in Indonesia over the years:</p>
+        <p>Below is a line chart showing the amount of renewable energy in Indonesia over the years created from Economic Observatory Data Hub:</p>
     </div>
-    <figure id="chart4"></figure>
+    <figure id="chart2b"></figure>
 </section>
 
 <script>
-    let chart3_spec = "wk2_gdpgrowthindo.json";
-    vegaEmbed('#chart3', chart3_spec);
-    let chart4_spec = "wk2_renewindo.json";
-    vegaEmbed('#chart4', chart4_spec);
+    let chart2a_spec = "cc2_gdpgrowthindo.json";
+    vegaEmbed('#chart2a', chart2a_spec);
+    let chart2b_spec = "cc2_renewindo.json";
+    vegaEmbed('#chart2b', chart2b_spec);
 </script>
 
 <section></section>
     <div class="chart-description">
-        <h7>CC 3 - Decline in UK Productivity</h7>
+        <h7>CC 3 - Debating. Use a visualisation in economic/policy commentary</h7>
         <p>The following two charts illustrate the decline in UK productivity, highlighting key trends and shifts over recent years.</p>
 </section>
 
@@ -92,23 +89,22 @@
         <h3 class="small">Section 1: UK Productivity Trend</h3>
         <p>Below is a line chart showing the stagnation of UK Productivity:</p>
     </div>
-    <figure id="chart5"></figure>
+    <figure id="chart3a"></figure>
 </section>
 
 <section></section>
     <div class="chart-description">
-        <h3 class="small">Section 2: UK Business Investment as a % of GDP</h3>
+        <h3 class="small">Section 2: Supporting Data - UK Business Investment as a % of GDP</h3>
         <p>One probable reason behind the stagnation in UK productivity is stagnant business investment, as explained in the chart below:</p>
     </div>
-    <figure>
-        <iframe src="https://data.worldbank.org/share/widget?end=2016&indicators=GC.NFN.TOTL.GD.ZS&locations=GB&start=1972&view=chart" 
-            width="450" height="300" frameBorder="0" scrolling="no"></iframe>
-    </figure>
+    <figure id="chart3b"></figure>
 </section>
 
 <script>
-    let chart5_spec = "wk3_ukproductivity.json";
-    vegaEmbed('#chart5', chart5_spec);
+    let chart3a_spec = "cc3_ukproductivity.json";
+    vegaEmbed('#chart3a', chart3a_spec);
+    let chart3b_spec = "cc3_investment.json";
+    vegaEmbed('#chart3b', chart3b_spec)
 </script>
 
 <section></section>
@@ -117,19 +113,19 @@
 </section>
 <section>
     <p> In this section, I selected an image from a news article that showed a bar chart of Obamacare enrollment, as seen below:</p>
-    <img src="wk4_obamacare_badchart.png" alt="Obamacare Enrollment" width="600">
+    <img src="cc4_obamacare_badchart.png" alt="Obamacare Enrollment" width="600">
     <p>The image above contains several elements that could potentially mislead the audience, including:</p>
     <p> - The X-axis does not start from zero, which exaggerates the gap between the current enrollment as of March 27 and the target for March 31.</p>
     <p>- The target number is also misleading, as it was revised from 7 million to 6 million a year prior, a figure that has already been reached according to the data. While this may not directly relate to the chart, it underscores the importance of accurate data and thoughtful data visualization.</p>
     <p>Below is the revised version of the chart I created without adjusting the target from 7 million to 6 million enrollment:</p>
     <figure>
-        <figure id="chart6"></figure>
+        <figure id="chart4"></figure>
     </figure>
 </section>
 
 <script>
-    let chart6_spec = "wk4_obamacare_enrollment.json";
-    vegaEmbed('#chart6', chart6_spec);
+    let chart4_spec = "cc4_obamacare_enrollment.json";
+    vegaEmbed('#chart4', chart4_spec);
 </script>
 
 <section></section>
@@ -177,12 +173,12 @@
             <h3 class="small">Section 2: Graph from my phyton notebook</h3>
             <p>Below is the chart illustrates the trends of CPI for various goods and services (in pounds), average weekly wage (in pounds), and labour productivity index, ranging from 2002 to 2023. Notably, the lines representing average weekly wage and labour productivity index are dashed to differentiate them from the CPI trends.</p>
         </div>
-        <figure id="chart8"></figure>
+        <figure id="chart6"></figure>
     </section>
 
 <script>
-    let chart8_spec = "wk6_ons.json";
-    vegaEmbed('#chart8', chart8_spec)
+    let chart6_spec = "cc6_ons.json";
+    vegaEmbed('#chart6', chart6_spec)
 </script>
 
 <section></section>
@@ -196,12 +192,12 @@
             <h3 class="small">Section 1: Base Map - Indonesia
             </h3>
         </div>
-            <figure id="chart9"></figure>
+            <figure id="chart7a"></figure>
     </section>
 
     <script>
-        let chart9_spec = "wk7_1basemap.json";
-        vegaEmbed('#chart9', chart9_spec)
+        let chart7a_spec = "cc7_1basemap.json";
+        vegaEmbed('#chart7a', chart7a_spec)
     </script>
 
 <section>
@@ -210,14 +206,123 @@
             <h3 class="small">Section 2: Chlorophyte Map - FDI Inflow Across Provinces in Indonesia
             </h3>
         </div>
-            <figure id="chart10"></figure>
+            <figure id="chart7b"></figure>
             <p>Choropleth map of FDI inflow across Indonesia shows high concentration in Java, with post-2020 growth in regions like Maluku Utara and Sulawesi Tengah.</p>
     </section>
 
     <script>
-        let chart10_spec = "wk7_2chloroplethmap.json";
-        vegaEmbed('#chart10', chart10_spec)
+        let chart7b_spec = "cc7_2chloroplethmap.json";
+        vegaEmbed('#chart7b', chart7b_spec)
     </script>
+
+<section></section>
+<div class="chart-description">
+    <h7>CC 8 - Big Data. Extracting a story from millions of prices</h7>
+</section>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 1: Median Price of Carrot Price in The UK
+        </h3>
+    </div>
+        <figure id="chart8a"></figure>
+        <p>The chart above shows the trend of the aggregated median carrot prices in the UK from 1988 to 2024. Using the Long Run Prices Database (LRPD), I calculated the aggregated median price across different UK regions.</p>
+</section>
+
+<script>
+    let chart8a_spec = "cc8_carrot_price_across_uk.json";
+    vegaEmbed('#chart8a', chart8a_spec)
+</script>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 2: Price of Carrot Across Different Stores
+    </div>
+        <figure id="chart8b"></figure>
+        <p>Intrigued by the price differences among seven different stores, I used AutoCPI data to generate a plot chart. The chart revealed that some carrots were sold at significantly higher prices.</p>
+</section>
+
+<script>
+    let chart8b_spec = "cc8_carrot_prices_across_different_stores.json";
+    vegaEmbed('#chart8b', chart8b_spec)
+</script>
+
+<section></section>
+<div class="chart-description">
+    <h7>CC 9 - Analytic Charts</h7>
+</section>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 1: FDI Inflow and Number of SEZs Across Provinces in Indonesia
+        </h3>
+    </div>
+        <figure id="chart9a"></figure>
+        <p>This regression chart illustrates the relationship between regional minimum wage (x-axis) and FDI inflow (y-axis) across Indonesia's provinces in 2022. While the fitted regression line shows a slight negative trend, many data points (dots) are scattered far from the line, indicating significant variation in FDI inflow that cannot be fully explained by regional minimum wage alone. The chart also incorporates a zoom-in and zoom-out feature, enabling more detailed exploration of data points by scrolling.</p>
+</section>
+
+<script>
+    let chart9a_spec = "cc9_fdiinflow_sez.json";
+    vegaEmbed('#chart9a', chart9a_spec)
+</script>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 2: Comparing Provincial FDI Inflows After SEZ Establishment.
+    </div>
+        <figure id="chart9b"></figure>
+        <figure id="chart9c"></figure>
+        <p>Using "facet" encoding, I created four charts with a vertical line marking the SEZ establishment year. The charts show that, except for West Nusa Tenggara, FDI inflows increased in other provinces with a 2-5 year lag.</p>
+</section>
+
+<script>
+    let chart9b_spec = "cc9_comparing_provinces1.json";
+    vegaEmbed('#chart9b', chart9b_spec)
+</script>
+
+<script>
+    let chart9c_spec = "cc9_comparing_provinces2.json";
+    vegaEmbed('#chart9c', chart9c_spec)
+</script>
+
+<section></section>
+<div class="chart-description">
+    <h7>CC 10 - Option 1. Interactive Visualisations</h7>
+</section>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 1: FDI Inflow and Number of SEZs Across Provinces in Indonesia
+        </h3>
+    </div>
+        <figure id="chart10a"></figure>
+        <p>The plot chart displays FDI inflow and SEZ numbers at the provincial level in Indonesia. Two toggles allow adjustments for the year (2016–2022) and the FDI range on the x-axis. Tooltips show the province name, FDI inflow, and SEZ count, while circle size represents the population. Additionally, a feature to isolate each province is included for easier observation.</p>
+</section>
+
+<script>
+    let chart10a_spec = "cc10_interactive_plot.json";
+    vegaEmbed('#chart10a', chart10a_spec)
+</script>
+
+<section>
+<section>
+    <div class="chart-description">
+        <h3 class="small">Section 2: Comparing Provincial FDI Inflows After SEZ Establishment.
+    </div>
+        <figure id="chart10b"></figure>
+        <p>This line chart illustrates the Net FDI Inflow (as a percentage of GDP) for the five largest ASEAN economies. The values have been rebased to 1975 = 100 to improve clarity, as Singapore's significantly higher values made it challenging to observe trends in the other countries. Additionally, interactive start and end year sliders have been included, allowing users to explore specific periods for a more detailed analysis.</p>
+</section>
+
+<script>
+    let chart10b_spec = "cc10_interactive_line.json";
+    vegaEmbed('#chart10b', chart10b_spec)
+</script>
+
 </body>
     
 </html>

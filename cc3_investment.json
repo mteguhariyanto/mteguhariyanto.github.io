@@ -1,0 +1,24 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "data": {
+       "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/cc3_data_net_Investment.csv"},
+    
+    "title": {
+      "text": "Net investment in nonfinancial assets (% of GDP)",
+      "subtitle":["Source: World Bank", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "width":300,
+    "height":300,
+
+    "mark":{"type": "line","color":"red"},
+ 
+    "encoding": {
+      "x": {"field": "Year","type": "temporal", "title":null},
+      "y": {"field": "Investment","type": "quantitative", "title":"Net investment in nonfinancial assets (% of GDP)"}
+    }
+}

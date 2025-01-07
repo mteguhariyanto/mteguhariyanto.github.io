@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/pjt_dataset_indofditrend.csv"
+  },
+
+  "title": {
+    "text": "FDI Inflow Trends in Indonesia",
+    "subtitle": ["FDI Inflows (in Thousands of USD) by Province", "Source: National Statistic Bureu of Indonesia", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "mark": {
+    "type": "bar",
+    "size": 17 },
+
+  "width": 600,
+  "height": 400,
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}},
+
+    "y": {
+      "field": "FDI",
+      "type": "quantitative",
+      "title": null
+    },
+
+    "color": {
+      "field": "Province",
+      "type": "nominal",
+      "legend": null,
+      "scale": {"scheme": "category20"},
+      "sort": {
+        "field": "FDI",
+        "order": "descending"
+      },
+      "title": "Province"
+    },
+
+    "tooltip": [
+      {"field": "Province", "type": "nominal", "title": "Province"},
+      {"field": "FDI", "type": "quantitative", "title": "FDI", "format": "$,.0f"},
+      {"field": "SEZNUM", "type": "quantitative", "title": "Sez number"}
+    ]
+  }
+}

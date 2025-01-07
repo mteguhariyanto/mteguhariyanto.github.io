@@ -1,0 +1,136 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A chart with multiple lines from different JSON files.",
+    "title": {
+      "text": "Comparing Trends in Labour Productivity, Minimum Wage, and CPI for Various Goods in the UK",
+      "subtitle": "",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "height": 400,
+    "width": 500,
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}
+      },
+      "color": {
+        "field": "category",
+        "type": "nominal",
+        "title": "",
+        "legend": {"orient": "right"}
+      }
+    },
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9ew.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'7. Food, alcohol, & tobacco'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9ev.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'6. Non-seasonal food'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9ex.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'8. Processed food & non-alcoholic beverages'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9f7.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'3. Housing goods'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9f8.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'5. Household goods'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9fc.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'9. Recreational goods'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_Inflation-a9fh.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'4. Primary housing services'", "as": "category"}
+        ],
+        "mark": "line"
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_earningsandworkinghours.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "datum.value / 5", "as": "value"},
+          {"calculate": "'2. Average Daily Wage'", "as": "category"}
+        ],
+        "mark": {"type": "line", "strokeDash": [5, 3]}
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/data_ONS_labourproductivity.json",
+          "format": {"type": "json", "property": "years"}
+        },
+        "transform": [
+          {"filter": "year(datum.date) >= 2002 && year(datum.date) <= 2023"},
+          {"calculate": "'1. Productivity Index (2019 = 100)'", "as": "category"}
+        ],
+        "mark": {"type": "line", "strokeDash": [8, 4]}
+      }
+    ]
+  }
+  

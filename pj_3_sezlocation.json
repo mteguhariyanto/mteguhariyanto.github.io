@@ -1,0 +1,95 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 350,
+    "title": {
+      "text": "FDI Inflows Across Provinces and the Establishment of SEZs in Indonesia",
+      "subtitle": ["in thousand USD", "Source: Ministry of Investment of Indonesia", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":12
+    },
+    "params": [
+      {
+        "name": "selectedYear",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2010,
+          "max": 2022,
+          "step": 1,
+          "name": "Year"
+        }
+      }
+    ],
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/FDI%20per%20Province%20in%20Indonesia%202010-2023.csv",
+          "format": { "type": "csv" }
+        },
+        "transform": [
+          {
+            "filter": "datum.Year == selectedYear"
+          },
+          {
+            "lookup": "Province",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/indotopo.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "provinces"
+                }
+              },
+              "key": "properties.provinsi",
+              "fields": ["type", "geometry"]
+            }
+          },
+          {
+            "calculate": "datum.FDI + '$'",
+            "as": "FDI_thousand_USD"
+          }
+        ],
+        "projection": { "type": "mercator" },
+        "mark": { "type": "geoshape" },
+        "encoding": {
+          "color": {
+            "field": "FDI",
+            "type": "quantitative",
+            "scale": { "scheme": "lightmulti", "domain": [0, 5000000] },
+            "legend": { "title": "FDI Inflow" }
+          },
+          "tooltip": [
+            { "field": "Province", "title": "Province" },
+            { "field": "FDI_thousand_USD", "title": "FDI Inflow" },
+            { "field": "Year", "title": "Year" }
+          ]
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/SEZ%20in%20Indo.csv",
+          "format": { "type": "csv" }
+        },
+        "transform": [
+          {
+            "filter": "datum.Year <= selectedYear"
+          }
+        ],
+        "mark": {
+          "type": "circle",
+          "color": "royalblue",
+          "size": 100
+        },
+        "encoding": {
+          "longitude": { "field": "longitude", "type": "quantitative" },
+          "latitude": { "field": "latitude", "type": "quantitative" },
+          "tooltip": [
+            { "field": "SEZ", "title": "SEZ Name" },
+            { "field": "Year", "title": "Year Established" }
+          ]
+        }
+      }
+    ]
+  }
+  

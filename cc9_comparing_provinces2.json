@@ -1,0 +1,63 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/cc9_FDI_province.csv"
+    },
+      
+    "transform": [
+      {"fold": ["Nusa_Tenggara_Barat", "Maluku_Utara"], "as": ["Province", "FDI"]}
+    ],
+            
+    "height": 100,
+    "width": 100,   
+      
+    "facet": {
+      "field": "Province",
+      "columns": 2,
+      "title": null
+    },
+    
+    "spec": {
+      "layer": [
+        {
+          "mark": {   
+            "type": "line",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "title": null,
+              "axis": {"grid": false, 
+              "format": "d"
+            }
+            },
+            "y": {
+              "field": "FDI",
+              "type": "quantitative",
+              "title": null
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "rule",
+            "strokeDash": [4, 2],
+            "color": "red",
+            "size": 1
+          },
+          "encoding": {
+            "x": {
+              "datum": 2014,
+              "type": "quantitative"
+              
+            }
+          }
+        }
+      ]
+    },
+    "resolve": {"scale": {"y": "independent"}}
+  }
+  

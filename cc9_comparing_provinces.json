@@ -1,0 +1,72 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+           
+    "title": {
+      "text": "Comparing FDI Inflow in Several Provinces - Indonesia",
+      "subtitle": ["FDI in thousand USD; The dashed vertical line represents the year the SEZ was established", "Source: Ministry of Investment of Indonesia", ""],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+          
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/cc9_FDI_province.csv"
+    },
+      
+    "transform": [
+      {"fold": ["North_Sulawesi", "Center_Sulawesi", "West_Nusa_Tenggara", "North_Maluku"], "as": ["Province", "FDI"]}
+    ],
+            
+    "height": 100,
+    "width": 100,   
+      
+    "facet": {
+      "field": "Province",
+      "columns": 1,
+      "title": null
+    },
+    
+    "spec": {
+      "layer": [
+        {
+          "mark": {   
+            "type": "line",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "title": null,
+              "axis": {"grid": false, 
+              "format": "d"
+            }
+            },
+            "y": {
+              "field": "FDI",
+              "type": "quantitative",
+              "title": null
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "rule",
+            "strokeDash": [4, 2],
+            "color": "red",
+            "size": 1
+          },
+          "encoding": {
+            "x": {
+              "datum": 2014,
+              "type": "quantitative"
+              
+            }
+          }
+        }
+      ]
+    },
+    "resolve": {"scale": {"y": "independent"}}
+  }
+  

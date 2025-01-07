@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Base Map of Indonesia",
+      "subtitle": ["and Its Provinces"],
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "subtitleFontWeight": "lighter",
+      "anchor": "middle"
+    },
+    "width": 600,
+    "height": 330,
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/indotopo.json",
+      "format": {
+        "type": "topojson",
+        "feature": "provinces"
+      }
+    },
+    "transform": [
+      {
+        "lookup": "properties.provinsi", 
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/indoprovdata.json",
+            "format": {"type": "json"}
+          },
+          "key": "provinsi",
+          "fields": ["provinsi"]
+        }
+      }
+    ],
+    "projection": {
+      "type": "naturalEarth1"
+    },
+    "mark": {
+      "type": "geoshape",
+      "stroke": "darkgrey",
+      "strokeWidth": 0.3,
+      "fill": "blue"
+    },
+    "encoding": {
+      "tooltip": [
+        {"field": "provinsi", "type": "ordinal", "title": "Province"}
+      ]
+    }
+  }  

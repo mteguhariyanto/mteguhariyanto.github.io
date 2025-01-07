@@ -1,0 +1,68 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": ["How 2021 FDI Inflow Correlates with 2022 FDI Inflow", "Across Indonesia's Provinces"],
+    "subtitle":["Source: National Statistic Bureau of Indonesia", ""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/pjt_dataset_regression.csv"},
+
+   
+  "height": 300,
+  "width": 300,
+
+"layer":[{
+
+  "mark": {
+    "type":"circle",
+    "color":"rgb(0,47,167)",
+    "size":100},
+
+  "selection": {
+  "grid": {"type": "interval", "bind": "scales"}
+},
+
+  "encoding": {
+    "x": {
+      "field": "FDI-1", 
+      "type": "quantitative",
+      "title":null
+      },
+
+    "y": {
+      "field": "FDI", 
+      "type": "quantitative",
+      "title":null
+      },
+
+      "color": {
+        "field": "SEZNUM", 
+        "type": "nominal",
+        "scale": {"scheme": "reds"},
+        "title": "SEZ Number"
+      },
+
+      "tooltip": [
+        {"field": "Province", "type": "nominal", "title": "Province"},
+        {"field": "FDI", "type": "quantitative", "title": "FDI in thousand USD", "format": ",.0f"},
+        {"field": "SEZNUM", "type": "quantitative", "title": "SEZ Num."}
+      ]
+  }},
+
+    {
+      "mark": {"type": "line", "color": "red"},
+
+      "transform": [{"regression": "FDI", "on": "FDI-1",  "extent": [0, 5500000]}],
+         
+      "encoding": {
+        "x": {"field": "FDI-1", "type": "quantitative"},
+        "y": {"field": "FDI", "type": "quantitative"}
+      }
+    }
+]
+
+}

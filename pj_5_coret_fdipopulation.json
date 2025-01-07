@@ -1,0 +1,107 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": "Population and FDI Inflow Across Provinces - Indonesia",
+      "subtitle":["Population in thousand (x), FDI Inflow in thousand USD (y)","The size of the points is based on the number of SEZs within each province", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+"selection": {
+    
+    "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
+    
+    "division": {"type": "multi", "fields": ["division_sh"], "bind": "legend"}
+  },
+
+  "config": {
+    "background":"white",
+    "view": {
+      "stroke": "transparent"}},
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/wk9_dataset.csv",
+      "format":{"type":"csv"}},
+  
+    "mark": {
+      "type":"circle",
+      "color": "rgb(0,67,167)",
+      "opacity":0.7},
+    
+    "height": 300,
+    "width": 300,
+  
+ "transform": [
+      {
+        "filter": "datum.Year == yearSelector"
+      },
+        {
+        "filter": "datum.FDI <= xSlider"
+      }
+    ],
+
+ "params": [
+  {
+  "name": "yearSelector",
+  "value": 2016,
+  "bind": {
+  "input": "range",
+  "min": 2016,
+  "max": 2022,
+  "step": 1,
+  "name": "Select year:"
+  }
+  },
+  {
+        "name": "xSlider",
+        "value": 8000000,
+        "bind": {
+          "input": "range",
+          "min": 50000,
+          "max": 8000000,
+          "step": 200000,
+          "name": "Adjust FDI:"
+        }
+      }],
+
+    "encoding": {
+      "x": {
+        "field": "Population", 
+        "type": "quantitative",
+        "axis":{"grid": false},
+        "title":null},
+  
+      "y": {
+        "field": "FDI", 
+        "type": "quantitative",
+        "axis":{"grid": false},
+        "title":null},
+
+      "color": {
+        "field": "Province", 
+        "type": "ordinal",
+        "scale": {"scheme": "rainbow"},
+        "legend": null,
+        "title": null
+      },
+
+      "size": {
+        "condition": {"param": "paintbrush", "value": 1500},
+        "field": "SEZNUM", 
+        "type": "quantitative",
+        "title": "SEZ num.",
+        "scale": {"range": [300, 1200]},
+        "legend": {
+          "values": [0, 1, 2], 
+          "title": "SEZ Num."
+        }
+      },
+      "tooltip": [
+        {"field": "Province", "type": "nominal", "title": "Province"},
+        {"field": "FDI", "type": "quantitative", "title": "FDI in thousand USD", "format": ",.0f"},
+        {"field": "SEZNUM", "type": "quantitative", "title": "SEZ Num."}
+      ]
+     }
+  }

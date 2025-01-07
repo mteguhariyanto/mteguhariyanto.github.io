@@ -1,0 +1,164 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "A Comparison of FDI in the Five Largest ASEAN Economies",
+        "subtitle": [
+            "Net FDI Inflow as % of GDP. Rebased, 1975=100.",
+            "Source: World Bank",
+            ""
+        ],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/pjt_asean_fdigdp.csv"
+    },
+    "transform": [
+        {"calculate": "datum.Indonesia/4.24128851064663*100", "as": "Indonesia_Index"},
+        {"calculate": "datum.Thailand/0.575337963209701*100", "as": "Thailand_Index"},
+        {"calculate": "datum.Malaysia/3.76920863765598*100", "as": "Malaysia_Index"},
+        {"calculate": "datum.Singapore/5.17997765554911*100", "as": "Singapore_Index"},
+        {"calculate": "datum.Philippines/0.675545920428909*100", "as": "Philippines_Index"},
+        {"calculate": "year(datum.Year)", "as": "year"},
+        {"filter": "datum.year>=minYear"},
+        {"filter": "datum.year<=maxYear"}
+        ],
+
+ "params": [    
+      {"name":"minYear", "value":1975,
+        "bind":{
+           "input": "range",
+          "min": 1975,
+          "max": 2023, 
+          "step": 1,
+          "name": "Start year:"}},
+
+    {"name":"maxYear", "value":2023,
+       "bind":{
+         "input": "range",
+         "min": 1975, 
+         "max": 2023, 
+         "step": 1,
+         "name": "End year:"}
+    }
+  ],
+
+    "repeat": {
+        "layer": [
+            "Indonesia_Index",
+            "Thailand_Index",
+            "Malaysia_Index",
+            "Singapore_Index",
+            "Philippines_Index"
+        ]
+    },
+    "height": 300,
+    "width": 600,
+    "spec": {
+        "layer": [
+            {
+                "mark": {
+                    "type": "line",
+                    "strokeWidth": 1.5
+                },
+                "encoding": {
+                    "x": {
+                        "field": "Year",
+                        "type": "temporal",
+                        "title": null,
+                        "axis": {
+                            "grid": false
+                        }
+                    },
+                    "y": {
+                        "field": {"repeat": "layer"},
+                        "type": "quantitative",
+                        "title": null
+                    },
+                    "color": {
+                        "datum": {"repeat": "layer"},
+                        "scale": {
+                            "range": ["red", "orange", "green", "blue", "purple"]
+                        },
+                        "legend": {
+                            "orient": "top-left",
+                            "fillColor": "white"
+                        }
+                    }
+                }
+            },
+            {
+                "mark": {
+                    "type": "point",
+                    "filled": true,
+                    "size": 40
+                },
+                "encoding": {
+                    "x": {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    "y": {
+                        "field": {"repeat": "layer"},
+                        "type": "quantitative"
+                    },
+                    "color": {
+                        "datum": {"repeat": "layer"},
+                        "scale": {
+                            "range": ["red", "orange", "green", "blue", "purple"]
+                        },
+                        "legend": null
+                    },
+                    "tooltip": [
+                        {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
+                        {
+                            "field": {"repeat": "layer"},
+                            "type": "quantitative",
+                            "title": "FDI Index",
+                            "format": ".2f"
+                        },
+                        {
+                            "value": "Country: Indonesia",
+                            "condition": {
+                                "test": "datum['repeat'] === 'Indonesia_Index'",
+                                "value": "Country: Indonesia"
+                            }
+                        },
+                        {
+                            "value": "Country: Thailand",
+                            "condition": {
+                                "test": "datum['repeat'] === 'Thailand_Index'",
+                                "value": "Country: Thailand"
+                            }
+                        },
+                        {
+                            "value": "Country: Malaysia",
+                            "condition": {
+                                "test": "datum['repeat'] === 'Malaysia_Index'",
+                                "value": "Country: Malaysia"
+                            }
+                        },
+                        {
+                            "value": "Country: Singapore",
+                            "condition": {
+                                "test": "datum['repeat'] === 'Singapore_Index'",
+                                "value": "Country: Singapore"
+                            }
+                        },
+                        {
+                            "value": "Country: Philippines",
+                            "condition": {
+                                "test": "datum['repeat'] === 'Philippines_Index'",
+                                "value": "Country: Philippines"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

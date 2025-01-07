@@ -26,7 +26,36 @@
             font-size: 36px;
             text-align: center;
             color: #333;
-            margin-bottom: 50px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-top: 0px; 
+            text-align: center;
+        }
+
+        p a {
+            text-decoration: none;
+            color: white;
+            background-color: #0073b1; /* LinkedIn blue */
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        p a:hover {
+            background-color: #005582; /* Darker LinkedIn blue */
+            transform: scale(1.05);
+        }
+
+        p a:nth-child(2) {
+            background-color: #333; /* GitHub dark gray */
+        }
+
+        p a:nth-child(2):hover {
+            background-color: #555; /* Lighter GitHub gray */
         }
 
         .container {
@@ -58,6 +87,11 @@
     <img src="lse_logo.png" alt="LSE Logo">
 
     <h1>Mochammad Teguh Ariyanto</h1>
+
+    <p>
+        <a href="https://www.linkedin.com/in/mochammad-teguh-ariyanto-a4863011b/">LinkedIn</a> 
+        <a href="https://github.com/mteguhariyanto/mteguhariyanto.github.io">GitHub</a>
+    </p>
 
     <div class="container">
         <a href="portfolios.html" class="toggle">Portfolios</a>

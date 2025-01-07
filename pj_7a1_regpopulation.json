@@ -1,0 +1,68 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "SEZ Number and Population Across Indonesia's Provinces in 2022",
+    "subtitle":"Source: National Statistic Bureau of Indonesia",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/pjt_dataset_regression.csv"},
+
+   
+  "height": 300,
+  "width": 300,
+
+"layer":[{
+
+  "mark": {
+    "type":"circle",
+    "color":"rgb(0,47,167)",
+    "size":100},
+
+  "selection": {
+  "grid": {"type": "interval", "bind": "scales"}
+},
+
+  "encoding": {
+    "x": {
+      "field": "Population", 
+      "type": "quantitative",
+      "title":"Population (in thousands)"
+      },
+
+    "y": {
+      "field": "SEZNUM", 
+      "type": "quantitative",
+      "title":"Number of SEZ established"
+      },
+
+      "color": {
+        "field": "SEZNUM", 
+        "type": "nominal",
+        "scale": {"scheme": "reds"},
+        "title": "SEZ Number"
+      },
+
+      "tooltip": [
+        {"field": "Province", "type": "nominal", "title": "Province"},
+        {"field": "FDI", "type": "quantitative", "title": "FDI in thousand USD", "format": ",.0f"},
+        {"field": "SEZNUM", "type": "quantitative", "title": "SEZ Num."}
+      ]
+  }},
+
+    {
+      "mark": {"type": "line", "color": "red"},
+
+      "transform": [{"regression": "SEZNUM", "on": "Population",  "extent": [0, 50000]}],
+         
+      "encoding": {
+        "x": {"field": "Population", "type": "quantitative"},
+        "y": {"field": "SEZNUM", "type": "quantitative"}
+      }
+    }
+]
+
+}

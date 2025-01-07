@@ -1,0 +1,72 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/pjt_dataset_sector.csv"
+    },
+  
+    "mark": "bar",
+  
+    "width": 600,
+    "height": 300,
+  
+    "title": {
+    "text": "FDI Inflow by SEZs' Sector",
+    "subtitle": "Source: SEZ Indonesia",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  
+    "transform": 
+        [{
+          "filter": "datum.Year == yearSelector"
+        }],
+  
+   "params": [
+    {
+    "name": "yearSelector",
+    "value": 2010,
+    "bind": {
+    "input": "range",
+    "min": 2010,
+    "max": 2022,
+    "step": 1,
+    "name": "Select year:"
+    }
+    }],
+  
+    "encoding": {
+      "y": {
+        "field": "SEZ_Sector",
+        "sort": "-x",
+        "type": "ordinal",
+        "title": null,
+        "axis": {
+        "labelAngle": 90
+          }
+        },
+        
+      "x": {
+        "field": "FDI",
+        "title": "FDI Inflow in thousans USD",
+        "type": "quantitative"
+        
+      },
+      "color": {
+        "field": "Province",
+        "type": "ordinal",
+        "sort": "-x",
+        "legend": null,
+        "scale": {
+          "scheme": "reds"
+        },
+        "title": "Province"
+      },
+      "tooltip": [
+          {"field": "Province", "type": "nominal", "title": "Province"},
+          {"field": "FDI", "type": "quantitative", "title": "FDI in thousand USD", "format": ",.0f"},
+          {"field": "SEZNUM", "type": "quantitative", "title": "SEZ Num."}
+        ]
+    }
+  }
