@@ -136,37 +136,58 @@
 <body>
     <header>
         <h1>Unveiling the Impact of Special Economic Zones on Foreign Direct Investment in Indonesia</h1>
-        <p>Data Visuals by Mochammad Teguh Ariyanto</p>
+        <p>PP434 Project by Teguh Ariyanto</p>
     </header>
 
     <div class="toggle-box">
         <div class="toggle-box-header">Overview and Key Insights</div>
         <div class="toggle-box-content">
             <h4>Aims</h4>
-            <p>The project aims to explore the relationship between the establishment of Special Economic Zones (SEZs) and their impact on attracting Foreign Direct Investment (FDI) in Indonesia. It examines various factors, including the sectors targeted by SEZs, the number of SEZs established, their geographic locations, and potential confounding indicators such as GRP growth, population, road density, and regional minimum wage, to provide a comprehensive analysis of their influence on FDI inflows.</p>
+<p>
+    This project aims to explore the relationship between the establishment of Special Economic Zones (SEZs) and their impact on attracting Foreign Direct Investment (FDI) in Indonesia, with a specific focus on the provincial level. It examines various factors, including the sectors targeted by SEZs, the number of SEZs established, their geographic locations, and potential influencing indicators such as GRP growth, population, road density, and regional minimum wage. The goal is to provide a comprehensive analysis of these factors' influence on FDI inflows. By focusing on provincial-level data, the study seeks to uncover regional disparities and the localized impact of SEZs, offering a more nuanced understanding of their effectiveness.
+</p>
+<p>
+    A key research question driving this project is: <em>To what extent do the establishment, sectoral focus, and geographic distribution of SEZs, along with regional economic and infrastructure indicators, influence FDI inflows at the provincial level in Indonesia?</em> This inquiry aims to provide actionable insights into how SEZ policies can be tailored to address specific regional needs and attract sustainable, equitable investment across provinces.
+</p>
 
-            <h4>Data</h4>
-            <ul>
-                <li>FDI data in the ASEAN region gathered from the World Bank API and processed using phyton.</li>
-                <li>Provincial data on FDI inflow from the Ministry of Investment of Indonesia and National Statistics Bureau of Indonesia.</li>
-                <li>Data on SEZ locations from SEZ Indonesia.</li>
-                <li>Economic and infrastructure indicators from the National Statistics Bureau of Indonesia.</li>
-            </ul>
+<h4>Data</h4>
+<ul>
+    <li>FDI data for the ASEAN region, gathered from the World Bank API and processed using Python.</li>
+    <li>Provincial FDI inflow data from the Ministry of Investment of Indonesia and the National Statistics Bureau of Indonesia in CSV format.</li>
+    <li>Special Economic Zone (SEZ) location data from SEZ Indonesia in CSV format.</li>
+    <li>Economic and infrastructure indicators from the National Statistics Bureau of Indonesia in CSV format.</li>
+</ul>
 
-            <h4>Challenges</h4>
-            <ul>
-                <p>Data Cleaning:</p>
-                <li>Processing Data using Phyton: I used the World Bank API to collect ASEAN FDI data and processed it using Python (link provided in Section 1). The data format was different from what I needed. To address this, I used Pandas to clean and transform the data according to my requirements.</li>
-                <p>Data Analysis:</p>
-                <li>Rebasing Data in Section 1: I analyzed FDI as a percentage of GDP for five major ASEAN economies using data from the World Bank API. Since Singapore's figures were significantly higher than others, the chart was difficult to interpret, as Indonesia and other countries appeared cramped in one area. To resolve this, I rebased the chart by creating an index with 1975=100, making the comparison easier to observe.</li>
-                <li>Separating Observed Units in Sections 6 and 7: Comparing more than 30 provinces in Indonesia posed a challenge, as overlapping data points (circle plots) made it hard to distinguish observations. To address this, I incorporated a slider in Section 6 and zoom-in/zoom-out tools in Section 7 to allow users to examine the data more effectively.</li>
-                <li>Multiple Charts in Section 7: The indicators I used varied greatly in scale, which caused issues when using a dropdown selector for regression analysis. The regression lines didn’t display properly because the x-axis values required specific scaling. To resolve this, I separated the regression analysis for each indicator, ensuring clarity and precision in the results.</li>
-                <li>Interactive yearly observation in Section 1, 3, 5, and 6: Additionally, I added a year slider control to enhance interactivity.</li>
-            </ul>
+<h4>Challenges</h4>
+<ul>
+    <p><strong>Data Cleaning:</strong></p>
+    <li>
+        <strong>Processing Data using Python:</strong> The World Bank API provided ASEAN FDI data, which I processed using Python. The data format differed from my requirements, so I used Pandas for data cleaning and transformation.
+    </li>
 
-            <h4>Conclusions</h4>
-            <p>In conclusion, Indonesia's performance in attracting Foreign Direct Investment (FDI) relative to its ASEAN peers remains a challenge, with net FDI inflows consistently ranking among the lowest as a percentage of GDP. While the establishment of Special Economic Zones (SEZs) was intended to boost FDI inflows at the provincial level, the results have been mixed. Some regions, such as Sulawesi Tengah, experienced significant growth after SEZ implementation, while others, like Sulawesi Utara and Kepulauan Riau, showed modest or inconsistent results. The sectoral focus of SEZs also plays a critical role, with manufacturing-focused SEZs demonstrating stronger FDI inflows compared to those in the tourism sector. This variability suggests that the effectiveness of SEZs depends on local economic conditions, sectoral priorities, and implementation strategies.</p>
-            <p>Additionally, other indicators such as GRP growth, population, and infrastructure (measured by road density) show a positive correlation with FDI inflows, highlighting their importance in influencing investment decisions. These factors, which also correlate with SEZ establishment, may act as confounders, complicating the analysis of SEZ effectiveness. While the regression analysis provides insights into these relationships, more sophisticated methods, such as Difference-in-Differences (DiD), are needed to isolate the specific impact of SEZs on FDI inflows. Overall, the findings underscore the need for a nuanced approach to SEZ implementation, considering regional and sectoral dynamics to maximize their impact on attracting FDI.</p>
+    <p><strong>Data Analysis:</strong></p>
+    <li>
+        <strong>Rebasing Data in Section 1:</strong> Analyzing FDI as a percentage of GDP for five major ASEAN economies was challenging due to Singapore's disproportionately high figures. To address this, I rebased the data, creating an index with 1975=100, which improved the clarity of comparisons.
+    </li>
+    <li>
+        <strong>Separating Observed Units in Sections 6 and 7:</strong> Overlapping data points (circle plots) made comparing more than 30 Indonesian provinces difficult. I resolved this by incorporating a slider in Section 6 and adding zoom-in/zoom-out tools in Section 7 for better data visualization.
+    </li>
+    <li>
+        <strong>Multiple Charts in Section 7:</strong> Indicators varied greatly in scale, causing issues with dropdown selectors for regression analysis. To ensure accurate representation, I separated the regression analysis for each indicator. Hopefully, this can be considered a single chart since all components explain the same context.
+    </li>
+    <li>
+        <strong>Interactive Yearly Observation in Sections 1, 3, 5, and 6:</strong> A year slider control was added to enhance interactivity and allow users to focus on specific periods.
+    </li>
+</ul>
+
+<h4>Conclusions</h4>
+<p>
+    Indonesia continues to face challenges in attracting Foreign Direct Investment (FDI) compared to its ASEAN peers, with net FDI inflows consistently ranking among the lowest as a percentage of GDP. The establishment of Special Economic Zones (SEZs), aimed at enhancing FDI at the provincial level, has yielded mixed results. For instance, regions like Sulawesi Tengah experienced significant growth in FDI following SEZ implementation, while others, such as Sulawesi Utara and Kepulauan Riau, demonstrated modest or inconsistent outcomes. The sectoral focus of SEZs plays a pivotal role, with manufacturing-focused SEZs attracting stronger FDI inflows compared to those in the tourism sector. These findings suggest that the success of SEZs is influenced by local economic conditions, sectoral priorities, and implementation strategies.
+</p>
+<p>
+    Indicators such as GRP growth, population, and infrastructure (measured by road density) also show a positive correlation with FDI inflows, underscoring their importance in shaping investment decisions. These factors, which may correlate with SEZ establishment, could act as confounders, complicating the analysis of SEZ effectiveness. While regression analysis sheds light on these relationships, advanced methodologies like Difference-in-Differences (DiD) are necessary to isolate the specific impact of SEZs on FDI inflows. Overall, the findings emphasize the need for a tailored approach to SEZ implementation, accounting for regional and sectoral dynamics to maximize their effectiveness in attracting FDI.
+</p>
+
         </div>
     </div>
     <!-- Section 1 -->
@@ -370,7 +391,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 Mochammad Teguh Ariyanto</p>
+        <p>&copy; 2025 Teguh Ariyanto</p>
     </footer>
 </body>
 </html>
