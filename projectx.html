@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #D50032;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 210mm; /* A4 width */
+            height: auto;
+            flex: 0 0 auto;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 0;
+            padding: 15px;
+            font-size: 1.2rem;
+            background-color: #D50032;
+            color: white;
+            text-align: center;
+        }
+
+        .card p {
+            padding: 15px;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .toggle-box {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .toggle-box-header {
+            padding: 15px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            background-color: #D50032; /* LSE Red */
+            color: white;
+            cursor: pointer;
+        }
+
+        .toggle-box-content {
+            padding: 15px;
+            display: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #D50032; /* LSE Red */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleHeaders = document.querySelectorAll(".toggle-box-header");
+
+            toggleHeaders.forEach(toggleHeader => {
+                const toggleContent = toggleHeader.nextElementSibling;
+                toggleHeader.addEventListener("click", function() {
+                    if (toggleContent.style.display === "none" || toggleContent.style.display === "") {
+                        toggleContent.style.display = "block";
+                    } else {
+                        toggleContent.style.display = "none";
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <h1>Unveiling the Impact of Special Economic Zones on Foreign Direct Investment in Indonesia</h1>
+        <p>PP434 Project by Teguh Ariyanto</p>
+    </header>
+
+    <div class="toggle-box">
+        <div class="toggle-box-header">Overview and Key Insights</div>
+        <div class="toggle-box-content">
+            <h4>Aims</h4>
+<p>
+    This project aims to explore the relationship between the establishment of Special Economic Zones (SEZs) and their impact on attracting Foreign Direct Investment (FDI) in Indonesia, with a specific focus on the provincial level. It examines various factors, including the sectors targeted by SEZs, the number of SEZs established, their geographic locations, and potential influencing indicators such as GRP growth, population, road density, and regional minimum wage. The goal is to provide a comprehensive analysis of these factors' influence on FDI inflows. By focusing on provincial-level data, the study seeks to uncover regional disparities and the localized impact of SEZs, offering a more nuanced understanding of their effectiveness.
+</p>
+<p>
+    A key research question driving this project is: <em>To what extent do the establishment, sectoral focus, and geographic distribution of SEZs, along with regional economic and infrastructure indicators, influence FDI inflows at the provincial level in Indonesia?</em> This inquiry aims to provide actionable insights into how SEZ policies can be tailored to address specific regional needs and attract sustainable, equitable investment across provinces.
+</p>
+
+<h4>Data</h4>
+<ul>
+    <li>FDI data for the ASEAN region, gathered from the World Bank API and processed using Python.</li>
+    <li>Provincial FDI inflow data from the Ministry of Investment of Indonesia in CSV format and transformed to long format using Phyton.</li>
+    <li>Special Economic Zone (SEZ) location data from SEZ Indonesia in CSV format.</li>
+    <li>Economic and infrastructure indicators from the National Statistics Bureau of Indonesia in CSV format.</li>
+</ul>
+
+<h4>Challenges</h4>
+<ul>
+    <p><strong>Data Cleaning:</strong></p>
+    <li>
+        <strong>Processing Data using Python:</strong> The World Bank API provided ASEAN FDI data, which I processed using Python. The data format differed from my requirements, so I used Pandas for data cleaning and transformation.
+    </li>
+
+    <p><strong>Data Analysis:</strong></p>
+    <li>
+        <strong>Rebasing Data in Section 1:</strong> Analyzing FDI as a percentage of GDP for five major ASEAN economies was challenging due to Singapore's disproportionately high figures. To address this, I rebased the data, creating an index with 1975=100, which improved the clarity of comparisons.
+    </li>
+    <li>
+        <strong>Separating Observed Units in Sections 6 and 7:</strong> Overlapping data points (circle plots) made comparing more than 30 Indonesian provinces difficult. I resolved this by incorporating a slider in Section 6 and adding zoom-in/zoom-out tools in Section 7 for better data visualization.
+    </li>
+    <li>
+        <strong>Multiple Charts in Section 7:</strong> Indicators varied greatly in scale, causing issues with dropdown selectors for regression analysis. To ensure accurate representation, I separated the regression analysis for each indicator. Hopefully, this can be considered a single chart since all components explain the same context.
+    </li>
+    <li>
+        <strong>Interactive Yearly Observation in Sections 1, 3, 5, and 6:</strong> A year slider control was added to enhance interactivity and allow users to focus on specific periods.
+    </li>
+</ul>
+
+<h4>Conclusions</h4>
+<p>
+    Indonesia continues to face challenges in attracting Foreign Direct Investment (FDI) compared to its ASEAN peers, with net FDI inflows consistently ranking among the lowest as a percentage of GDP. The establishment of Special Economic Zones (SEZs), aimed at enhancing FDI at the provincial level, has yielded mixed results. For instance, regions like Sulawesi Tengah experienced significant growth in FDI following SEZ implementation, while others, such as Sulawesi Utara and Kepulauan Riau, demonstrated modest or inconsistent outcomes. The sectoral focus of SEZs plays a pivotal role, with manufacturing-focused SEZs attracting stronger FDI inflows compared to those in the tourism sector. These findings suggest that the success of SEZs is influenced by local economic conditions, sectoral priorities, and implementation strategies.
+</p>
+<p>
+    Indicators such as GRP growth, population, and infrastructure (measured by road density) also show a positive correlation with FDI inflows, underscoring their importance in shaping investment decisions. These factors, which may correlate with SEZ establishment, could act as confounders, complicating the analysis of SEZ effectiveness. While regression analysis sheds light on these relationships, advanced methodologies like Difference-in-Differences (DiD) are necessary to isolate the specific impact of SEZs on FDI inflows. Overall, the findings emphasize the need for a tailored approach to SEZ implementation, accounting for regional and sectoral dynamics to maximize their effectiveness in attracting FDI.
+</p>
+
+</div>
+    </div>
+
+<div class="toggle-box">
+     <div class="toggle-box-header">Section 1: A Comparison of FDI in the Five Largest ASEAN Economies</div>
+     <div class="toggle-box-content">
+        <div class="toggle-box">
+            <div class="toggle-box-header">Chart Explanation</div>
+            <div class="toggle-box-content">
+                <p>The chart, using data gathered from the World Bank API, compares net Foreign Direct Investment (FDI) inflows as a percentage of GDP across five major ASEAN economies—Indonesia, Thailand, Malaysia, Singapore, and the Philippines. To make Singapore’s significantly higher FDI inflows more comparable with the others, the data has been rebased with 1975 set as 100. This adjustment allows for a clearer analysis of relative trends and variations over time.</p>
+                <p>Indonesia’s net FDI inflow as a percentage of GDP is consistently lower compared to its ASEAN peers throughout the observed period. Thailand and Malaysia exhibit notable fluctuations and periods of growth, while Singapore demonstrates consistently high levels of FDI. In contrast, Indonesia’s FDI inflow as a percentage of GDP has remained relatively stagnant since the rebased period in 1975. This highlights that while Indonesia has attracted some FDI, its performance relative to its economic size has been less dynamic and shows minimal long-term improvement when compared to the other ASEAN nations.</p>
+                <p><a href="https://drive.google.com/file/d/1sZJCeQcI2fpgdmuf0LygjVF-F0IizCkm/view?usp=sharing">Link to the Google Collab notebook </a></p>
+            </div>
+        </div>
+        <figure id="chart1"></figure>
+     </div>
+</div>
+    <!-- Section 1 -->
+    <div class="container">
+        <div class="card">
+            <h3>Section 1: A Comparison of FDI in the Five Largest ASEAN Economies</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>The chart, using data gathered from the World Bank API, compares net Foreign Direct Investment (FDI) inflows as a percentage of GDP across five major ASEAN economies—Indonesia, Thailand, Malaysia, Singapore, and the Philippines. To make Singapore’s significantly higher FDI inflows more comparable with the others, the data has been rebased with 1975 set as 100. This adjustment allows for a clearer analysis of relative trends and variations over time.</p>
+                    <p>Indonesia’s net FDI inflow as a percentage of GDP is consistently lower compared to its ASEAN peers throughout the observed period. Thailand and Malaysia exhibit notable fluctuations and periods of growth, while Singapore demonstrates consistently high levels of FDI. In contrast, Indonesia’s FDI inflow as a percentage of GDP has remained relatively stagnant since the rebased period in 1975. This highlights that while Indonesia has attracted some FDI, its performance relative to its economic size has been less dynamic and shows minimal long-term improvement when compared to the other ASEAN nations.</p>
+                    <p><a href="https://drive.google.com/file/d/1sZJCeQcI2fpgdmuf0LygjVF-F0IizCkm/view?usp=sharing">Link to the Google Collab notebook </a></p>
+                </div>
+            </div>
+            <figure id="chart1"></figure>
+        </div>
+
+        <script>
+            let chart1_spec = "pj_1_fdiasean.json";
+            vegaEmbed('#chart1', chart1_spec)
+        </script>
+
+        <!-- Section 2 -->
+        <div class="card">
+            <h3>Section 2: FDI Inflows in Indonesia: Trends and the Role of SEZs (2010-2022)</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>Understanding Indonesia's FDI inflow trends is essential to evaluate how government strategies like Special Economic Zones (SEZs) influence investment. This series of data visuals focuses on assessing the impact of SEZs on FDI inflows.</p>
+                    <p>The bar chart illustrates Indonesia's FDI inflow trends from 2010 to 2022. In 2010, only DKI Jakarta recorded FDI inflows exceeding USD 5 billion, highlighting its position as the nation's economic hub. Over time, Jawa Barat saw steady growth, consistently attracting over USD 5 billion in FDI for nearly a decade. By 2022, DKI Jakarta’s FDI inflows had decreased, aligning with regions like Banten and Jawa Timur. Meanwhile, Sulawesi Tengah and Maluku Utara experienced significant surges, with Sulawesi Tengah reaching USD 7.5 billion, the highest among all regions in 2022.</p>
+                    <p>While regions with SEZs, such as Sulawesi Tengah and Jawa Barat, demonstrated notable FDI growth, the trend is not uniform. Sulawesi Utara and Kepulauan Riau, despite hosting multiple SEZs, recorded relatively modest FDI inflows. This mixed result highlights the need to explore SEZs further, focusing on their implementation and local conditions, to better understand how they contribute to attracting FDI.</p>
+                    <p><a href="https://colab.research.google.com/drive/1REHyGMBR7S8ORwPOutzOngmbw4D1TfeL?usp=sharing">Link to the Google Collab notebook </a></p>
+                </div>
+            </div>
+            <figure id="chart2"></figure>
+        </div>
+
+        <script>
+            let chart2_spec = "pj_2_fdiindo.json";
+            vegaEmbed('#chart2', chart2_spec)
+        </script>
+
+        <!-- Section 3 -->
+        <div class="card">
+            <h3>Section 3: FDI Inflows and the Distribution of SEZs in Indonesia</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>The map illustrates Foreign Direct Investment (FDI) inflows across Indonesia's provinces in 2022, with color intensity representing FDI levels and blue dots marking the locations of Special Economic Zones (SEZs). In 2022, 19 SEZs were established across the country, showcasing the government's efforts to boost regional investment through these zones.</p>
+                    <p>Notably, the majority of SEZs—7 out of 19—are concentrated on Java Island, which has historically been Indonesia's economic powerhouse. However, there is a stark contrast in SEZ distribution across other regions. For instance, only one SEZ is located in Kalimantan, despite its significant natural resource potential, and another single SEZ in Papua, the easternmost region of Indonesia.</p>
+                </div>
+            </div>
+            <figure id="chart3"></figure>
+        </div>
+
+        <script>
+            let chart3_spec = "pj_3_sezlocation.json";
+            vegaEmbed('#chart3', chart3_spec)
+        </script>
+
+        <!-- Section 4 -->
+        <div class="card">
+            <h3>Section 4: Event Studies: Analyzing the Impact of SEZ Establishments in 2014 on Provincial FDI Inflows</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>To gain a deeper understanding of how SEZ establishments correlate with FDI inflows at the provincial level, I created event study visuals for four provinces: Sulawesi Utara, Sulawesi Tengah, Maluku Utara, and Nusa Tenggara Barat. All of these SEZs were established in the same year, 2014, allowing for a focused analysis of trends before and after their introduction.</p>
+                    <p>The results reveal varied impacts of SEZs on FDI inflows. In Sulawesi Utara, FDI inflows increased significantly just a year after the SEZ was established, indicating an initial success. However, this momentum could not be sustained, as inflows dropped sharply in the following year. Meanwhile, Nusa Tenggara Barat showed an unusual pattern, with a slight increase in FDI inflows a year after the SEZ was established, followed by a significant decline. These mixed results highlight the need for further analysis to understand the full dynamics of SEZ impacts on FDI inflows.</p>
+                </div>
+            </div>
+            <figure id="chart4a"></figure>
+            <figure id="chart4b"></figure>
+        </div>
+
+        <script>
+            let chart4a_spec = "pj_4a_eventstudies.json";
+            vegaEmbed('#chart4a', chart4a_spec)
+        </script>
+
+        <script>
+            let chart4b_spec = "pj_4b_eventstudies.json";
+             vegaEmbed('#chart4b', chart4b_spec)
+        </script>
+
+        <!-- Section 5 -->
+        <div class="card">
+            <h3>Section 5: Analysing the Impact of SEZ Numbers on Provincial FDI Inflows</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>The bar chart highlights how the sectoral focus of Special Economic Zones (SEZs) impacts Foreign Direct Investment (FDI) inflows across provinces in Indonesia. The data categorizes SEZs into three sectors: manufacturing, tourism, and others. Over the years, provinces with SEZs focused on manufacturing experienced a gradual increase in their share of FDI inflows, surpassing the inflows of provinces without SEZs by the end of the observed period. Conversely, provinces with SEZs in the tourism sector continue to attract a smaller share of FDI inflows compared to provinces without SEZs. A key limitation of this analysis is that the data is aggregated at the provincial level, making it difficult to isolate FDI inflows for provinces hosting two or more SEZs.</p>
+                </div>
+            </div>
+            <figure id="chart5"></figure>
+        </div>
+
+        <script>
+            let chart5_spec = "pj_5_sector.json";
+            vegaEmbed('#chart5', chart5_spec)
+        </script>
+
+        <!-- Section 6 -->
+        <div class="card">
+            <h3>Section 6: Analysing the Impact of SEZ Numbers on Provincial FDI Inflows</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Chart Explanation</div>
+                <div class="toggle-box-content">
+                    <p>The scatter plot focuses on the relationship between the number of Special Economic Zones (SEZs) established in Indonesian provinces and their respective FDI inflows. The results suggest a mixed impact of SEZs on attracting FDI. In the last two years, most provinces with one SEZ received FDI inflows below USD 3 billion, with only a few surpassing this threshold. Among provinces with two SEZs, one barely reached USD 3 billion, while the other performed poorly, even compared to provinces without any SEZs. Notably, the only province with three SEZs showed a disappointing performance, attracting only around USD 1 billion in FDI inflows.</p>
+                    <p>The plot also incorporates population size as the size of each circle, revealing an interesting trend. Provinces with larger populations generally attracted more FDI, suggesting that other factors, such as market size or labor availability, may play a more significant role in influencing FDI inflows than the mere presence of SEZs.</p>
+                </div>
+            </div>
+            <figure id="chart6"></figure>
+        </div>
+
+        <script>
+            let chart6_spec = "pj_6_seznumber.json";
+            vegaEmbed('#chart6', chart6_spec)
+        </script>
+
+        <!-- Section 7 -->
+        <div class="card">
+            <h3>Section 7: Regression Analysis for Year 2022 Data</h3>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Charts Explanation</div>
+                <div class="toggle-box-content">
+                    <p>In this section, I explore the relationship between SEZs and other indicators—such as GRP growth, population, road density, and regional minimum wage—on FDI inflows across Indonesia's provinces. Regression analysis reveals that, except for minimum wage, all other indicators, including the number of SEZs within a province, positively correlate with FDI inflows. These findings highlight the importance of accounting for these factors when analyzing the impact of SEZs on FDI.</p>
+                    <p>To assess the potential of these indicators as confounders, I also regressed them on the number of SEZs. Except for road density, the direction of the relationships between these indicators and SEZs aligns with their relationships to FDI inflows. However, proving that an indicator is a confounder requires further analysis using tools such as regression analysis, correlation tests, or causal inference models (e.g., Two-Way Fixed Effects or Difference-in-Differences)</p>
+                </div>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Regression 1: SEZ Number on FDI Inflow</div>
+                <div class="toggle-box-content">
+                    <figure id="chart7"></figure>
+                </div>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Regression 2: Population</div>
+                <div class="toggle-box-content">
+                    <figure id="chart7a"></figure>
+                    <figure id="chart7a1"></figure>
+                </div>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Regression 3: Road Density (Infrastructure Proxy)</div>
+                <div class="toggle-box-content">
+                    <figure id="chart7b"></figure>
+                    <figure id="chart7b1"></figure>
+                </div>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Regression 4: Gross Regional Product Growth</div>
+                <div class="toggle-box-content">
+                    <figure id="chart7c"></figure>
+                    <figure id="chart7c1"></figure>
+                </div>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-box-header">Regression 5: Minimum Wage</div>
+                <div class="toggle-box-content">
+                    <figure id="chart7d"></figure>
+                    <figure id="chart7d1"></figure>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let chart7_spec = "pj_7_regseznum.json";
+            vegaEmbed('#chart7', chart7_spec)
+        </script>
+         <script>
+            let chart7a_spec = "pj_7a_regpopulation.json";
+            vegaEmbed('#chart7a', chart7a_spec)
+        </script>
+        <script>
+            let chart7a1_spec = "pj_7a1_regpopulation.json";
+            vegaEmbed('#chart7a1', chart7a1_spec)
+        </script>
+         <script>
+            let chart7b_spec = "pj_7b_regroad.json";
+            vegaEmbed('#chart7b', chart7b_spec)
+        </script>
+        <script>
+            let chart7b1_spec = "pj_7b1_regroad.json";
+            vegaEmbed('#chart7b1', chart7b1_spec)
+        </script>
+         <script>
+            let chart7c_spec = "pj_7c_reggrp.json";
+            vegaEmbed('#chart7c', chart7c_spec)
+        </script>
+        <script>
+            let chart7c1_spec = "pj_7c1_reggrp.json";
+            vegaEmbed('#chart7c1', chart7c1_spec)
+        </script>
+         <script>
+            let chart7d_spec = "pj_7d_regwage.json";
+            vegaEmbed('#chart7d', chart7d_spec)
+        </script>
+        <script>
+            let chart7d1_spec = "pj_7d1_regwage.json";
+            vegaEmbed('#chart7d1', chart7d1_spec)
+        </script>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Teguh Ariyanto</p>
+    </footer>
+</body>
+</html>
