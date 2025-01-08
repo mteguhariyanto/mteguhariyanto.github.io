@@ -1,138 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #D50032;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            gap: 20px;
-            padding: 20px;
-            overflow-x: auto;
-        }
-
-        .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            width: 210mm; /* A4 width */
-            height: auto;
-            flex: 0 0 auto;
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .card h3 {
-            margin: 0;
-            padding: 15px;
-            font-size: 1.2rem;
-            background-color: #D50032;
-            color: white;
-            text-align: center;
-        }
-
-        .card p {
-            padding: 15px;
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        .toggle-box {
-            margin: 20px auto;
-            width: 90%;
-            max-width: 800px;
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .toggle-box-header {
-            padding: 15px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            background-color: #D50032; /* LSE Red */
-            color: white;
-            cursor: pointer;
-        }
-
-        .toggle-box-content {
-            padding: 15px;
-            display: none;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer a {
-            color: #D50032; /* LSE Red */
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const toggleHeaders = document.querySelectorAll(".toggle-box-header");
-
-            toggleHeaders.forEach(toggleHeader => {
-                const toggleContent = toggleHeader.nextElementSibling;
-                toggleHeader.addEventListener("click", function() {
-                    if (toggleContent.style.display === "none" || toggleContent.style.display === "") {
-                        toggleContent.style.display = "block";
-                    } else {
-                        toggleContent.style.display = "none";
-                    }
-                });
-            });
-        });
-    </script>
+<html> 
+<head> 
+    <link rel="stylesheet" type="text/css" href="Example3.css">
+    <title>My Portfolio</title> 
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
+        
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Unveiling the Impact of Special Economic Zones on Foreign Direct Investment in Indonesia</h1>
@@ -141,7 +23,6 @@
 
     <div class="toggle-box">
         <div class="toggle-box-header">Overview and Key Insights</div>
-        <div class="toggle-box-content">
             <h4>Aims</h4>
 <p>
     This project aims to explore the relationship between the establishment of Special Economic Zones (SEZs) and their impact on attracting Foreign Direct Investment (FDI) in Indonesia, with a specific focus on the provincial level. It examines various factors, including the sectors targeted by SEZs, the number of SEZs established, their geographic locations, and potential influencing indicators such as GRP growth, population, road density, and regional minimum wage. The goal is to provide a comprehensive analysis of these factors' influence on FDI inflows. By focusing on provincial-level data, the study seeks to uncover regional disparities and the localized impact of SEZs, offering a more nuanced understanding of their effectiveness.
@@ -190,36 +71,16 @@
 
 </div>
     </div>
-
-<div class="toggle-box">
-     <div class="toggle-box-header">Section 1: A Comparison of FDI in the Five Largest ASEAN Economies</div>
-     <div class="toggle-box-content">
-        <div class="toggle-box">
-            <div class="toggle-box-header">Chart Explanation</div>
-            <div class="toggle-box-content">
-                <p>The chart, using data gathered from the World Bank API, compares net Foreign Direct Investment (FDI) inflows as a percentage of GDP across five major ASEAN economies—Indonesia, Thailand, Malaysia, Singapore, and the Philippines. To make Singapore’s significantly higher FDI inflows more comparable with the others, the data has been rebased with 1975 set as 100. This adjustment allows for a clearer analysis of relative trends and variations over time.</p>
-                <p>Indonesia’s net FDI inflow as a percentage of GDP is consistently lower compared to its ASEAN peers throughout the observed period. Thailand and Malaysia exhibit notable fluctuations and periods of growth, while Singapore demonstrates consistently high levels of FDI. In contrast, Indonesia’s FDI inflow as a percentage of GDP has remained relatively stagnant since the rebased period in 1975. This highlights that while Indonesia has attracted some FDI, its performance relative to its economic size has been less dynamic and shows minimal long-term improvement when compared to the other ASEAN nations.</p>
-                <p><a href="https://drive.google.com/file/d/1sZJCeQcI2fpgdmuf0LygjVF-F0IizCkm/view?usp=sharing">Link to the Google Collab notebook </a></p>
-            </div>
-        </div>
-        <figure id="chart1"></figure>
-     </div>
-</div>
     <!-- Section 1 -->
     <div class="container">
         <div class="card">
             <h3>Section 1: A Comparison of FDI in the Five Largest ASEAN Economies</h3>
-            <div class="toggle-box">
-                <div class="toggle-box-header">Chart Explanation</div>
-                <div class="toggle-box-content">
                     <p>The chart, using data gathered from the World Bank API, compares net Foreign Direct Investment (FDI) inflows as a percentage of GDP across five major ASEAN economies—Indonesia, Thailand, Malaysia, Singapore, and the Philippines. To make Singapore’s significantly higher FDI inflows more comparable with the others, the data has been rebased with 1975 set as 100. This adjustment allows for a clearer analysis of relative trends and variations over time.</p>
                     <p>Indonesia’s net FDI inflow as a percentage of GDP is consistently lower compared to its ASEAN peers throughout the observed period. Thailand and Malaysia exhibit notable fluctuations and periods of growth, while Singapore demonstrates consistently high levels of FDI. In contrast, Indonesia’s FDI inflow as a percentage of GDP has remained relatively stagnant since the rebased period in 1975. This highlights that while Indonesia has attracted some FDI, its performance relative to its economic size has been less dynamic and shows minimal long-term improvement when compared to the other ASEAN nations.</p>
                     <p><a href="https://drive.google.com/file/d/1sZJCeQcI2fpgdmuf0LygjVF-F0IizCkm/view?usp=sharing">Link to the Google Collab notebook </a></p>
+                    <figure id="chart1"></figure>
                 </div>
             </div>
-            <figure id="chart1"></figure>
-        </div>
-
         <script>
             let chart1_spec = "pj_1_fdiasean.json";
             vegaEmbed('#chart1', chart1_spec)
