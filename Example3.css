@@ -18,8 +18,15 @@ body { /* We can style any HTML element by using its name - here we're styling t
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3 , h5, h6, {
   color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+h4 {
+  color: #ce0404;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 600;
@@ -74,3 +81,64 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Toggle Box Styling */
+.toggle-box {
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px;
+}
+
+.toggle-box-header {
+  padding: 15px;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #be0000; /* Matches the primary red in headings */
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.toggle-box-header:hover {
+  background-color: #8b0000; /* Slightly darker shade on hover */
+}
+
+.toggle-box-content {
+  padding: 15px;
+  display: none; /* Hidden by default */
+  font-size: 1em;
+  color: #333; /* Standard text color */
+  line-height: 1.6;
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Consistent depth with toggle-box */
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Figure for Charts */
+figure {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
