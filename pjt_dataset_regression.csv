@@ -1,35 +1,171 @@
-Province,Year,FDI,SEZ,SEZNUM,SEZ_Sector,Population,FDICAPITA,FDI-1,Minimum_Wage,Democracy_Index,GRP,Road,Road_Density
-Aceh,2022,127634,1,1,Manufacturing,5408,23.60,203284,3166460,80.82,2.78,3894,0.067188902
-Bali,2022,449536,1,1,Others,4415.1,101.82,451967,2516971,83.21,4.1,1333,0.230620443
-Banten,2022,3410682,1,1,Tourism,12252,278.38,2189967,2501203.11,78.75,3.78,1330,0.137639554
-Bengkulu,2022,52152,0,0,No_SEZ,2060.1,25.32,23717,2238094.31,73.23,2.94,2345,0.117724843
-Daerah Istimewa Yogyakarta,2022,113893,0,0,No_SEZ,3761.9,30.28,21814,1840915.53,85.62,4.45,1067,0.340551841
-Daerah Khusus Ibukota Jakarta,2022,3744070,0,0,No_SEZ,10680,350.57,3330568,4641854,82.13,4.91,6485,9.76641918
-Gorontalo,2022,102898,0,0,No_SEZ,1192.7,86.27,78008,2800580,73.74,2.75,1219,0.108287503
-Jambi,2022,39203,0,0,No_SEZ,3631.1,10.80,50858,2698940.87,77.19,3.77,2352,0.046985347
-Jawa Barat,2022,6534450,1,1,Tourism,49405.8,132.26,5217691,1841487.31,83.34,4.24,4144,0.117135737
-Jawa Tengah,2022,2362039,1,1,Manufacturing,37032.4,63.78,1465939,1812935.43,84.79,4.26,4082,0.124448602
-Jawa Timur,2022,3134043,1,2,Manufacturing,41150,76.16,1849173,1891567.12,84.92,4.55,3683,0.077044584
-Kalimantan Barat,2022,745467,0,0,No_SEZ,5541.4,134.53,463414,2434328.19,81.48,3.65,3823,0.025952602
-Kalimantan Selatan,2022,208064,0,0,No_SEZ,4182.1,49.75,117243,2906473.32,80.86,3.76,1960,0.050588178
-Kalimantan Tengah,2022,548318,0,0,No_SEZ,2741.1,200.04,162488,2922516,79.3,5.01,3366,0.021919128
-Kalimantan Timur,2022,1266222,1,1,Manufacturing,3859.8,328.05,745190,3014497.22,83.58,3.04,2702,0.020934922
-Kalimantan Utara,2022,430529,0,0,No_SEZ,727.8,591.55,133460,3016738,78.79,3.84,1496,0.01982305
-Kepulauan Bangka Belitung,2022,129697,1,1,Tourism,1494.6,86.78,44725,3264884,76.65,2.99,1450,0.088285113
-Kepulauan Riau,2022,934041,1,3,Manufacturing,2179.8,428.50,1043686,3050172,78.77,3.53,1485,0.181059583
-Lampung,2022,247826,0,0,No_SEZ,9176.6,27.01,173797,2440486.18,78.32,3.04,2991,0.086385665
-Maluku,2022,73444,0,0,No_SEZ,1881.7,39.03,13319,2619312.83,75.26,3.89,2959,0.063072816
-Maluku Utara,2022,4487465,1,1,Manufacturing,1319.3,3401.40,2819935,2862231,62.93,21.18,2486,0.077730009
-Nusa Tenggara Barat,2022,704560,1,1,Tourism,5473.7,128.72,244173,2207212,73.38,5.26,2424,0.130516812
-Nusa Tenggara Timur,2022,73319,0,0,No_SEZ,5466.3,13.41,79041,1975000,77.83,1.41,4803,0.098587589
-Papua,2022,1260531,0,0,No_SEZ,4418.6,285.28,1489074,3561932,66.65,7.39,5140,0.016111032
-Papua Barat,2022,71831,1,1,Manufacturing,1183.3,60.70,32502,3200000,64.02,0.34,3645,0.035403766
-Riau,2022,2748701,0,0,No_SEZ,6614.4,415.56,1921413,2938564.01,73.64,3.13,4054,0.046585032
-Sulawesi Barat,2022,28286,0,0,No_SEZ,1458.6,19.39,5921,2678863.1,74.03,0.75,1118,0.06659844
-Sulawesi Selatan,2022,469003,0,0,No_SEZ,9225.8,50.84,309955,3165876,80.09,3.92,3748,0.08022693
-Sulawesi Tengah,2022,7485988,1,1,Manufacturing,3066.1,2441.53,2718102,2390739,80.92,13.86,4006,0.064778726
-Sulawesi Tenggara,2022,877936,0,0,No_SEZ,2701.7,324.96,1616455,2710595.92,80.35,3.79,2500,0.065672473
-Sulawesi Utara,2022,105131,1,2,Manufacturing,2659.5,39.53,169080,3310723,78.22,4.58,2691,0.193702056
-Sumatera Barat,2022,95625,0,0,No_SEZ,5640.6,16.95,66949,2512539,77.35,2.88,2948,0.070168941
-Sumatera Selatan,2022,1226254,0,0,No_SEZ,8657,141.65,1259743,3144446,80.59,4.02,3095,0.033791002
-Sumatera Utara,2022,1316127,1,1,Manufacturing,15115.2,87.07,580422,2522609.94,79.53,3.28,5626,0.077088314
+﻿Province;Year;FDI;FDICAPITA;SEZ;SEZNUM;SEZ_Sector;Population;Minimum_Wage
+Aceh;2022;127634;23,60;1;1;Manufacturing;5408;Population
+Bali;2022;449536;101,82;1;1;Others;4415,1;Population
+Banten;2022;3410682;278,38;1;1;Tourism;12252;Population
+Bengkulu;2022;52152;25,32;0;0;No_SEZ;2060,1;Population
+Daerah Istimewa Yogyakarta;2022;113893;30,28;0;0;No_SEZ;3761,9;Population
+Daerah Khusus Ibukota Jakarta;2022;3744070;350,57;0;0;No_SEZ;10680;Population
+Gorontalo;2022;102898;86,27;0;0;No_SEZ;1192,7;Population
+Jambi;2022;39203;10,80;0;0;No_SEZ;3631,1;Population
+Jawa Barat;2022;6534450;132,26;1;1;Tourism;49405,8;Population
+Jawa Tengah;2022;2362039;63,78;1;1;Manufacturing;37032,4;Population
+Jawa Timur;2022;3134043;76,16;1;2;Manufacturing;41150;Population
+Kalimantan Barat;2022;745467;134,53;0;0;No_SEZ;5541,4;Population
+Kalimantan Selatan;2022;208064;49,75;0;0;No_SEZ;4182,1;Population
+Kalimantan Tengah;2022;548318;200,04;0;0;No_SEZ;2741,1;Population
+Kalimantan Timur;2022;1266222;328,05;1;1;Manufacturing;3859,8;Population
+Kalimantan Utara;2022;430529;591,55;0;0;No_SEZ;727,8;Population
+Kepulauan Bangka Belitung;2022;129697;86,78;1;1;Tourism;1494,6;Population
+Kepulauan Riau;2022;934041;428,50;1;3;Manufacturing;2179,8;Population
+Lampung;2022;247826;27,01;0;0;No_SEZ;9176,6;Population
+Maluku;2022;73444;39,03;0;0;No_SEZ;1881,7;Population
+Maluku Utara;2022;4487465;3401,40;1;1;Manufacturing;1319,3;Population
+Nusa Tenggara Barat;2022;704560;128,72;1;1;Tourism;5473,7;Population
+Nusa Tenggara Timur;2022;73319;13,41;0;0;No_SEZ;5466,3;Population
+Papua;2022;1260531;285,28;0;0;No_SEZ;4418,6;Population
+Papua Barat;2022;71831;60,70;1;1;Manufacturing;1183,3;Population
+Riau;2022;2748701;415,56;0;0;No_SEZ;6614,4;Population
+Sulawesi Barat;2022;28286;19,39;0;0;No_SEZ;1458,6;Population
+Sulawesi Selatan;2022;469003;50,84;0;0;No_SEZ;9225,8;Population
+Sulawesi Tengah;2022;7485988;2441,53;1;1;Manufacturing;3066,1;Population
+Sulawesi Tenggara;2022;877936;324,96;0;0;No_SEZ;2701,7;Population
+Sulawesi Utara;2022;105131;39,53;1;2;Manufacturing;2659,5;Population
+Sumatera Barat;2022;95625;16,95;0;0;No_SEZ;5640,6;Population
+Sumatera Selatan;2022;1226254;141,65;0;0;No_SEZ;8657;Population
+Sumatera Utara;2022;1316127;87,07;1;1;Manufacturing;15115,2;Population
+Aceh;2022;127634;0,04;1;1;Manufacturing;3166460;Minimum_Wage
+Bali;2022;449536;0,18;1;1;Others;2516971;Minimum_Wage
+Banten;2022;3410682;1,36;1;1;Tourism;2501203,11;Minimum_Wage
+Bengkulu;2022;52152;0,02;0;0;No_SEZ;2238094,31;Minimum_Wage
+Daerah Istimewa Yogyakarta;2022;113893;0,06;0;0;No_SEZ;1840915,53;Minimum_Wage
+Daerah Khusus Ibukota Jakarta;2022;3744070;0,81;0;0;No_SEZ;4641854;Minimum_Wage
+Gorontalo;2022;102898;0,04;0;0;No_SEZ;2800580;Minimum_Wage
+Jambi;2022;39203;0,01;0;0;No_SEZ;2698940,87;Minimum_Wage
+Jawa Barat;2022;6534450;3,55;1;1;Tourism;1841487,31;Minimum_Wage
+Jawa Tengah;2022;2362039;1,30;1;1;Manufacturing;1812935,43;Minimum_Wage
+Jawa Timur;2022;3134043;1,66;1;2;Manufacturing;1891567,12;Minimum_Wage
+Kalimantan Barat;2022;745467;0,31;0;0;No_SEZ;2434328,19;Minimum_Wage
+Kalimantan Selatan;2022;208064;0,07;0;0;No_SEZ;2906473,32;Minimum_Wage
+Kalimantan Tengah;2022;548318;0,19;0;0;No_SEZ;2922516;Minimum_Wage
+Kalimantan Timur;2022;1266222;0,42;1;1;Manufacturing;3014497,22;Minimum_Wage
+Kalimantan Utara;2022;430529;0,14;0;0;No_SEZ;3016738;Minimum_Wage
+Kepulauan Bangka Belitung;2022;129697;0,04;1;1;Tourism;3264884;Minimum_Wage
+Kepulauan Riau;2022;934041;0,31;1;3;Manufacturing;3050172;Minimum_Wage
+Lampung;2022;247826;0,10;0;0;No_SEZ;2440486,18;Minimum_Wage
+Maluku;2022;73444;0,03;0;0;No_SEZ;2619312,83;Minimum_Wage
+Maluku Utara;2022;4487465;1,57;1;1;Manufacturing;2862231;Minimum_Wage
+Nusa Tenggara Barat;2022;704560;0,32;1;1;Tourism;2207212;Minimum_Wage
+Nusa Tenggara Timur;2022;73319;0,04;0;0;No_SEZ;1975000;Minimum_Wage
+Papua;2022;1260531;0,35;0;0;No_SEZ;3561932;Minimum_Wage
+Papua Barat;2022;71831;0,02;1;1;Manufacturing;3200000;Minimum_Wage
+Riau;2022;2748701;0,94;0;0;No_SEZ;2938564,01;Minimum_Wage
+Sulawesi Barat;2022;28286;0,01;0;0;No_SEZ;2678863,1;Minimum_Wage
+Sulawesi Selatan;2022;469003;0,15;0;0;No_SEZ;3165876;Minimum_Wage
+Sulawesi Tengah;2022;7485988;3,13;1;1;Manufacturing;2390739;Minimum_Wage
+Sulawesi Tenggara;2022;877936;0,32;0;0;No_SEZ;2710595,92;Minimum_Wage
+Sulawesi Utara;2022;105131;0,03;1;2;Manufacturing;3310723;Minimum_Wage
+Sumatera Barat;2022;95625;0,04;0;0;No_SEZ;2512539;Minimum_Wage
+Sumatera Selatan;2022;1226254;0,39;0;0;No_SEZ;3144446;Minimum_Wage
+Sumatera Utara;2022;1316127;0,52;1;1;Manufacturing;2522609,94;Minimum_Wage
+Aceh;2022;127634;1579,24;1;1;Manufacturing;80,82;Democracy_Index
+Bali;2022;449536;5402,43;1;1;Others;83,21;Democracy_Index
+Banten;2022;3410682;43310,25;1;1;Tourism;78,75;Democracy_Index
+Bengkulu;2022;52152;712,17;0;0;No_SEZ;73,23;Democracy_Index
+Daerah Istimewa Yogyakarta;2022;113893;1330,21;0;0;No_SEZ;85,62;Democracy_Index
+Daerah Khusus Ibukota Jakarta;2022;3744070;45587,12;0;0;No_SEZ;82,13;Democracy_Index
+Gorontalo;2022;102898;1395,42;0;0;No_SEZ;73,74;Democracy_Index
+Jambi;2022;39203;507,88;0;0;No_SEZ;77,19;Democracy_Index
+Jawa Barat;2022;6534450;78407,13;1;1;Tourism;83,34;Democracy_Index
+Jawa Tengah;2022;2362039;27857,52;1;1;Manufacturing;84,79;Democracy_Index
+Jawa Timur;2022;3134043;36905,83;1;2;Manufacturing;84,92;Democracy_Index
+Kalimantan Barat;2022;745467;9149,08;0;0;No_SEZ;81,48;Democracy_Index
+Kalimantan Selatan;2022;208064;2573,14;0;0;No_SEZ;80,86;Democracy_Index
+Kalimantan Tengah;2022;548318;6914,48;0;0;No_SEZ;79,3;Democracy_Index
+Kalimantan Timur;2022;1266222;15149,82;1;1;Manufacturing;83,58;Democracy_Index
+Kalimantan Utara;2022;430529;5464,26;0;0;No_SEZ;78,79;Democracy_Index
+Kepulauan Bangka Belitung;2022;129697;1692,07;1;1;Tourism;76,65;Democracy_Index
+Kepulauan Riau;2022;934041;11857,83;1;3;Manufacturing;78,77;Democracy_Index
+Lampung;2022;247826;3164,27;0;0;No_SEZ;78,32;Democracy_Index
+Maluku;2022;73444;975,87;0;0;No_SEZ;75,26;Democracy_Index
+Maluku Utara;2022;4487465;71308,84;1;1;Manufacturing;62,93;Democracy_Index
+Nusa Tenggara Barat;2022;704560;9601,53;1;1;Tourism;73,38;Democracy_Index
+Nusa Tenggara Timur;2022;73319;942,04;0;0;No_SEZ;77,83;Democracy_Index
+Papua;2022;1260531;18912,69;0;0;No_SEZ;66,65;Democracy_Index
+Papua Barat;2022;71831;1122,01;1;1;Manufacturing;64,02;Democracy_Index
+Riau;2022;2748701;37326,20;0;0;No_SEZ;73,64;Democracy_Index
+Sulawesi Barat;2022;28286;382,09;0;0;No_SEZ;74,03;Democracy_Index
+Sulawesi Selatan;2022;469003;5855,95;0;0;No_SEZ;80,09;Democracy_Index
+Sulawesi Tengah;2022;7485988;92510,97;1;1;Manufacturing;80,92;Democracy_Index
+Sulawesi Tenggara;2022;877936;10926,40;0;0;No_SEZ;80,35;Democracy_Index
+Sulawesi Utara;2022;105131;1344,04;1;2;Manufacturing;78,22;Democracy_Index
+Sumatera Barat;2022;95625;1236,26;0;0;No_SEZ;77,35;Democracy_Index
+Sumatera Selatan;2022;1226254;15215,96;0;0;No_SEZ;80,59;Democracy_Index
+Sumatera Utara;2022;1316127;16548,81;1;1;Manufacturing;79,53;Democracy_Index
+Aceh;2022;127634;45911,51;1;1;Manufacturing;2,78;GRP
+Bali;2022;449536;109642,93;1;1;Others;4,1;GRP
+Banten;2022;3410682;902296,83;1;1;Tourism;3,78;GRP
+Bengkulu;2022;52152;17738,78;0;0;No_SEZ;2,94;GRP
+Daerah Istimewa Yogyakarta;2022;113893;25593,93;0;0;No_SEZ;4,45;GRP
+Daerah Khusus Ibukota Jakarta;2022;3744070;762539,71;0;0;No_SEZ;4,91;GRP
+Gorontalo;2022;102898;37417,45;0;0;No_SEZ;2,75;GRP
+Jambi;2022;39203;10398,67;0;0;No_SEZ;3,77;GRP
+Jawa Barat;2022;6534450;1541143,87;1;1;Tourism;4,24;GRP
+Jawa Tengah;2022;2362039;554469,25;1;1;Manufacturing;4,26;GRP
+Jawa Timur;2022;3134043;688800,66;1;2;Manufacturing;4,55;GRP
+Kalimantan Barat;2022;745467;204237,53;0;0;No_SEZ;3,65;GRP
+Kalimantan Selatan;2022;208064;55336,17;0;0;No_SEZ;3,76;GRP
+Kalimantan Tengah;2022;548318;109444,71;0;0;No_SEZ;5,01;GRP
+Kalimantan Timur;2022;1266222;416520,39;1;1;Manufacturing;3,04;GRP
+Kalimantan Utara;2022;430529;112116,93;0;0;No_SEZ;3,84;GRP
+Kepulauan Bangka Belitung;2022;129697;43376,92;1;1;Tourism;2,99;GRP
+Kepulauan Riau;2022;934041;264600,85;1;3;Manufacturing;3,53;GRP
+Lampung;2022;247826;81521,71;0;0;No_SEZ;3,04;GRP
+Maluku;2022;73444;18880,21;0;0;No_SEZ;3,89;GRP
+Maluku Utara;2022;4487465;211872,76;1;1;Manufacturing;21,18;GRP
+Nusa Tenggara Barat;2022;704560;133946,77;1;1;Tourism;5,26;GRP
+Nusa Tenggara Timur;2022;73319;51999,29;0;0;No_SEZ;1,41;GRP
+Papua;2022;1260531;170572,53;0;0;No_SEZ;7,39;GRP
+Papua Barat;2022;71831;211267,65;1;1;Manufacturing;0,34;GRP
+Riau;2022;2748701;878179,23;0;0;No_SEZ;3,13;GRP
+Sulawesi Barat;2022;28286;37714,67;0;0;No_SEZ;0,75;GRP
+Sulawesi Selatan;2022;469003;119643,62;0;0;No_SEZ;3,92;GRP
+Sulawesi Tengah;2022;7485988;540114,57;1;1;Manufacturing;13,86;GRP
+Sulawesi Tenggara;2022;877936;231645,38;0;0;No_SEZ;3,79;GRP
+Sulawesi Utara;2022;105131;22954,37;1;2;Manufacturing;4,58;GRP
+Sumatera Barat;2022;95625;33203,13;0;0;No_SEZ;2,88;GRP
+Sumatera Selatan;2022;1226254;305038,31;0;0;No_SEZ;4,02;GRP
+Sumatera Utara;2022;1316127;401258,23;1;1;Manufacturing;3,28;GRP
+Aceh;2022;127634;1899629,20;1;1;Manufacturing;0,067188902;Road_Density
+Bali;2022;449536;1949246,10;1;1;Others;0,230620443;Road_Density
+Banten;2022;3410682;24779810,01;1;1;Tourism;0,137639554;Road_Density
+Bengkulu;2022;52152;442999,10;0;0;No_SEZ;0,117724843;Road_Density
+Daerah Istimewa Yogyakarta;2022;113893;334436,60;0;0;No_SEZ;0,340551841;Road_Density
+Daerah Khusus Ibukota Jakarta;2022;3744070;383361,59;0;0;No_SEZ;9,76641918;Road_Density
+Gorontalo;2022;102898;950229,69;0;0;No_SEZ;0,108287503;Road_Density
+Jambi;2022;39203;834366,52;0;0;No_SEZ;0,046985347;Road_Density
+Jawa Barat;2022;6534450;55785280,85;1;1;Tourism;0,117135737;Road_Density
+Jawa Tengah;2022;2362039;18980036,50;1;1;Manufacturing;0,124448602;Road_Density
+Jawa Timur;2022;3134043;40678303,89;1;2;Manufacturing;0,077044584;Road_Density
+Kalimantan Barat;2022;745467;28724171,43;0;0;No_SEZ;0,025952602;Road_Density
+Kalimantan Selatan;2022;208064;4112897,69;0;0;No_SEZ;0,050588178;Road_Density
+Kalimantan Tengah;2022;548318;25015501,93;0;0;No_SEZ;0,021919128;Road_Density
+Kalimantan Timur;2022;1266222;60483722,81;1;1;Manufacturing;0,020934922;Road_Density
+Kalimantan Utara;2022;430529;21718605,22;0;0;No_SEZ;0,01982305;Road_Density
+Kepulauan Bangka Belitung;2022;129697;1469069,87;1;1;Tourism;0,088285113;Road_Density
+Kepulauan Riau;2022;934041;5158749,33;1;3;Manufacturing;0,181059583;Road_Density
+Lampung;2022;247826;2868832,45;0;0;No_SEZ;0,086385665;Road_Density
+Maluku;2022;73444;1164431,91;0;0;No_SEZ;0,063072816;Road_Density
+Maluku Utara;2022;4487465;57731435,79;1;1;Manufacturing;0,077730009;Road_Density
+Nusa Tenggara Barat;2022;704560;5398231,76;1;1;Tourism;0,130516812;Road_Density
+Nusa Tenggara Timur;2022;73319;743694,02;0;0;No_SEZ;0,098587589;Road_Density
+Papua;2022;1260531;78240239,52;0;0;No_SEZ;0,016111032;Road_Density
+Papua Barat;2022;71831;2028908,47;1;1;Manufacturing;0,035403766;Road_Density
+Riau;2022;2748701;59003951,96;0;0;No_SEZ;0,046585032;Road_Density
+Sulawesi Barat;2022;28286;424724,66;0;0;No_SEZ;0,06659844;Road_Density
+Sulawesi Selatan;2022;469003;5845954,72;0;0;No_SEZ;0,08022693;Road_Density
+Sulawesi Tengah;2022;7485988;115562445,04;1;1;Manufacturing;0,064778726;Road_Density
+Sulawesi Tenggara;2022;877936;13368401,71;0;0;No_SEZ;0,065672473;Road_Density
+Sulawesi Utara;2022;105131;542745,92;1;2;Manufacturing;0,193702056;Road_Density
+Sumatera Barat;2022;95625;1362782,43;0;0;No_SEZ;0,070168941;Road_Density
+Sumatera Selatan;2022;1226254;36289364,67;0;0;No_SEZ;0,033791002;Road_Density
+Sumatera Utara;2022;1316127;17072976,77;1;1;Manufacturing;0,077088314;Road_Density
