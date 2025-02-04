@@ -36,9 +36,10 @@
       "type": "temporal", 
       "title": "Year",
       "axis": {
-    "labelAngle": 0,
-    "grid": false
-    }
+      "labelAngle": 0,
+      "grid": false,
+      "title": null
+      }
     },
     
     "y": {
