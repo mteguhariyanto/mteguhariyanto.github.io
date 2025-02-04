@@ -1,299 +1,299 @@
-﻿Issuer;Alpha-2 code;ISO Country code;Numeric code;World Bank Region name;Type;Issue Year;Issued Amount (USD);Coupon/Discount Rate;Latitude (average);Longitude (average)
-Seychelles;SC;SYC;690;Sub-Saharan Africa;Blue Bond;2018;15000000;6,50%;-4,5833;55,6667
-Seychelles;SC;SYC;690;Sub-Saharan Africa;Blue Bond;2018;21000000;6,50%;-4,5833;55,6667
-Belize;BZ;BLZ;84;Latin America & Caribbean;Blue Bond;2021;364000000;4,89%;17,25;-88,75
-Bahamas;BS;BHS;44;Latin America & Caribbean;Blue Bond;2022;385000000;7,19%;24,25;-76
-Barbados;BB;BRB;52;Latin America & Caribbean;Blue Bond;2022;147000000;3,80%;13,1667;-59,5333
-Ecuador;EC;ECU;218;Latin America & Caribbean;Blue Bond;2023;656000000;5,65%;-2;-77,5
-Indonesia;ID;IDN;360;East Asia & Pacific;Blue Bond;2023;150000000;1,27%;-5;120
-Gabon;GA;GAB;266;Sub-Saharan Africa;Blue Bond;2023;500000000;6,10%;-1;11,75
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;1987;1000000;.;-2;-77,5
-Bolivia;BO;BOL;68;Latin America & Caribbean;DNS;1987;700000;.;-17;-65
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1988;5400000;.;10;-84
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1988;33000000;.;10;-84
-Philippines;PH;PHL;608;East Asia & Pacific;DNS;1988;400000;.;13;122
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;1989;3600000;.;-2;-77,5
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;1989;5400000;.;-2;-77,5
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1989;5600000;.;10;-84
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1989;24500000;.;10;-84
-Madagascar;MG;MDG;450;Sub-Saharan Africa;DNS;1989;2100000;.;-20;47
-Zambia;ZM;ZMB;894;Sub-Saharan Africa;DNS;1989;2300000;.;-15;30
-Poland;CR;POL;188;Europe & Central Asia;DNS;1990;100000;.;10;-84
-Poland;PH;POL;608;Europe & Central Asia;DNS;1990;17000000;.;13;122
-Costa Rica;MG;CRI;450;Latin America & Caribbean;DNS;1990;10800000;.;-20;47
-Dominican Republic;PL;DOM;616;Latin America & Caribbean;DNS;1990;600000;.;52;20
-Madagascar;PL;MDG;616;Sub-Saharan Africa;DNS;1990;900000;.;52;20
-Philippines;DO;PHL;214;East Asia & Pacific;DNS;1990;900000;.;19;-70,6667
-Poland;BO;POL;68;Europe & Central Asia;DNS;1991;370000000;.;-17;-65
-Nigeria;CR;NGA;188;Sub-Saharan Africa;DNS;1991;100000;.;10;-84
-Brazil;MG;BRA;450;Latin America & Caribbean;DNS;1991;2200000;.;-20;47
-Chile;PL;CHL;616;Latin America & Caribbean;DNS;1991;15900000;.;52;20
-Costa Rica;NG;CRI;566;Latin America & Caribbean;DNS;1991;600000;.;10;8
-Guatemala;BR;GTM;76;Latin America & Caribbean;DNS;1991;100000;.;-10;-55
-Jamaica;CL;JAM;152;Latin America & Caribbean;DNS;1991;400000;.;-30;-71
-Jamaica;GT;JAM;320;Latin America & Caribbean;DNS;1991;216700000;.;15,5;-90,25
-Madagascar;JM;MDG;388;Sub-Saharan Africa;DNS;1991;100000;.;18,25;-77,5
-Mexico;JM;MEX;388;Latin America & Caribbean;DNS;1991;300000;.;18,25;-77,5
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1991;300000;.;23;-102
-Bolivia;MX;BOL;484;Latin America & Caribbean;DNS;1991;30700000;.;23;-102
-Paraguay;PY;PRY;600;Latin America & Caribbean;DNS;1991;9000000;.;-23;-58
-Chile;PH;CHL;608;Latin America & Caribbean;DNS;1992;14700000;.;13;122
-Egypt;PH;EGY;608;Middle East & North Africa;DNS;1992;.;.;13;122
-Colombia;CL;COL;152;Latin America & Caribbean;DNS;1992;31000000;.;-30;-71
-Ghana;GT;GHA;320;Sub-Saharan Africa;DNS;1992;1000000;.;15,5;-90,25
-Guatemala;MX;GTM;484;Latin America & Caribbean;DNS;1992;1300000;.;23;-102
-Mexico;EG;MEX;818;Latin America & Caribbean;DNS;1992;400000;.;27;30
-Philippines;CO;PHL;170;East Asia & Pacific;DNS;1992;9600000;.;4;-72
-Philippines;GH;PHL;288;East Asia & Pacific;DNS;1992;.;.;8;-2
-El Salvador;SV;SLV;222;Latin America & Caribbean;DNS;1992;268400000;.;13,8333;-88,9167
-El Salvador;SV;SLV;222;Latin America & Caribbean;DNS;1992;195500000;.;13,8333;-88,9167
-Tunisia;TN;TUN;788;Middle East & North Africa;DNS;1992;1300000;.;34;9
-Uruguay;UY;URY;858;Latin America & Caribbean;DNS;1992;400000;.;-33;-56
-Poland;BO;POL;68;Europe & Central Asia;DNS;1993;66000000;.;-17;-65
-Poland;BO;POL;68;Europe & Central Asia;DNS;1993;63000000;.;-17;-65
-Argentina;BO;ARG;68;Latin America & Caribbean;DNS;1993;3800000;.;-17;-65
-Nigeria;BO;NGA;68;Sub-Saharan Africa;DNS;1993;7300000;.;-17;-65
-Nigeria;AR;NGA;32;Sub-Saharan Africa;DNS;1993;10200000;.;-34;-64
-Nigeria;PH;NGA;608;Sub-Saharan Africa;DNS;1993;7300000;.;13;122
-Egypt;MG;EGY;450;Middle East & North Africa;DNS;1993;17300000;.;-20;47
-Egypt;MG;EGY;450;Middle East & North Africa;DNS;1993;6200000;.;-20;47
-Colombia;MG;COL;450;Latin America & Caribbean;DNS;1993;12000000;.;-20;47
-Honduras;PL;HND;616;Latin America & Caribbean;DNS;1993;24900000;.;52;20
-Honduras;PL;HND;616;Latin America & Caribbean;DNS;1993;42000000;.;52;20
-Jamaica;NG;JAM;566;Latin America & Caribbean;DNS;1993;94100000;.;10;8
-Madagascar;NG;MDG;566;Sub-Saharan Africa;DNS;1993;3200000;.;10;8
-Madagascar;NG;MDG;566;Sub-Saharan Africa;DNS;1993;3700000;.;10;8
-Madagascar;JM;MDG;388;Sub-Saharan Africa;DNS;1993;700000;.;18,25;-77,5
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1993;300000;.;23;-102
-Bolivia;EG;BOL;818;Latin America & Caribbean;DNS;1993;13000000;.;27;30
-Bolivia;EG;BOL;818;Latin America & Caribbean;DNS;1993;11500000;.;27;30
-Bolivia;CO;BOL;170;Latin America & Caribbean;DNS;1993;35400000;.;4;-72
-Bolivia;SV;BOL;222;Latin America & Caribbean;DNS;1993;35400000;.;13,8333;-88,9167
-Philippines;TN;PHL;788;East Asia & Pacific;DNS;1993;19000000;.;34;9
-Nicaragua;UY;NIC;858;Latin America & Caribbean;DNS;1993;13600000;.;-33;-56
-Peru;HN;PER;340;Latin America & Caribbean;DNS;1993;.;.;15;-86,5
-Peru;HN;PER;340;Latin America & Caribbean;DNS;1993;131000000;.;15;-86,5
-El Salvador;NI;SLV;558;Latin America & Caribbean;DNS;1993;7500000;.;13;-85
-Tunisia;PE;TUN;604;Middle East & North Africa;DNS;1993;500000;.;-10;-76
-Uruguay;PE;URY;604;Latin America & Caribbean;DNS;1993;3300000;.;-10;-76
-Tanzania;TZ;TZA;834;Sub-Saharan Africa;DNS;1993;15400000;.;-6;35
-Tanzania;TZ;TZA;834;Sub-Saharan Africa;DNS;1993;25600000;.;-6;35
-Tanzania;TZ;TZA;834;Sub-Saharan Africa;DNS;1993;15400000;.;-6;35
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;1994;46400000;.;-2;-77,5
-Madagascar;MG;MDG;450;Sub-Saharan Africa;DNS;1994;1300000;.;-20;47
-Madagascar;MG;MDG;450;Sub-Saharan Africa;DNS;1994;200000;.;-20;47
-Mexico;ZM;MEX;894;Latin America & Caribbean;DNS;1994;300000;.;-15;30
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1994;500000;.;23;-102
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1994;300000;.;23;-102
-Zambia;MX;ZMB;484;Sub-Saharan Africa;DNS;1994;1000000;.;23;-102
-Peru;PE;PER;604;Latin America & Caribbean;DNS;1994;16100000;.;-10;-76
-Bulgaria;CR;BGR;188;Europe & Central Asia;DNS;1995;16700000;.;10;-84
-Egypt;PH;EGY;608;Middle East & North Africa;DNS;1995;121000000;.;13;122
-Costa Rica;BG;CRI;100;Latin America & Caribbean;DNS;1995;16600000;.;43;25
-Guinea-Bissau;MX;GNB;484;Sub-Saharan Africa;DNS;1995;8400000;.;23;-102
-Jordan;EG;JOR;818;Middle East & North Africa;DNS;1995;13400000;.;27;30
-Jordan;PE;JOR;604;Middle East & North Africa;DNS;1995;22700000;.;-10;-76
-Mexico;PE;MEX;604;Latin America & Caribbean;DNS;1995;500000;.;-10;-76
-Philippines;GW;PHL;624;East Asia & Pacific;DNS;1995;16100000;.;12;-15
-Peru;JO;PER;400;Latin America & Caribbean;DNS;1995;17000000;.;31;36
-Peru;JO;PER;400;Latin America & Caribbean;DNS;1995;20200000;.;31;36
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1996;14100000;.;10;-84
-Madagascar;PH;MDG;608;Sub-Saharan Africa;DNS;1996;2000000;.;13;122
-Mexico;MG;MEX;450;Latin America & Caribbean;DNS;1996;400000;.;-20;47
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1996;500000;.;23;-102
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1996;700000;.;23;-102
-Peru;MX;PER;484;Latin America & Caribbean;DNS;1996;24600000;.;23;-102
-Philippines;PE;PHL;604;East Asia & Pacific;DNS;1996;5800000;.;-10;-76
-Viet Nam;VN;VNM;704;East Asia & Pacific;DNS;1996;18200000;.;16;106
-Bolivia;BO;BOL;68;Latin America & Caribbean;DNS;1997;3700000;.;-17;-65
-Mexico;PL;MEX;616;Latin America & Caribbean;DNS;1997;300000;.;52;20
-Mexico;MX;MEX;484;Latin America & Caribbean;DNS;1997;300000;.;23;-102
-Peru;MX;PER;484;Latin America & Caribbean;DNS;1997;177000000;.;23;-102
-Poland;PE;POL;604;Europe & Central Asia;DNS;1997;13000000;.;-10;-76
-Mexico;PL;MEX;616;Latin America & Caribbean;DNS;1998;300000;.;52;20
-Poland;MX;POL;484;Europe & Central Asia;DNS;1998;32000000;.;23;-102
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;1999;5200000;.;10;-84
-Honduras;HN;HND;340;Latin America & Caribbean;DNS;1999;1100000;.;15;-86,5
-Peru;PE;PER;604;Latin America & Caribbean;DNS;1999;5000000;.;-10;-76
-Peru;PE;PER;604;Latin America & Caribbean;DNS;1999;5000000;.;-10;-76
-Viet Nam;VN;VNM;704;East Asia & Pacific;DNS;1999;16400000;.;16;106
-Bangladesh;BO;BGD;68;South Asia;DNS;2000;10000000;.;-17;-65
-Bolivia;BD;BOL;50;Latin America & Caribbean;DNS;2000;15800000;.;24;90
-Ghana;PL;GHA;616;Sub-Saharan Africa;DNS;2000;100000;.;52;20
-Jordan;GH;JOR;288;Middle East & North Africa;DNS;2000;43600000;.;8;-2
-Poland;JO;POL;400;Europe & Central Asia;DNS;2000;27000000;.;31;36
-Belize;BZ;BLZ;84;Latin America & Caribbean;DNS;2001;9700000;.;17,25;-88,75
-Egypt;EG;EGY;818;Middle East & North Africa;DNS;2001;7500000;.;27;30
-El Salvador;SV;SLV;222;Latin America & Caribbean;DNS;2001;7700000;.;13,8333;-88,9167
-Jordan;JO;JOR;400;Middle East & North Africa;DNS;2001;11300000;.;31;36
-Syria;VN;SYR;704;Middle East & North Africa;DNS;2001;31700000;.;16;106
-Viet Nam;SY;VNM;760;East Asia & Pacific;DNS;2001;7000000;.;35;38
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;2002;9500000;.;-2;-77,5
-Ecuador;EC;ECU;218;Latin America & Caribbean;DNS;2002;10200000;.;-2;-77,5
-Peru;PH;PER;608;Latin America & Caribbean;DNS;2002;28300000;.;13;122
-Philippines;PE;PHL;604;East Asia & Pacific;DNS;2002;5500000;.;-10;-76
-Madagascar;MG;MDG;450;Sub-Saharan Africa;DNS;2003;25100000;.;-20;47
-Panama;PE;PAN;604;Latin America & Caribbean;DNS;2003;10000000;.;-10;-76
-Peru;PA;PER;591;Latin America & Caribbean;DNS;2003;25000000;.;9;-80
-Colombia;ID;COL;360;Latin America & Caribbean;DNS;2004;7000000;.;-5;120
-Jamaica;JM;JAM;388;Latin America & Caribbean;DNS;2004;6500000;.;18,25;-77,5
-Panama;CO;PAN;170;Latin America & Caribbean;DNS;2004;6500000;.;4;-72
-Indonesia;PA;IDN;591;East Asia & Pacific;DNS;2004;29300000;.;9;-80
-Botswana;ID;BWA;360;Sub-Saharan Africa;DNS;2006;8300000;.;-5;120
-Cameroon;ID;CMR;360;Sub-Saharan Africa;DNS;2006;.;.;-5;120
-Guatemala;BW;GTM;72;Latin America & Caribbean;DNS;2006;15000000;.;-22;24
-Indonesia;GT;IDN;320;East Asia & Pacific;DNS;2006;10900000;.;15,5;-90,25
-Indonesia;CM;IDN;120;East Asia & Pacific;DNS;2006;10900000;.;6;12
-Paraguay;PY;PRY;600;Latin America & Caribbean;DNS;2006;4800000;.;-23;-58
-Costa Rica;CR;CRI;188;Latin America & Caribbean;DNS;2007;12600000;.;10;-84
-Peru;PE;PER;604;Latin America & Caribbean;DNS;2008;19600000;.;-10;-76
-Indonesia;ID;IDN;360;East Asia & Pacific;DNS;2009;29900000;.;-5;120
-Brazil;CR;BRA;188;Latin America & Caribbean;DNS;2010;21000000;.;10;-84
-Costa Rica;BR;CRI;76;Latin America & Caribbean;DNS;2010;21000000;.;-10;-55
-Indonesia;ID;IDN;360;East Asia & Pacific;DNS;2011;28500000;.;-5;120
-Philippines;PH;PHL;608;East Asia & Pacific;DNS;2013;28200000;.;13;122
-Indonesia;ID;IDN;360;East Asia & Pacific;DNS;2014;11200000;.;-5;120
-Mozambique;MZ;MOZ;508;Sub-Saharan Africa;DNS;2014;.;.;-18,25;35
-Mozambique;SC;MOZ;690;Sub-Saharan Africa;DNS;2015;15800000;.;-4,5833;55,6667
-Seychelles;MZ;SYC;508;Sub-Saharan Africa;DNS;2015;29600000;.;-18,25;35
-Belize;BZ;BLZ;84;Latin America & Caribbean;DNS;2021;552900000;.;17,25;-88,75
-Barbados;BB;BRB;52;Latin America & Caribbean;DNS;2022;150000000;.;13,1667;-59,5333
-Gabon;EC;GAB;218;Sub-Saharan Africa;DNS;2023;500000000;.;-2;-77,5
-Peru;GA;PER;266;Latin America & Caribbean;DNS;2023;20000000;.;-1;11,75
-Cabo Verde;CV;CPV;132;Sub-Saharan Africa;DNS;2023;12600000;.;16;-24
-Ecuador;PE;ECU;604;Latin America & Caribbean;DNS;2023;1600000000;.;-10;-76
-Poland;PL;POL;616;Europe & Central Asia;Green Bond;2016;781125000;0,50%;52;20
-Fiji;NG;FJI;566;East Asia & Pacific;Green Bond;2017;8516000;4,00%;10;8
-Fiji;FJ;FJI;242;East Asia & Pacific;Green Bond;2017;34064000;6,30%;-18;175
-Nigeria;FJ;NGA;242;Sub-Saharan Africa;Green Bond;2017;6910149;13,48%;-18;175
-France;FR;FRA;250;Europe & Central Asia;Green Bond;2017;36567065000;1,75%;46;2
-Seychelles;SC;SYC;690;Sub-Saharan Africa;Green Bond;2018;15000000;6,50%;-4,5833;55,6667
-Poland;PL;POL;616;Europe & Central Asia;Green Bond;2018;1041500000;1,13%;52;20
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;.;0,00%;50,8333;4
-Belgium;BE;BEL;56;Europe & Central Asia;Green Bond;2018;12341775000;1,25%;50,8333;4
-Lithuania;IE;LTU;372;Europe & Central Asia;Green Bond;2018;70822000;1,20%;53;-8
-Ireland;LT;IRL;440;Europe & Central Asia;Green Bond;2018;7444735735;1,35%;56;24
-Poland;PL;POL;616;Europe & Central Asia;Green Bond;2019;1562250000;1,00%;52;20
-Poland;PL;POL;616;Europe & Central Asia;Green Bond;2019;520750000;2,00%;52;20
-Nigeria;NG;NGA;566;Sub-Saharan Africa;Green Bond;2019;9696186;14,50%;10;8
-China;CL;CHN;152;East Asia & Pacific;Green Bond;2019;1372118551;0,00%;-30;-71
-China;CL;CHN;152;East Asia & Pacific;Green Bond;2019;1403677278;0,00%;-30;-71
-Hong Kong;CN;HKG;156;East Asia & Pacific;Green Bond;2019;1000000000;2,50%;35;105
-Hong Kong;CN;HKG;156;East Asia & Pacific;Green Bond;2019;1000000000;2,50%;35;105
-Chile;HK;CHL;344;Latin America & Caribbean;Green Bond;2019;2035804428;0,83%;22,25;114,1667
-Chile;HK;CHL;344;Latin America & Caribbean;Green Bond;2019;2318357000;3,50%;22,25;114,1667
-Netherlands;NL;NLD;528;Europe & Central Asia;Green Bond;2019;16341520355;0,50%;52,5;5,75
-Chile;CL;CHL;152;Latin America & Caribbean;Green Bond;2020;1500000000;2,55%;-30;-71
-Chile;CL;CHL;152;Latin America & Caribbean;Green Bond;2020;1321681206;1,25%;-30;-71
-Egypt;EG;EGY;818;Middle East & North Africa;Green Bond;2020;750000000;5,25%;27;30
-Egypt;EG;EGY;818;Middle East & North Africa;Green Bond;2020;750000000;5,25%;27;30
-Germany;DE;DEU;276;Europe & Central Asia;Green Bond;2020;8852750000;0,00%;51;9
-Germany;DE;DEU;276;Europe & Central Asia;Green Bond;2020;10415000000;0,00%;51;9
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2020;99327139;1,03%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2020;28836911;1,29%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2020;1562250000;1,75%;47;20
-Sweden;SE;SWE;752;Europe & Central Asia;Green Bond;2020;1817075054;0,13%;62;15
-Sweden;SE;SWE;752;Europe & Central Asia;Green Bond;2020;1817075054;0,13%;62;15
-France;CO;FRA;170;Europe & Central Asia;Green Bond;2021;24860605000;0,50%;4;-72
-Hong Kong;FR;HKG;250;East Asia & Pacific;Green Bond;2021;343029638;2,80%;46;2
-Hong Kong;DE;HKG;276;East Asia & Pacific;Green Bond;2021;1000000000;0,63%;51;9
-Hong Kong;DE;HKG;276;East Asia & Pacific;Green Bond;2021;1000000000;0,63%;51;9
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;1301875000;0,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;343029638;3,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;1000000000;1,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;1000000000;1,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;1000000000;1,75%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;520750000;1,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;500000000;2,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2021;500000000;2,38%;22,25;114,1667
-Germany;HK;DEU;344;Europe & Central Asia;Green Bond;2021;9373500000;0,00%;22,25;114,1667
-Germany;HK;DEU;344;Europe & Central Asia;Green Bond;2021;13279125000;0,00%;22,25;114,1667
-Hungary;HK;HUN;344;Europe & Central Asia;Green Bond;2021;137211855;3,28%;22,25;114,1667
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2021;430478498;4,00%;47;20
-Colombia;HU;COL;348;Latin America & Caribbean;Green Bond;2021;1127382895;7,00%;47;20
-Republic of Korea;IT;KOR;380;East Asia & Pacific;Green Bond;2021;729050000;0,00%;42,8333;12,8333
-Serbia;KR;SRB;410;Europe & Central Asia;Green Bond;2021;1041500000;1,00%;37;127,5
-Serbia;RS;SRB;688;Europe & Central Asia;Green Bond;2021;1041500000;1,00%;44;21
-United Kingdom of Great Britain and Northern Ireland;RS;GBR;688;Europe & Central Asia;Green Bond;2021;45152736000;0,88%;44;21
-United Kingdom of Great Britain and Northern Ireland;ES;GBR;724;Europe & Central Asia;Green Bond;2021;30362451200;1,50%;40;-4
-Spain;GB;ESP;826;Europe & Central Asia;Green Bond;2021;15965286812;1,00%;54;-2
-Italy;GB;ITA;826;Europe & Central Asia;Green Bond;2021;14060250000;1,50%;54;-2
-France;AT;FRA;40;Europe & Central Asia;Green Bond;2022;7383193500;0,10%;47,3333;13,3333
-Belgium;AT;BEL;40;Europe & Central Asia;Green Bond;2022;8128907500;2,75%;47,3333;13,3333
-Austria;BY;AUT;112;Europe & Central Asia;Green Bond;2022;1041500000;0,00%;53;28
-Austria;BE;AUT;56;Europe & Central Asia;Green Bond;2022;6925975000;1,85%;50,8333;4
-Belarus;CA;BLR;124;Europe & Central Asia;Green Bond;2022;50064834;12,50%;60;-95
-Hong Kong;DK;HKG;208;East Asia & Pacific;Green Bond;2022;2567657783;2,50%;56;10
-Canada;FR;CAN;250;North America;Green Bond;2022;3476326218;2,25%;46;2
-Switzerland;DE;CHE;276;Europe & Central Asia;Green Bond;2022;2931422271;1,50%;51;9
-Germany;HK;DEU;344;Europe & Central Asia;Green Bond;2022;9373500000;1,30%;22,25;114,1667
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;274423710;3,75%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;1041500000;5,00%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;299903877;0,73%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;30118552;0,91%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;49983979;1,15%;47;20
-Hungary;HU;HUN;348;Europe & Central Asia;Green Bond;2022;911172546;4,50%;47;20
-Denmark;IT;DNK;380;Europe & Central Asia;Green Bond;2022;2267428061;0,00%;42,8333;12,8333
-Italy;NZ;ITA;554;Europe & Central Asia;Green Bond;2022;14612245000;4,00%;-41;174
-New Zealand;CH;NZL;756;East Asia & Pacific;Green Bond;2022;5192625000;4,25%;47;8
-Singapore;SG;SGP;702;East Asia & Pacific;Green Bond;2022;4943554932;3,00%;1,3667;103,8
-Indonesia;ID;IDN;360;East Asia & Pacific;Green Bond;2023;94200577;1,20%;-5;120
-Indonesia;ID;IDN;360;East Asia & Pacific;Green Bond;2023;38449215;1,43%;-5;120
-Fiji;FJ;FJI;242;East Asia & Pacific;Green Bond;2023;2129000;1,00%;-18;175
-Fiji;FJ;FJI;242;East Asia & Pacific;Green Bond;2023;6387000;4,20%;-18;175
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;52075000;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;1484061471;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;1562250000;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;1620910405;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;1900940176;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;116062677;0,00%;47,3333;13,3333
-Austria;AT;AUT;40;Europe & Central Asia;Green Bond;2023;5522891196;2,90%;47,3333;13,3333
-Ireland;IE;IRL;372;Europe & Central Asia;Green Bond;2023;4183861725;3,00%;53;-8
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;102706311;4,05%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;781125000;3,88%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;686059276;3,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;823271131;2,70%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;4,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;4,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;4,25%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;4,25%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;2567657783;4,75%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;781125000;3,38%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,50%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;686059276;3,30%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,50%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;750000000;4,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;750000000;4,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;823271131;2,95%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;520750000;3,88%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;781125000;3,75%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,63%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,63%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;411635565;3,30%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;1000000000;4,00%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;5,25%;22,25;114,1667
-Hong Kong;HK;HKG;344;East Asia & Pacific;Green Bond;2023;500000000;5,25%;22,25;114,1667
-Netherlands;NL;NLD;528;Europe & Central Asia;Green Bond;2023;9636950550;3,25%;52,5;5,75
-Switzerland;CH;CHE;756;Europe & Central Asia;Green Bond;2023;381587652;1,50%;47;8
-Switzerland;CH;CHE;756;Europe & Central Asia;Green Bond;2023;358599779;1,50%;47;8
-Germany;DE;DEU;276;Europe & Central Asia;Green Bond;2023;11456500000;2,30%;51;9
-Germany;DE;DEU;276;Europe & Central Asia;Green Bond;2023;9894250000;1,80%;51;9
-Denmark;DK;DNK;208;Europe & Central Asia;Green Bond;2023;2536196473;2,25%;56;10
-Italy;IT;ITA;380;Europe & Central Asia;Green Bond;2023;11716875000;4,00%;42,8333;12,8333
-India;IN;IND;356;South Asia;Green Bond;2023;925604535;7,10%;20;77
-India;IN;IND;356;South Asia;Green Bond;2023;578502835;7,25%;20;77
-India;IN;IND;356;South Asia;Green Bond;2023;925604535;7,29%;20;77
-India;IN;IND;356;South Asia;Green Bond;2023;578502835;7,24%;20;77
-Israel;IL;ISR;376;Middle East & North Africa;Green Bond;2023;2000000000;4,50%;31,5;34,75
-Uzbekistan;UZ;UZB;860;Europe & Central Asia;Green Bond;2023;327574951;16,25%;41;64
-Uzbekistan;UZ;UZB;860;Europe & Central Asia;Green Bond;2023;327574951;16,25%;41;64
-Turkiye;TR;TUR;792;Europe & Central Asia;Green Bond;2023;2500000000;9,13%;39;35
+﻿Issuer,Alpha-2 code,ISO Country code,Numeric code,World Bank Region name,Type,Issue Year,Issued Amount (USD),Coupon/Discount Rate,Latitude (average),Longitude (average)
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,15000000,6.50%,-4.5833,55.6667
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,21000000,6.50%,-4.5833,55.6667
+Belize,BZ,BLZ,84,Latin America & Caribbean,Blue Bond,2021,364000000,4.89%,17.25,-88.75
+Bahamas,BS,BHS,44,Latin America & Caribbean,Blue Bond,2022,385000000,7.19%,24.25,-76
+Barbados,BB,BRB,52,Latin America & Caribbean,Blue Bond,2022,147000000,3.80%,13.1667,-59.5333
+Ecuador,EC,ECU,218,Latin America & Caribbean,Blue Bond,2023,656000000,5.65%,-2,-77.5
+Indonesia,ID,IDN,360,East Asia & Pacific,Blue Bond,2023,150000000,1.27%,-5,120
+Gabon,GA,GAB,266,Sub-Saharan Africa,Blue Bond,2023,500000000,6.10%,-1,11.75
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,1987,1000000,.,-2,-77.5
+Bolivia,BO,BOL,68,Latin America & Caribbean,DNS,1987,700000,.,-17,-65
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1988,5400000,.,10,-84
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1988,33000000,.,10,-84
+Philippines,PH,PHL,608,East Asia & Pacific,DNS,1988,400000,.,13,122
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,1989,3600000,.,-2,-77.5
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,1989,5400000,.,-2,-77.5
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1989,5600000,.,10,-84
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1989,24500000,.,10,-84
+Madagascar,MG,MDG,450,Sub-Saharan Africa,DNS,1989,2100000,.,-20,47
+Zambia,ZM,ZMB,894,Sub-Saharan Africa,DNS,1989,2300000,.,-15,30
+Poland,CR,POL,188,Europe & Central Asia,DNS,1990,100000,.,10,-84
+Poland,PH,POL,608,Europe & Central Asia,DNS,1990,17000000,.,13,122
+Costa Rica,MG,CRI,450,Latin America & Caribbean,DNS,1990,10800000,.,-20,47
+Dominican Republic,PL,DOM,616,Latin America & Caribbean,DNS,1990,600000,.,52,20
+Madagascar,PL,MDG,616,Sub-Saharan Africa,DNS,1990,900000,.,52,20
+Philippines,DO,PHL,214,East Asia & Pacific,DNS,1990,900000,.,19,-70.6667
+Poland,BO,POL,68,Europe & Central Asia,DNS,1991,370000000,.,-17,-65
+Nigeria,CR,NGA,188,Sub-Saharan Africa,DNS,1991,100000,.,10,-84
+Brazil,MG,BRA,450,Latin America & Caribbean,DNS,1991,2200000,.,-20,47
+Chile,PL,CHL,616,Latin America & Caribbean,DNS,1991,15900000,.,52,20
+Costa Rica,NG,CRI,566,Latin America & Caribbean,DNS,1991,600000,.,10,8
+Guatemala,BR,GTM,76,Latin America & Caribbean,DNS,1991,100000,.,-10,-55
+Jamaica,CL,JAM,152,Latin America & Caribbean,DNS,1991,400000,.,-30,-71
+Jamaica,GT,JAM,320,Latin America & Caribbean,DNS,1991,216700000,.,15.5,-90.25
+Madagascar,JM,MDG,388,Sub-Saharan Africa,DNS,1991,100000,.,18.25,-77.5
+Mexico,JM,MEX,388,Latin America & Caribbean,DNS,1991,300000,.,18.25,-77.5
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1991,300000,.,23,-102
+Bolivia,MX,BOL,484,Latin America & Caribbean,DNS,1991,30700000,.,23,-102
+Paraguay,PY,PRY,600,Latin America & Caribbean,DNS,1991,9000000,.,-23,-58
+Chile,PH,CHL,608,Latin America & Caribbean,DNS,1992,14700000,.,13,122
+Egypt,PH,EGY,608,Middle East & North Africa,DNS,1992,.,.,13,122
+Colombia,CL,COL,152,Latin America & Caribbean,DNS,1992,31000000,.,-30,-71
+Ghana,GT,GHA,320,Sub-Saharan Africa,DNS,1992,1000000,.,15.5,-90.25
+Guatemala,MX,GTM,484,Latin America & Caribbean,DNS,1992,1300000,.,23,-102
+Mexico,EG,MEX,818,Latin America & Caribbean,DNS,1992,400000,.,27,30
+Philippines,CO,PHL,170,East Asia & Pacific,DNS,1992,9600000,.,4,-72
+Philippines,GH,PHL,288,East Asia & Pacific,DNS,1992,.,.,8,-2
+El Salvador,SV,SLV,222,Latin America & Caribbean,DNS,1992,268400000,.,13.8333,-88.9167
+El Salvador,SV,SLV,222,Latin America & Caribbean,DNS,1992,195500000,.,13.8333,-88.9167
+Tunisia,TN,TUN,788,Middle East & North Africa,DNS,1992,1300000,.,34,9
+Uruguay,UY,URY,858,Latin America & Caribbean,DNS,1992,400000,.,-33,-56
+Poland,BO,POL,68,Europe & Central Asia,DNS,1993,66000000,.,-17,-65
+Poland,BO,POL,68,Europe & Central Asia,DNS,1993,63000000,.,-17,-65
+Argentina,BO,ARG,68,Latin America & Caribbean,DNS,1993,3800000,.,-17,-65
+Nigeria,BO,NGA,68,Sub-Saharan Africa,DNS,1993,7300000,.,-17,-65
+Nigeria,AR,NGA,32,Sub-Saharan Africa,DNS,1993,10200000,.,-34,-64
+Nigeria,PH,NGA,608,Sub-Saharan Africa,DNS,1993,7300000,.,13,122
+Egypt,MG,EGY,450,Middle East & North Africa,DNS,1993,17300000,.,-20,47
+Egypt,MG,EGY,450,Middle East & North Africa,DNS,1993,6200000,.,-20,47
+Colombia,MG,COL,450,Latin America & Caribbean,DNS,1993,12000000,.,-20,47
+Honduras,PL,HND,616,Latin America & Caribbean,DNS,1993,24900000,.,52,20
+Honduras,PL,HND,616,Latin America & Caribbean,DNS,1993,42000000,.,52,20
+Jamaica,NG,JAM,566,Latin America & Caribbean,DNS,1993,94100000,.,10,8
+Madagascar,NG,MDG,566,Sub-Saharan Africa,DNS,1993,3200000,.,10,8
+Madagascar,NG,MDG,566,Sub-Saharan Africa,DNS,1993,3700000,.,10,8
+Madagascar,JM,MDG,388,Sub-Saharan Africa,DNS,1993,700000,.,18.25,-77.5
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1993,300000,.,23,-102
+Bolivia,EG,BOL,818,Latin America & Caribbean,DNS,1993,13000000,.,27,30
+Bolivia,EG,BOL,818,Latin America & Caribbean,DNS,1993,11500000,.,27,30
+Bolivia,CO,BOL,170,Latin America & Caribbean,DNS,1993,35400000,.,4,-72
+Bolivia,SV,BOL,222,Latin America & Caribbean,DNS,1993,35400000,.,13.8333,-88.9167
+Philippines,TN,PHL,788,East Asia & Pacific,DNS,1993,19000000,.,34,9
+Nicaragua,UY,NIC,858,Latin America & Caribbean,DNS,1993,13600000,.,-33,-56
+Peru,HN,PER,340,Latin America & Caribbean,DNS,1993,.,.,15,-86.5
+Peru,HN,PER,340,Latin America & Caribbean,DNS,1993,131000000,.,15,-86.5
+El Salvador,NI,SLV,558,Latin America & Caribbean,DNS,1993,7500000,.,13,-85
+Tunisia,PE,TUN,604,Middle East & North Africa,DNS,1993,500000,.,-10,-76
+Uruguay,PE,URY,604,Latin America & Caribbean,DNS,1993,3300000,.,-10,-76
+Tanzania,TZ,TZA,834,Sub-Saharan Africa,DNS,1993,15400000,.,-6,35
+Tanzania,TZ,TZA,834,Sub-Saharan Africa,DNS,1993,25600000,.,-6,35
+Tanzania,TZ,TZA,834,Sub-Saharan Africa,DNS,1993,15400000,.,-6,35
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,1994,46400000,.,-2,-77.5
+Madagascar,MG,MDG,450,Sub-Saharan Africa,DNS,1994,1300000,.,-20,47
+Madagascar,MG,MDG,450,Sub-Saharan Africa,DNS,1994,200000,.,-20,47
+Mexico,ZM,MEX,894,Latin America & Caribbean,DNS,1994,300000,.,-15,30
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1994,500000,.,23,-102
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1994,300000,.,23,-102
+Zambia,MX,ZMB,484,Sub-Saharan Africa,DNS,1994,1000000,.,23,-102
+Peru,PE,PER,604,Latin America & Caribbean,DNS,1994,16100000,.,-10,-76
+Bulgaria,CR,BGR,188,Europe & Central Asia,DNS,1995,16700000,.,10,-84
+Egypt,PH,EGY,608,Middle East & North Africa,DNS,1995,121000000,.,13,122
+Costa Rica,BG,CRI,100,Latin America & Caribbean,DNS,1995,16600000,.,43,25
+Guinea-Bissau,MX,GNB,484,Sub-Saharan Africa,DNS,1995,8400000,.,23,-102
+Jordan,EG,JOR,818,Middle East & North Africa,DNS,1995,13400000,.,27,30
+Jordan,PE,JOR,604,Middle East & North Africa,DNS,1995,22700000,.,-10,-76
+Mexico,PE,MEX,604,Latin America & Caribbean,DNS,1995,500000,.,-10,-76
+Philippines,GW,PHL,624,East Asia & Pacific,DNS,1995,16100000,.,12,-15
+Peru,JO,PER,400,Latin America & Caribbean,DNS,1995,17000000,.,31,36
+Peru,JO,PER,400,Latin America & Caribbean,DNS,1995,20200000,.,31,36
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1996,14100000,.,10,-84
+Madagascar,PH,MDG,608,Sub-Saharan Africa,DNS,1996,2000000,.,13,122
+Mexico,MG,MEX,450,Latin America & Caribbean,DNS,1996,400000,.,-20,47
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1996,500000,.,23,-102
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1996,700000,.,23,-102
+Peru,MX,PER,484,Latin America & Caribbean,DNS,1996,24600000,.,23,-102
+Philippines,PE,PHL,604,East Asia & Pacific,DNS,1996,5800000,.,-10,-76
+Viet Nam,VN,VNM,704,East Asia & Pacific,DNS,1996,18200000,.,16,106
+Bolivia,BO,BOL,68,Latin America & Caribbean,DNS,1997,3700000,.,-17,-65
+Mexico,PL,MEX,616,Latin America & Caribbean,DNS,1997,300000,.,52,20
+Mexico,MX,MEX,484,Latin America & Caribbean,DNS,1997,300000,.,23,-102
+Peru,MX,PER,484,Latin America & Caribbean,DNS,1997,177000000,.,23,-102
+Poland,PE,POL,604,Europe & Central Asia,DNS,1997,13000000,.,-10,-76
+Mexico,PL,MEX,616,Latin America & Caribbean,DNS,1998,300000,.,52,20
+Poland,MX,POL,484,Europe & Central Asia,DNS,1998,32000000,.,23,-102
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1999,5200000,.,10,-84
+Honduras,HN,HND,340,Latin America & Caribbean,DNS,1999,1100000,.,15,-86.5
+Peru,PE,PER,604,Latin America & Caribbean,DNS,1999,5000000,.,-10,-76
+Peru,PE,PER,604,Latin America & Caribbean,DNS,1999,5000000,.,-10,-76
+Viet Nam,VN,VNM,704,East Asia & Pacific,DNS,1999,16400000,.,16,106
+Bangladesh,BO,BGD,68,South Asia,DNS,2000,10000000,.,-17,-65
+Bolivia,BD,BOL,50,Latin America & Caribbean,DNS,2000,15800000,.,24,90
+Ghana,PL,GHA,616,Sub-Saharan Africa,DNS,2000,100000,.,52,20
+Jordan,GH,JOR,288,Middle East & North Africa,DNS,2000,43600000,.,8,-2
+Poland,JO,POL,400,Europe & Central Asia,DNS,2000,27000000,.,31,36
+Belize,BZ,BLZ,84,Latin America & Caribbean,DNS,2001,9700000,.,17.25,-88.75
+Egypt,EG,EGY,818,Middle East & North Africa,DNS,2001,7500000,.,27,30
+El Salvador,SV,SLV,222,Latin America & Caribbean,DNS,2001,7700000,.,13.8333,-88.9167
+Jordan,JO,JOR,400,Middle East & North Africa,DNS,2001,11300000,.,31,36
+Syria,VN,SYR,704,Middle East & North Africa,DNS,2001,31700000,.,16,106
+Viet Nam,SY,VNM,760,East Asia & Pacific,DNS,2001,7000000,.,35,38
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,2002,9500000,.,-2,-77.5
+Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,2002,10200000,.,-2,-77.5
+Peru,PH,PER,608,Latin America & Caribbean,DNS,2002,28300000,.,13,122
+Philippines,PE,PHL,604,East Asia & Pacific,DNS,2002,5500000,.,-10,-76
+Madagascar,MG,MDG,450,Sub-Saharan Africa,DNS,2003,25100000,.,-20,47
+Panama,PE,PAN,604,Latin America & Caribbean,DNS,2003,10000000,.,-10,-76
+Peru,PA,PER,591,Latin America & Caribbean,DNS,2003,25000000,.,9,-80
+Colombia,ID,COL,360,Latin America & Caribbean,DNS,2004,7000000,.,-5,120
+Jamaica,JM,JAM,388,Latin America & Caribbean,DNS,2004,6500000,.,18.25,-77.5
+Panama,CO,PAN,170,Latin America & Caribbean,DNS,2004,6500000,.,4,-72
+Indonesia,PA,IDN,591,East Asia & Pacific,DNS,2004,29300000,.,9,-80
+Botswana,ID,BWA,360,Sub-Saharan Africa,DNS,2006,8300000,.,-5,120
+Cameroon,ID,CMR,360,Sub-Saharan Africa,DNS,2006,.,.,-5,120
+Guatemala,BW,GTM,72,Latin America & Caribbean,DNS,2006,15000000,.,-22,24
+Indonesia,GT,IDN,320,East Asia & Pacific,DNS,2006,10900000,.,15.5,-90.25
+Indonesia,CM,IDN,120,East Asia & Pacific,DNS,2006,10900000,.,6,12
+Paraguay,PY,PRY,600,Latin America & Caribbean,DNS,2006,4800000,.,-23,-58
+Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,2007,12600000,.,10,-84
+Peru,PE,PER,604,Latin America & Caribbean,DNS,2008,19600000,.,-10,-76
+Indonesia,ID,IDN,360,East Asia & Pacific,DNS,2009,29900000,.,-5,120
+Brazil,CR,BRA,188,Latin America & Caribbean,DNS,2010,21000000,.,10,-84
+Costa Rica,BR,CRI,76,Latin America & Caribbean,DNS,2010,21000000,.,-10,-55
+Indonesia,ID,IDN,360,East Asia & Pacific,DNS,2011,28500000,.,-5,120
+Philippines,PH,PHL,608,East Asia & Pacific,DNS,2013,28200000,.,13,122
+Indonesia,ID,IDN,360,East Asia & Pacific,DNS,2014,11200000,.,-5,120
+Mozambique,MZ,MOZ,508,Sub-Saharan Africa,DNS,2014,.,.,-18.25,35
+Mozambique,SC,MOZ,690,Sub-Saharan Africa,DNS,2015,15800000,.,-4.5833,55.6667
+Seychelles,MZ,SYC,508,Sub-Saharan Africa,DNS,2015,29600000,.,-18.25,35
+Belize,BZ,BLZ,84,Latin America & Caribbean,DNS,2021,552900000,.,17.25,-88.75
+Barbados,BB,BRB,52,Latin America & Caribbean,DNS,2022,150000000,.,13.1667,-59.5333
+Gabon,EC,GAB,218,Sub-Saharan Africa,DNS,2023,500000000,.,-2,-77.5
+Peru,GA,PER,266,Latin America & Caribbean,DNS,2023,20000000,.,-1,11.75
+Cabo Verde,CV,CPV,132,Sub-Saharan Africa,DNS,2023,12600000,.,16,-24
+Ecuador,PE,ECU,604,Latin America & Caribbean,DNS,2023,1600000000,.,-10,-76
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2016,781125000,0.50%,52,20
+Fiji,NG,FJI,566,East Asia & Pacific,Green Bond,2017,8516000,4.00%,10,8
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2017,34064000,6.30%,-18,175
+Nigeria,FJ,NGA,242,Sub-Saharan Africa,Green Bond,2017,6910149,13.48%,-18,175
+France,FR,FRA,250,Europe & Central Asia,Green Bond,2017,36567065000,1.75%,46,2
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Green Bond,2018,15000000,6.50%,-4.5833,55.6667
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2018,1041500000,1.13%,52,20
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,.,0.00%,50.8333,4
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,12341775000,1.25%,50.8333,4
+Lithuania,IE,LTU,372,Europe & Central Asia,Green Bond,2018,70822000,1.20%,53,-8
+Ireland,LT,IRL,440,Europe & Central Asia,Green Bond,2018,7444735735,1.35%,56,24
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,1562250000,1.00%,52,20
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,520750000,2.00%,52,20
+Nigeria,NG,NGA,566,Sub-Saharan Africa,Green Bond,2019,9696186,14.50%,10,8
+China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1372118551,0.00%,-30,-71
+China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1403677278,0.00%,-30,-71
+Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50%,35,105
+Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50%,35,105
+Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2035804428,0.83%,22.25,114.1667
+Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2318357000,3.50%,22.25,114.1667
+Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2019,16341520355,0.50%,52.5,5.75
+Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1500000000,2.55%,-30,-71
+Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1321681206,1.25%,-30,-71
+Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25%,27,30
+Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25%,27,30
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,8852750000,0.00%,51,9
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,10415000000,0.00%,51,9
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,99327139,1.03%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,28836911,1.29%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,1562250000,1.75%,47,20
+Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13%,62,15
+Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13%,62,15
+France,CO,FRA,170,Europe & Central Asia,Green Bond,2021,24860605000,0.50%,4,-72
+Hong Kong,FR,HKG,250,East Asia & Pacific,Green Bond,2021,343029638,2.80%,46,2
+Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63%,51,9
+Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63%,51,9
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1301875000,0.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,343029638,3.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.75%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,520750000,1.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38%,22.25,114.1667
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,9373500000,0.00%,22.25,114.1667
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,13279125000,0.00%,22.25,114.1667
+Hungary,HK,HUN,344,Europe & Central Asia,Green Bond,2021,137211855,3.28%,22.25,114.1667
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2021,430478498,4.00%,47,20
+Colombia,HU,COL,348,Latin America & Caribbean,Green Bond,2021,1127382895,7.00%,47,20
+Republic of Korea,IT,KOR,380,East Asia & Pacific,Green Bond,2021,729050000,0.00%,42.8333,12.8333
+Serbia,KR,SRB,410,Europe & Central Asia,Green Bond,2021,1041500000,1.00%,37,127.5
+Serbia,RS,SRB,688,Europe & Central Asia,Green Bond,2021,1041500000,1.00%,44,21
+United Kingdom of Great Britain and Northern Ireland,RS,GBR,688,Europe & Central Asia,Green Bond,2021,45152736000,0.88%,44,21
+United Kingdom of Great Britain and Northern Ireland,ES,GBR,724,Europe & Central Asia,Green Bond,2021,30362451200,1.50%,40,-4
+Spain,GB,ESP,826,Europe & Central Asia,Green Bond,2021,15965286812,1.00%,54,-2
+Italy,GB,ITA,826,Europe & Central Asia,Green Bond,2021,14060250000,1.50%,54,-2
+France,AT,FRA,40,Europe & Central Asia,Green Bond,2022,7383193500,0.10%,47.3333,13.3333
+Belgium,AT,BEL,40,Europe & Central Asia,Green Bond,2022,8128907500,2.75%,47.3333,13.3333
+Austria,BY,AUT,112,Europe & Central Asia,Green Bond,2022,1041500000,0.00%,53,28
+Austria,BE,AUT,56,Europe & Central Asia,Green Bond,2022,6925975000,1.85%,50.8333,4
+Belarus,CA,BLR,124,Europe & Central Asia,Green Bond,2022,50064834,12.50%,60,-95
+Hong Kong,DK,HKG,208,East Asia & Pacific,Green Bond,2022,2567657783,2.50%,56,10
+Canada,FR,CAN,250,North America,Green Bond,2022,3476326218,2.25%,46,2
+Switzerland,DE,CHE,276,Europe & Central Asia,Green Bond,2022,2931422271,1.50%,51,9
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2022,9373500000,1.30%,22.25,114.1667
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,274423710,3.75%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,1041500000,5.00%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,299903877,0.73%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,30118552,0.91%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,49983979,1.15%,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,911172546,4.50%,47,20
+Denmark,IT,DNK,380,Europe & Central Asia,Green Bond,2022,2267428061,0.00%,42.8333,12.8333
+Italy,NZ,ITA,554,Europe & Central Asia,Green Bond,2022,14612245000,4.00%,-41,174
+New Zealand,CH,NZL,756,East Asia & Pacific,Green Bond,2022,5192625000,4.25%,47,8
+Singapore,SG,SGP,702,East Asia & Pacific,Green Bond,2022,4943554932,3.00%,1.3667,103.8
+Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,94200577,1.20%,-5,120
+Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,38449215,1.43%,-5,120
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,2129000,1.00%,-18,175
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,6387000,4.20%,-18,175
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,52075000,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1484061471,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1562250000,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1620910405,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1900940176,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,116062677,0.00%,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,5522891196,2.90%,47.3333,13.3333
+Ireland,IE,IRL,372,Europe & Central Asia,Green Bond,2023,4183861725,3.00%,53,-8
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,102706311,4.05%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.88%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.70%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,2567657783,4.75%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.38%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.30%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.95%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,520750000,3.88%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.75%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,411635565,3.30%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25%,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25%,22.25,114.1667
+Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2023,9636950550,3.25%,52.5,5.75
+Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,381587652,1.50%,47,8
+Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,358599779,1.50%,47,8
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,11456500000,2.30%,51,9
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,9894250000,1.80%,51,9
+Denmark,DK,DNK,208,Europe & Central Asia,Green Bond,2023,2536196473,2.25%,56,10
+Italy,IT,ITA,380,Europe & Central Asia,Green Bond,2023,11716875000,4.00%,42.8333,12.8333
+India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.10%,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.25%,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.29%,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.24%,20,77
+Israel,IL,ISR,376,Middle East & North Africa,Green Bond,2023,2000000000,4.50%,31.5,34.75
+Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25%,41,64
+Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25%,41,64
+Turkiye,TR,TUR,792,Europe & Central Asia,Green Bond,2023,2500000000,9.13%,39,35
