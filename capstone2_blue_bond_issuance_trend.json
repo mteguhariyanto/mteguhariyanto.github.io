@@ -14,7 +14,7 @@
     "type": "bar",
     "size": 30  
   },
-  "width": 200,
+  "width": 220,
   "height": 300,
 
   "selection": {
@@ -22,8 +22,8 @@
    },
 
   "title": {
-    "text": "Green Bond Issuance Over Time",
-    "subtitle": "Issued Amount in Million USD, Source: LSEG",
+    "text": "Blue Bond Issuance Over Time",
+    "subtitle": "Issued Amount (Million USD)",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -36,13 +36,14 @@
       "type": "ordinal", 
       "title": "Year",
       "axis": {
-    "labelAngle": 0}
+    "labelAngle": 0,
+    "title": null}
     },
     
     "y": {
       "field": "Issued Amount (Million USD)",
       "type": "quantitative",
-      "title": "Issued Amount (Million USD)"
+      "title": null
       },
     
     "color": {
