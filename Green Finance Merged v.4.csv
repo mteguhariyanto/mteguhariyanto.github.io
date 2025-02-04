@@ -1,4 +1,4 @@
-﻿Issuer,Alpha-2 code,ISO Country code,Numeric code,World Bank Region name,Type,Issue Year, Issued Amount (USD) ,Coupon/Discount Rate,Latitude (average),Longitude (average)
+﻿issuer,iso2,iso3,code,wb_region,type,year,amount,coupon,lat,long
 Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018, 15.000.000 ,6.50%,-4.5833,55.6667
 Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018, 21.000.000 ,6.50%,-4.5833,55.6667
 Belize,BZ,BLZ,84,Latin America & Caribbean,Blue Bond,2021, 364.000.000 ,4.89%,17.25,-88.75
