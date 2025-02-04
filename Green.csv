@@ -1,12 +1,12 @@
 ﻿Issuer,ISO2,ISO3,Numeric code,World Bank Region name,Type,Issue Year,Issued Amount (USD),Coupon/Discount Rate,Latitude (average),Longitude (average)
-Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,15000000,6.50%,-4.5833,55.6667
-Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,21000000,6.50%,-4.5833,55.6667
-Belize,BZ,BLZ,84,Latin America & Caribbean,Blue Bond,2021,364000000,4.89%,17.25,-88.75
-Bahamas,BS,BHS,44,Latin America & Caribbean,Blue Bond,2022,385000000,7.19%,24.25,-76
-Barbados,BB,BRB,52,Latin America & Caribbean,Blue Bond,2022,147000000,3.80%,13.1667,-59.5333
-Ecuador,EC,ECU,218,Latin America & Caribbean,Blue Bond,2023,656000000,5.65%,-2,-77.5
-Indonesia,ID,IDN,360,East Asia & Pacific,Blue Bond,2023,150000000,1.27%,-5,120
-Gabon,GA,GAB,266,Sub-Saharan Africa,Blue Bond,2023,500000000,6.10%,-1,11.75
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,15000000,6.50,-4.5833,55.6667
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Blue Bond,2018,21000000,6.50,-4.5833,55.6667
+Belize,BZ,BLZ,84,Latin America & Caribbean,Blue Bond,2021,364000000,4.89,17.25,-88.75
+Bahamas,BS,BHS,44,Latin America & Caribbean,Blue Bond,2022,385000000,7.19,24.25,-76
+Barbados,BB,BRB,52,Latin America & Caribbean,Blue Bond,2022,147000000,3.80,13.1667,-59.5333
+Ecuador,EC,ECU,218,Latin America & Caribbean,Blue Bond,2023,656000000,5.65,-2,-77.5
+Indonesia,ID,IDN,360,East Asia & Pacific,Blue Bond,2023,150000000,1.27,-5,120
+Gabon,GA,GAB,266,Sub-Saharan Africa,Blue Bond,2023,500000000,6.10,-1,11.75
 Ecuador,EC,ECU,218,Latin America & Caribbean,DNS,1987,1000000,.,-2,-77.5
 Bolivia,BO,BOL,68,Latin America & Caribbean,DNS,1987,700000,.,-17,-65
 Costa Rica,CR,CRI,188,Latin America & Caribbean,DNS,1988,5400000,.,10,-84
@@ -162,129 +162,129 @@ Gabon,EC,GAB,218,Sub-Saharan Africa,DNS,2023,500000000,.,-2,-77.5
 Peru,GA,PER,266,Latin America & Caribbean,DNS,2023,20000000,.,-1,11.75
 Cabo Verde,CV,CPV,132,Sub-Saharan Africa,DNS,2023,12600000,.,16,-24
 Ecuador,PE,ECU,604,Latin America & Caribbean,DNS,2023,1600000000,.,-10,-76
-Poland,PL,POL,616,Europe & Central Asia,Green Bond,2016,781125000,0.50%,52,20
-Fiji,NG,FJI,566,East Asia & Pacific,Green Bond,2017,8516000,4.00%,10,8
-Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2017,34064000,6.30%,-18,175
-Nigeria,FJ,NGA,242,Sub-Saharan Africa,Green Bond,2017,6910149,13.48%,-18,175
-France,FR,FRA,250,Europe & Central Asia,Green Bond,2017,36567065000,1.75%,46,2
-Seychelles,SC,SYC,690,Sub-Saharan Africa,Green Bond,2018,15000000,6.50%,-4.5833,55.6667
-Poland,PL,POL,616,Europe & Central Asia,Green Bond,2018,1041500000,1.13%,52,20
-Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,12341775000,1.25%,50.8333,4
-Lithuania,IE,LTU,372,Europe & Central Asia,Green Bond,2018,70822000,1.20%,53,-8
-Ireland,LT,IRL,440,Europe & Central Asia,Green Bond,2018,7444735735,1.35%,56,24
-Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,1562250000,1.00%,52,20
-Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,520750000,2.00%,52,20
-Nigeria,NG,NGA,566,Sub-Saharan Africa,Green Bond,2019,9696186,14.50%,10,8
-China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1372118551,0.00%,-30,-71
-China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1403677278,0.00%,-30,-71
-Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50%,35,105
-Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50%,35,105
-Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2035804428,0.83%,22.25,114.1667
-Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2318357000,3.50%,22.25,114.1667
-Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2019,16341520355,0.50%,52.5,5.75
-Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1500000000,2.55%,-30,-71
-Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1321681206,1.25%,-30,-71
-Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25%,27,30
-Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25%,27,30
-Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,8852750000,0.00%,51,9
-Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,10415000000,0.00%,51,9
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,99327139,1.03%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,28836911,1.29%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,1562250000,1.75%,47,20
-Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13%,62,15
-Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13%,62,15
-France,CO,FRA,170,Europe & Central Asia,Green Bond,2021,24860605000,0.50%,4,-72
-Hong Kong,FR,HKG,250,East Asia & Pacific,Green Bond,2021,343029638,2.80%,46,2
-Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63%,51,9
-Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63%,51,9
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1301875000,0.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,343029638,3.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.75%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,520750000,1.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38%,22.25,114.1667
-Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,9373500000,0.00%,22.25,114.1667
-Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,13279125000,0.00%,22.25,114.1667
-Hungary,HK,HUN,344,Europe & Central Asia,Green Bond,2021,137211855,3.28%,22.25,114.1667
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2021,430478498,4.00%,47,20
-Colombia,HU,COL,348,Latin America & Caribbean,Green Bond,2021,1127382895,7.00%,47,20
-Republic of Korea,IT,KOR,380,East Asia & Pacific,Green Bond,2021,729050000,0.00%,42.8333,12.8333
-Serbia,KR,SRB,410,Europe & Central Asia,Green Bond,2021,1041500000,1.00%,37,127.5
-Serbia,RS,SRB,688,Europe & Central Asia,Green Bond,2021,1041500000,1.00%,44,21
-United Kingdom of Great Britain and Northern Ireland,RS,GBR,688,Europe & Central Asia,Green Bond,2021,45152736000,0.88%,44,21
-United Kingdom of Great Britain and Northern Ireland,ES,GBR,724,Europe & Central Asia,Green Bond,2021,30362451200,1.50%,40,-4
-Spain,GB,ESP,826,Europe & Central Asia,Green Bond,2021,15965286812,1.00%,54,-2
-Italy,GB,ITA,826,Europe & Central Asia,Green Bond,2021,14060250000,1.50%,54,-2
-France,AT,FRA,40,Europe & Central Asia,Green Bond,2022,7383193500,0.10%,47.3333,13.3333
-Belgium,AT,BEL,40,Europe & Central Asia,Green Bond,2022,8128907500,2.75%,47.3333,13.3333
-Austria,BY,AUT,112,Europe & Central Asia,Green Bond,2022,1041500000,0.00%,53,28
-Austria,BE,AUT,56,Europe & Central Asia,Green Bond,2022,6925975000,1.85%,50.8333,4
-Belarus,CA,BLR,124,Europe & Central Asia,Green Bond,2022,50064834,12.50%,60,-95
-Hong Kong,DK,HKG,208,East Asia & Pacific,Green Bond,2022,2567657783,2.50%,56,10
-Canada,FR,CAN,250,North America,Green Bond,2022,3476326218,2.25%,46,2
-Switzerland,DE,CHE,276,Europe & Central Asia,Green Bond,2022,2931422271,1.50%,51,9
-Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2022,9373500000,1.30%,22.25,114.1667
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,274423710,3.75%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,1041500000,5.00%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,299903877,0.73%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,30118552,0.91%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,49983979,1.15%,47,20
-Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,911172546,4.50%,47,20
-Denmark,IT,DNK,380,Europe & Central Asia,Green Bond,2022,2267428061,0.00%,42.8333,12.8333
-Italy,NZ,ITA,554,Europe & Central Asia,Green Bond,2022,14612245000,4.00%,-41,174
-New Zealand,CH,NZL,756,East Asia & Pacific,Green Bond,2022,5192625000,4.25%,47,8
-Singapore,SG,SGP,702,East Asia & Pacific,Green Bond,2022,4943554932,3.00%,1.3667,103.8
-Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,94200577,1.20%,-5,120
-Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,38449215,1.43%,-5,120
-Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,2129000,1.00%,-18,175
-Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,6387000,4.20%,-18,175
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,52075000,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1484061471,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1562250000,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1620910405,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1900940176,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,116062677,0.00%,47.3333,13.3333
-Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,5522891196,2.90%,47.3333,13.3333
-Ireland,IE,IRL,372,Europe & Central Asia,Green Bond,2023,4183861725,3.00%,53,-8
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,102706311,4.05%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.88%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.70%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,2567657783,4.75%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.38%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.30%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.95%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,520750000,3.88%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.75%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,411635565,3.30%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25%,22.25,114.1667
-Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25%,22.25,114.1667
-Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2023,9636950550,3.25%,52.5,5.75
-Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,381587652,1.50%,47,8
-Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,358599779,1.50%,47,8
-Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,11456500000,2.30%,51,9
-Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,9894250000,1.80%,51,9
-Denmark,DK,DNK,208,Europe & Central Asia,Green Bond,2023,2536196473,2.25%,56,10
-Italy,IT,ITA,380,Europe & Central Asia,Green Bond,2023,11716875000,4.00%,42.8333,12.8333
-India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.10%,20,77
-India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.25%,20,77
-India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.29%,20,77
-India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.24%,20,77
-Israel,IL,ISR,376,Middle East & North Africa,Green Bond,2023,2000000000,4.50%,31.5,34.75
-Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25%,41,64
-Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25%,41,64
-Turkiye,TR,TUR,792,Europe & Central Asia,Green Bond,2023,2500000000,9.13%,39,35
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2016,781125000,0.50,52,20
+Fiji,NG,FJI,566,East Asia & Pacific,Green Bond,2017,8516000,4.00,10,8
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2017,34064000,6.30,-18,175
+Nigeria,FJ,NGA,242,Sub-Saharan Africa,Green Bond,2017,6910149,13.48,-18,175
+France,FR,FRA,250,Europe & Central Asia,Green Bond,2017,36567065000,1.75,46,2
+Seychelles,SC,SYC,690,Sub-Saharan Africa,Green Bond,2018,15000000,6.50,-4.5833,55.6667
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2018,1041500000,1.13,52,20
+Belgium,BE,BEL,56,Europe & Central Asia,Green Bond,2018,12341775000,1.25,50.8333,4
+Lithuania,IE,LTU,372,Europe & Central Asia,Green Bond,2018,70822000,1.20,53,-8
+Ireland,LT,IRL,440,Europe & Central Asia,Green Bond,2018,7444735735,1.35,56,24
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,1562250000,1.00,52,20
+Poland,PL,POL,616,Europe & Central Asia,Green Bond,2019,520750000,2.00,52,20
+Nigeria,NG,NGA,566,Sub-Saharan Africa,Green Bond,2019,9696186,14.50,10,8
+China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1372118551,0.00,-30,-71
+China,CL,CHN,152,East Asia & Pacific,Green Bond,2019,1403677278,0.00,-30,-71
+Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50,35,105
+Hong Kong,CN,HKG,156,East Asia & Pacific,Green Bond,2019,1000000000,2.50,35,105
+Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2035804428,0.83,22.25,114.1667
+Chile,HK,CHL,344,Latin America & Caribbean,Green Bond,2019,2318357000,3.50,22.25,114.1667
+Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2019,16341520355,0.50,52.5,5.75
+Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1500000000,2.55,-30,-71
+Chile,CL,CHL,152,Latin America & Caribbean,Green Bond,2020,1321681206,1.25,-30,-71
+Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25,27,30
+Egypt,EG,EGY,818,Middle East & North Africa,Green Bond,2020,750000000,5.25,27,30
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,8852750000,0.00,51,9
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2020,10415000000,0.00,51,9
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,99327139,1.03,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,28836911,1.29,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2020,1562250000,1.75,47,20
+Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13,62,15
+Sweden,SE,SWE,752,Europe & Central Asia,Green Bond,2020,1817075054,0.13,62,15
+France,CO,FRA,170,Europe & Central Asia,Green Bond,2021,24860605000,0.50,4,-72
+Hong Kong,FR,HKG,250,East Asia & Pacific,Green Bond,2021,343029638,2.80,46,2
+Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63,51,9
+Hong Kong,DE,HKG,276,East Asia & Pacific,Green Bond,2021,1000000000,0.63,51,9
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1301875000,0.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,343029638,3.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,1000000000,1.75,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,520750000,1.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2021,500000000,2.38,22.25,114.1667
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,9373500000,0.00,22.25,114.1667
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2021,13279125000,0.00,22.25,114.1667
+Hungary,HK,HUN,344,Europe & Central Asia,Green Bond,2021,137211855,3.28,22.25,114.1667
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2021,430478498,4.00,47,20
+Colombia,HU,COL,348,Latin America & Caribbean,Green Bond,2021,1127382895,7.00,47,20
+Republic of Korea,IT,KOR,380,East Asia & Pacific,Green Bond,2021,729050000,0.00,42.8333,12.8333
+Serbia,KR,SRB,410,Europe & Central Asia,Green Bond,2021,1041500000,1.00,37,127.5
+Serbia,RS,SRB,688,Europe & Central Asia,Green Bond,2021,1041500000,1.00,44,21
+United Kingdom of Great Britain and Northern Ireland,RS,GBR,688,Europe & Central Asia,Green Bond,2021,45152736000,0.88,44,21
+United Kingdom of Great Britain and Northern Ireland,ES,GBR,724,Europe & Central Asia,Green Bond,2021,30362451200,1.50,40,-4
+Spain,GB,ESP,826,Europe & Central Asia,Green Bond,2021,15965286812,1.00,54,-2
+Italy,GB,ITA,826,Europe & Central Asia,Green Bond,2021,14060250000,1.50,54,-2
+France,AT,FRA,40,Europe & Central Asia,Green Bond,2022,7383193500,0.10,47.3333,13.3333
+Belgium,AT,BEL,40,Europe & Central Asia,Green Bond,2022,8128907500,2.75,47.3333,13.3333
+Austria,BY,AUT,112,Europe & Central Asia,Green Bond,2022,1041500000,0.00,53,28
+Austria,BE,AUT,56,Europe & Central Asia,Green Bond,2022,6925975000,1.85,50.8333,4
+Belarus,CA,BLR,124,Europe & Central Asia,Green Bond,2022,50064834,12.50,60,-95
+Hong Kong,DK,HKG,208,East Asia & Pacific,Green Bond,2022,2567657783,2.50,56,10
+Canada,FR,CAN,250,North America,Green Bond,2022,3476326218,2.25,46,2
+Switzerland,DE,CHE,276,Europe & Central Asia,Green Bond,2022,2931422271,1.50,51,9
+Germany,HK,DEU,344,Europe & Central Asia,Green Bond,2022,9373500000,1.30,22.25,114.1667
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,274423710,3.75,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,1041500000,5.00,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,299903877,0.73,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,30118552,0.91,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,49983979,1.15,47,20
+Hungary,HU,HUN,348,Europe & Central Asia,Green Bond,2022,911172546,4.50,47,20
+Denmark,IT,DNK,380,Europe & Central Asia,Green Bond,2022,2267428061,0.00,42.8333,12.8333
+Italy,NZ,ITA,554,Europe & Central Asia,Green Bond,2022,14612245000,4.00,-41,174
+New Zealand,CH,NZL,756,East Asia & Pacific,Green Bond,2022,5192625000,4.25,47,8
+Singapore,SG,SGP,702,East Asia & Pacific,Green Bond,2022,4943554932,3.00,1.3667,103.8
+Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,94200577,1.20,-5,120
+Indonesia,ID,IDN,360,East Asia & Pacific,Green Bond,2023,38449215,1.43,-5,120
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,2129000,1.00,-18,175
+Fiji,FJ,FJI,242,East Asia & Pacific,Green Bond,2023,6387000,4.20,-18,175
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,52075000,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1484061471,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1562250000,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1620910405,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,1900940176,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,116062677,0.00,47.3333,13.3333
+Austria,AT,AUT,40,Europe & Central Asia,Green Bond,2023,5522891196,2.90,47.3333,13.3333
+Ireland,IE,IRL,372,Europe & Central Asia,Green Bond,2023,4183861725,3.00,53,-8
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,102706311,4.05,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.88,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.70,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,4.25,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,2567657783,4.75,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.38,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,686059276,3.30,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.50,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,750000000,4.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,823271131,2.95,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,520750000,3.88,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,781125000,3.75,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.63,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,411635565,3.30,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,1000000000,4.00,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25,22.25,114.1667
+Hong Kong,HK,HKG,344,East Asia & Pacific,Green Bond,2023,500000000,5.25,22.25,114.1667
+Netherlands,NL,NLD,528,Europe & Central Asia,Green Bond,2023,9636950550,3.25,52.5,5.75
+Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,381587652,1.50,47,8
+Switzerland,CH,CHE,756,Europe & Central Asia,Green Bond,2023,358599779,1.50,47,8
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,11456500000,2.30,51,9
+Germany,DE,DEU,276,Europe & Central Asia,Green Bond,2023,9894250000,1.80,51,9
+Denmark,DK,DNK,208,Europe & Central Asia,Green Bond,2023,2536196473,2.25,56,10
+Italy,IT,ITA,380,Europe & Central Asia,Green Bond,2023,11716875000,4.00,42.8333,12.8333
+India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.10,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.25,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,925604535,7.29,20,77
+India,IN,IND,356,South Asia,Green Bond,2023,578502835,7.24,20,77
+Israel,IL,ISR,376,Middle East & North Africa,Green Bond,2023,2000000000,4.50,31.5,34.75
+Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25,41,64
+Uzbekistan,UZ,UZB,860,Europe & Central Asia,Green Bond,2023,327574951,16.25,41,64
+Turkiye,TR,TUR,792,Europe & Central Asia,Green Bond,2023,2500000000,9.13,39,35
