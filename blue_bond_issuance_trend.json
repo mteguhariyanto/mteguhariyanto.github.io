@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/Green.csv"
+  },
+
+  "transform": [
+  {"filter": "datum.Type == 'Blue Bond'"},
+  {"calculate": "datum['Issued Amount (USD)'] / 1000000", "as": "Issued Amount (Million USD)"}
+],
+
+  "mark": {
+    "type": "bar",
+    "size": 30  
+  },
+  "width": 200,
+  "height": 300,
+
+  "selection": {
+     "region": {"type": "multi", "fields": ["World Bank Region name"], "bind": "legend"}
+   },
+
+  "title": {
+    "text": "Green Bond Issuance Over Time",
+    "subtitle": "Issued Amount in Million USD, Source: LSEG",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Issue Year", 
+      "type": "ordinal", 
+      "title": "Year",
+      "axis": {
+    "labelAngle": 0}
+    },
+    
+    "y": {
+      "field": "Issued Amount (Million USD)",
+      "type": "quantitative",
+      "title": "Issued Amount (Million USD)"
+      },
+    
+    "color": {
+      "field": "World Bank Region name",
+      "type": "nominal",
+      "legend": {"orient": "top-left"},
+      "scale": {
+        "scheme": "category10"
+      },
+      "title": "Region"
+    },
+
+     "opacity": {"condition": {"selection": "region", "value": 1}, "value": 0.1},
+
+
+  }
+}
