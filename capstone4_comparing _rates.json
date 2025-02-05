@@ -14,19 +14,19 @@
     "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/Green.csv",
     "format": {"type": "csv"}
   },
-
-  "mark": {
-    "type": "point",
-    "size": 50,
-    "opacity": 0.4
-  },
   
   "height": 300,
-  "width": 300,
+  "width": 350,
 
   "transform": [
     {"filter": "datum.Type == 'Green Bond' || datum.Type == 'Blue Bond'"}
   ],
+"layer": [
+  {"mark": {
+    "type": "point",
+    "size": 50,
+    "opacity": 0.4
+  },
 
   "encoding": {
     "x": {
@@ -60,12 +60,54 @@
       },
       "title": ["Country Development","Status:"]
     },
-    
     "shape": {
       "field": "Type",
       "type": "nominal",
       "legend": {"orient": "right"},
-      "title": "Bond Type:"
+      "title": "Type:"
       }
-  }
+  }}, {
+    "mark": {
+        "type": "line",
+        "color": "green",
+        "size": 1.5
+      },
+    "encoding": {
+      "x": {"timeUnit":"year", "field": "Issue Year"},
+      "y": {"aggregate": "mean", "field": "Coupon/Discount Rate"}
+    }
+  },
+  {
+      "mark": {
+        "type": "line",
+        "color": "red",
+        "size": 1.5
+      },
+
+      "transform": [
+        {"filter": "datum['Development Status'] == 'Developing'"}
+      ],
+
+      "encoding": {
+        "x": {"timeUnit": "year", "field": "Issue Year"},
+        "y": {"aggregate": "mean", "field": "Coupon/Discount Rate"}
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "blue",
+        "size": 1.5
+      },
+
+      "transform": [
+        {"filter": "datum['Development Status'] == 'Developed'"}
+      ],
+
+      "encoding": {
+        "x": {"timeUnit": "year", "field": "Issue Year"},
+        "y": {"aggregate": "mean", "field": "Coupon/Discount Rate"}
+      }
+    }
+    ]
 }
