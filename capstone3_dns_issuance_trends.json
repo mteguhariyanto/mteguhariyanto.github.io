@@ -22,7 +22,7 @@
    },
 
   "title": {
-    "text": "Debt-for-Nature Swap Issuance Over Time",
+    "text": "Debt-for-Nature Swap Transactions Over Time",
     
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
@@ -45,7 +45,7 @@
     "y": {
       "field": "Issued Amount (Million USD)",
       "type": "quantitative",
-      "title": "Issued Amount (Million USD)",
+      "title": "Debt Treated (Million USD)",
       "axis": {
             "gridDash": [1, 5],
             "titleAngle": 0,
