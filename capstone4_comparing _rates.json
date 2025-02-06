@@ -44,7 +44,7 @@
     },
 
     "shape": {
-        "field": "GeographicDivision", 
+        "field": "Type", 
         "type": "ordinal",
         "scale": {"scheme": "set1"},
         "legend": {"orient":"bottom"},
@@ -66,17 +66,7 @@
       "legend": {"orient": "right"},
       "title": "Type:"
       }
-  }}, {
-    "mark": {
-        "type": "line",
-        "color": "green",
-        "size": 1.5
-      },
-    "encoding": {
-      "x": {"timeUnit":"year", "field": "Issue Year"},
-      "y": {"aggregate": "mean", "field": "Coupon/Discount Rate"}
-    }
-  },
+  }}, 
   {
       "mark": {
         "type": "line",
