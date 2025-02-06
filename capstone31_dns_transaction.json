@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/Green.csv"
+  },
+
+  "transform": [
+    {"filter": "datum.Type == 'DNS'"}
+  ],
+
+  "mark": {
+    "type": "bar",
+    "size": 12  
+  },
+  "width": 500,
+  "height": 300,
+
+  "selection": {
+    "region": {"type": "multi", "fields": ["World Bank Region name"], "bind": "legend"}
+  },
+
+  "title": {
+    "text": ["Number of Debt-for-Nature Swap Transactions Over Time",""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Issue Year", 
+      "type": "temporal", 
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0,
+        "title": null,
+        "grid": false
+      },
+      "scale": {"padding": 8}
+    },
+    
+    "y": {
+      "aggregate": "count",
+      "title": "",
+      "scale": {"domain": [0, 32]},
+      "axis": {
+        "gridDash": [1, 5],
+        "titleAngle": 0,
+        "titleAlign": "left",
+        "titleFontStyle": "italic",
+        "titleY": -10
+      }
+    },
+    
+    "color": {
+      "field": "DNS Type",
+      "type": "nominal",
+      "legend": {"orient": "top-right"},
+      "scale": {
+        "domain": ["Tripartite", "Bilateral"],
+        "range": ["blue", "red"]
+      },
+      "title": "Region"
+    },
+
+    "opacity": {
+      "condition": {"selection": "region", "value": 1}, "value": 0.1}
+  }
+}
