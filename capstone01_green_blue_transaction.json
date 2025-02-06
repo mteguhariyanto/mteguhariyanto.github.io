@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/mteguhariyanto/mteguhariyanto.github.io/refs/heads/main/Green.csv"
+  },
+
+  "transform": [
+    {"filter": "datum.Type == 'Blue Bond' || datum.Type == 'Green Bond'"},
+    {"calculate": "datum['Issued Amount (USD)'] / 1000000", "as": "Issued Amount (Million USD)"}
+  ],
+
+  "mark": {
+    "type": "bar",
+    "size": 30  
+  },
+  "width": 350,
+  "height": 300,
+
+  "selection": {
+    "region": {"type": "multi", "fields": ["World Bank Region name"], "bind": "legend"}
+  },
+
+  "title": {
+    "text": "Green and Blue Bond Issuance Over Time",
+    "subtitle": "Number of issuance",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Issue Year", 
+      "type": "temporal", 
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0,
+        "title": null,
+        "grid": false
+      },
+      "scale": {"padding": 20}
+    },
+    
+    "y": {
+      "aggregate": "count",
+      "field": "Issued Amount (Million USD)",
+      "type": "quantitative",
+      "title": null,
+      "scale": {"domain": [0, 57]},
+    },
+    
+    "color": {
+      "field": "World Bank Region name",
+      "type": "nominal",
+      "legend": {"orient": "top-left"},
+      "scale": {
+        "domain": [
+          "Europe & Central Asia", "East Asia & Pacific", "Latin America & Caribbean", 
+          "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"
+        ],
+        "range": ["blue", "red", "green", "purple", "orange", "brown", "pink"]
+      },
+      "title": "Region"
+    },
+
+    "opacity": {
+      "condition": {"selection": "region", "value": 1}, "value": 0.1}
+  }
+}
